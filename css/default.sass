@@ -1,0 +1,138 @@
+@import "mixins.sass"
+@import "fonts.sass"
+@import "reset.scss"
+
+$font-color: #222
+$base-color: #06f
+$light-text-color: #777
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font: ($base-font * 1.05) 'Georgia', serif
+  color: $font-color
+
+  padding: 3em * $base-scale
+  line-height: $vertical-rhythm
+
+p
+  @include adjust-font-size(1, 1, 1)
+
+a, a:link, a:active, a:visited
+  color: $base-color
+
+  -webkit-transition: color 0.1s ease-in
+  transition: color 0.1s ease-in
+
+a:hover
+  color: darken($base-color, 10)
+  text-decoration: underline
+
+  -webkit-transition: color 0.1s ease-out
+  transition: color 0.1s ease-out
+
+a:active
+  position: relative
+  top: 1px
+
+h1, h2, h3, h4
+  font-family: 'MuseoSlab', 'Helvetica', sans
+
+  a, a:link, a:active, a:visited
+    text-decoration: none
+
+.breadcrumb a:last-child, article p a:visited
+  color: desaturate($base-color, 50)
+
+  &:hover
+    color: desaturate(darken($base-color, 20), 50)
+
+h1
+  @include adjust-font-size($h1-scale, 0.6, 0.4)
+  font-weight: normal
+h2
+  @include adjust-font-size($h2-scale, 1.5, 0.5)
+  font-weight: normal
+h3
+  @include adjust-font-size($h3-scale, 1.5, 0.5)
+  font-weight: normal
+h4
+  @include adjust-font-size($h4-scale, 2, 0)
+
+.about
+  color: $light-text-color
+  font-style: italic
+
+  b
+    color: lighten(black, 20)
+  
+  a
+    color: lighten($base-color, 20)
+  a:hover
+    color: darken(lighten($base-color, 20), 20)
+
+#wrapper
+  width:      auto
+  max-width:  600px
+
+  margin: 0 auto
+
+  iframe, object
+    $offset: 3px
+
+    position: relative
+    top:  -$offset
+    left: -$offset
+    @include box-shadow($offset, $offset, $offset, #333)
+
+    margin: (1em * $base-scale) 0
+    max-width: 100%
+
+  section
+    margin-bottom: 6em * $base-scale
+
+#wrapper > header
+  .about a
+    display: inline-block
+
+#wrapper > footer
+  color: $light-text-color
+
+  margin-top:  -5em * $base-scale
+  padding-top:  1em * $base-scale
+  border-top:   1px dashed #333
+  text-align:   center
+
+  P
+    font-style: italic
+    @include adjust-font-size(0.8, 0.25, 0.25)
+
+article
+  header
+    .info
+      @include adjust-font-size(0.8, 0, 0)
+
+      width:        10em * $base-scale
+      margin-left: -12em * $base-scale
+
+      float: left
+      clear: both
+      text-align: right
+
+      span
+        display: block
+
+      a
+        text-decoration: none
+
+  section
+    p
+      @include adjust-font-size(1, 0.5, 0.5)
+
+section.category
+  margin-bottom: 6em * $base-scale
+
+.hyphenate
+  text-align: justify

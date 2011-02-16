@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post full">
+  <header>
+    <h2>{{ page.title }}</h2>
+
+    <div class="info">
+      {% if page.date %}
+      <span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
+      {% endif %}
+      {% if page.category %}
+      <span class="category">
+        in <a href="/{{ page.category }}">{{ page.category }}</a>
+      </span>
+      {% endif %}
+    </div>
+
+  </header>
+  <section class="hyphenate">
+    {{ content }}
+  </section>
+  <!-- Consider adding disqus comments -->
+</article>

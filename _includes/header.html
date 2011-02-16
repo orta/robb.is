@@ -1,0 +1,21 @@
+<header>
+  <h1 class="breadcrumb">
+    {% if page.is_category_page %}
+    <a href="/">robb.is</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: 'index.html' | remove: '/' }}</a>
+    {% elsif page.category %}
+    <a href="/">robb.is</a>/<a href="/{{ page.category }}">{{ page.category }}</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove_first: page.category | remove: '/' | remove: 'index.html' }}</a>
+    {% else %}
+    <a href="/">robb.is</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: 'index.html' | remove: '/' }}</a>    
+    {% endif %}
+  </h1>
+
+  {% if page.url != "/who-exactly/index.html" && !page.is_category_page %}
+  <p class="about">
+    Hi, my name is <b>Robert Böhnke</b> but you can call me <b>Robb</b>.
+    I’m a developer from Berlin. I’m currently working on the
+    <a href='http://soundcloud.com/apps/soundcloud-desktop'>SoundCloud Desktop App</a>.<br>
+    This is my personal space where I post thoughts and findings.
+    <a href="/who-exactly?">« More about me »</a>
+  </p>
+  {% endif %}
+</header>

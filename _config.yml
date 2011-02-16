@@ -1,0 +1,7 @@
+auto:       false
+server:     false
+permalink:  /:categories/:title
+markdown:   maruku
+exclude:    default.sass
+
+category_dir: ''
