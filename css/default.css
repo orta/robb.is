@@ -159,14 +159,14 @@ h4 {
   line-height: 1.483em;
   font-size: 118%; }
 
-.about {
+.about, blockquote {
   color: #777777;
   font-style: italic; }
-  .about b {
+  .about b, blockquote b {
     color: #333333; }
-  .about a {
+  .about a, blockquote a {
     color: #66a3ff; }
-  .about a:hover {
+  .about a:hover, blockquote a:hover {
     color: #0066ff; }
 
 #wrapper {
@@ -215,11 +215,13 @@ article header .info {
     display: block; }
   article header .info a {
     text-decoration: none; }
-article section p {
+article section p, article section blockquote {
   margin-top: 0.875em;
   margin-bottom: 0.875em;
   line-height: 1.75em;
   font-size: 100%; }
+article section img {
+  max-width: 600px; }
 
 section.category {
   margin-bottom: 5.4em; }

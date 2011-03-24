@@ -61,7 +61,7 @@ h3
 h4
   @include adjust-font-size($h4-scale, 2, 0)
 
-.about
+.about, blockquote
   color: $light-text-color
   font-style: italic
 
@@ -128,8 +128,11 @@ article
         text-decoration: none
 
   section
-    p
+    p, blockquote
       @include adjust-font-size(1, 0.5, 0.5)
+
+    img
+      max-width: 600px
 
 section.category
   margin-bottom: 6em * $base-scale
