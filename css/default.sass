@@ -80,12 +80,7 @@ h4
   margin: 0 auto
 
   iframe, object
-    $offset: 3px
-
-    position: relative
-    top:  -$offset
-    left: -$offset
-    @include box-shadow($offset, $offset, $offset, #333)
+    @include box-shadow(0, 10px, 24px, rgba(0, 0, 0, 0.4))
 
     margin: (1em * $base-scale) 0
     max-width: 100%
