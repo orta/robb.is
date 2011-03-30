@@ -80,7 +80,9 @@ h4
   margin: 0 auto
 
   iframe, object
-    @include box-shadow(0, 10px, 24px, rgba(0, 0, 0, 0.4))
+    -moz-box-shadow:    -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2)
+    -webkit-box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2)
+    box-shadow:         -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2)
 
     margin: (1em * $base-scale) 0
     max-width: 100%
