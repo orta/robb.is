@@ -13,8 +13,11 @@ Or, to quote Dickens himself:
 > “Electric communication will never be a substitute for the face of someone
 > who with their soul encourages another person to be brave and true.”
 
-[dickbar]:    http://dickbar.org/
-[dickensbar]: http://thedickensbar.com/
-[example]:    
-[parker]:     http://parkerhiggins.net
-[johnny]:     http://johndadams.com
+**Update:** Twitter just announced they have [removed the quickbar][twitter_blog] with the latest update of the iOS application.
+
+[dickbar]:      http://dickbar.org/
+[dickensbar]:   http://thedickensbar.com/
+[example]:      http://thedickensbar.com/goto/?url=http%3A%2F%2Frobb.is
+[parker]:       http://parkerhiggins.net
+[johnny]:       http://johndadams.com
+[twitter_blog]: http://thedickensbar.com/goto/?url=http%3A%2F%2Fblog.twitter.com%2F2011%2F03%2Fso-bar-walks-into-app.html
