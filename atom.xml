@@ -14,7 +14,7 @@ layout: nil
   </author>
   {% for post in site.posts %}
   <entry>
-    <id>http://robb.is{{ post.id }}</id>
+    <id>http://robb.is{{ post.id | uri_escape }}</id>
     <link type="text/html" rel="alternate" href="http://robb.is{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
