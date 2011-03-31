@@ -3,11 +3,11 @@ layout: nil
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>coyled.com</title>
+  <title>robb.is</title>
   <link href="http://robb.is/"/>
   <link type="application/atom+xml" rel="self" href="http://robb.is/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://coyled.com/</id>
+  <id>http://robb.is/</id>
   <author>
     <name>Robert Böhnke</name>
     <email>robert.boehnke@gmail.com</email>
