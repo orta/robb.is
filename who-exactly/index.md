@@ -4,7 +4,7 @@ title:  About me
 ---
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
-I’m a 22-year old developer from Berlin.
+I’m a 23-year old developer from Berlin.
 I’m working on the [SoundCloud Desktop][soundcloud_desktop] application and I study Computer Science at [Freie Universität Berlin][fu_berlin].
 
 If you would like to get in touch with me, send me an e-mail to [robert.boehnke@gmail.com](mailto:robert.boehnke@gmail.com). You can also follow me on Twitter where I’m [@ceterum_censeo][twitter].
