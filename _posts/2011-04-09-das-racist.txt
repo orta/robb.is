@@ -1,0 +1,6 @@
+---
+layout: post
+title:  Das Racist
+category: ❤ing
+---
+<object height="600" width="600"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F307416&amp;auto_play=false&amp;player_type=artwork&amp;color=0066ff"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="600" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F307416&amp;auto_play=false&amp;player_type=artwork&amp;color=0066ff" type="application/x-shockwave-flash" width="600"></embed> </object>   
