@@ -173,7 +173,7 @@ h4 {
   width: auto;
   max-width: 600px;
   margin: 0 auto; }
-  #wrapper iframe, #wrapper object {
+  #wrapper iframe, #wrapper object, #wrapper img.shadow {
     -moz-box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
     -webkit-box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
     box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
