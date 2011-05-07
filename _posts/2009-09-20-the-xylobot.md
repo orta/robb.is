@@ -2,6 +2,7 @@
 layout:      project
 title:       Xylobot
 category:    working-on
+description: A monome-controlled, xylophone-playing robot
 ---
 I met Ramsey Arnaoot at the Music Hackday Berlin 2009, discussing how underrepresented hardware hacks were, we decided to do something about it and came up with the Xylobot.
 

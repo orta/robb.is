@@ -2,6 +2,7 @@
 layout:      project
 title:       Radio Free Hackday
 category:    working-on
+description: A physical way to browse SoundCloud tracks
 ---
 This is a project my friend Simon and I worked on during Music Hackday Stockholm in early 2010.
 

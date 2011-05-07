@@ -15,12 +15,12 @@ Here are some of the things I worked on or am working on now:
 
 <ul>
   <li>
-    <a href="http://itunes.apple.com/en/app/soundcloud/id412754595">SoundCloud Desktop</a>
+    <a href="http://itunes.apple.com/en/app/soundcloud/id412754595">SoundCloud Desktop</a> – The official SoundCloud app for OS X
   </li>
 {% for project in site.posts %}
   {% if project.layout == 'project' %}
     <li>
-      <a href="{{ project.url }}">{{ project.title }}</a>
+      <a href="{{ project.url }}">{{ project.title }}</a> – {{ project.description}}
     </li>
   {% endif %}
 {% endfor %}

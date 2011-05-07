@@ -1,7 +1,8 @@
 ---
-layout: project
-title:  Vib Ribboff
-category: working-on
+layout:      project
+title:       Vib Ribboff
+category:    working-on
+description: A browser based rhythm game
 ---
 
 Vib Ribboff was my submission for the Music Hackday in New York in early 2011. It is a browser based clone of an old Playstation game called [Vib Ribbon][vib_ribbon].
