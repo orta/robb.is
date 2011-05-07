@@ -1,7 +1,8 @@
 ---
-layout:   post
-title:    thedickensbar.com
-category: working-on
+layout:      post
+title:       thedickensbar.com
+category:    working-on
+description: Dickbar meets Dickens
 ---
 
 Modeled after the infamous [#dickbar][dickbar], [Johnny][johnny], [Parker][parker] and I build [the Dickensbar][dickensbar].
