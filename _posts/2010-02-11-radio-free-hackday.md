@@ -13,7 +13,7 @@ We then read out the position of the dial with the Arduino and sent it to the co
 
 We got very positive feedback for our hack, [Create Digital Music][cdm_mhd_sthml] wrote about it, we won two nice prizes from [Pacemaker][pacemaker] and even got featured on Sweden’s public TV station, SVT:
 
-<iframe src="http://player.vimeo.com/video/9491104?byline=0&amp;portrait=0;color=0066FF" width="600" height="338" frameborder="0">
+<iframe src="http://player.vimeo.com/video/9491104?byline=1&portrait=1&color=0066FF" width="600" height="338" frameborder="0">
   
 </iframe>
   Please skip to 02:30 (Vimeo doesn’t allow for timed embeds).
