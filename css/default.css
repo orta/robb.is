@@ -208,12 +208,58 @@ h4 {
   width: auto;
   max-width: 600px;
   margin: 0 auto; }
-  #wrapper iframe, #wrapper object, #wrapper img.shadow {
-    -moz-box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
-    -webkit-box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
-    box-shadow: -3px 5px 20px rgba(30, 30, 40, 0.3), 3px 5px 20px rgba(30, 30, 40, 0.3), 0 10px 25px rgba(30, 30, 40, 0.2);
-    margin: 0.9em 0;
+  #wrapper iframe, #wrapper object, #wrapper .imgwrapper {
+    display: inline-block;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    overflow: show;
+    margin: 0;
+    padding: 0;
     max-width: 100%; }
+    #wrapper iframe > *, #wrapper object > *, #wrapper .imgwrapper > * {
+      background: white;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27); }
+    #wrapper iframe:before, #wrapper iframe:after, #wrapper object:before, #wrapper object:after, #wrapper .imgwrapper:before, #wrapper .imgwrapper:after {
+      background: transparent;
+      content: "";
+      z-index: -1;
+      position: absolute;
+      top: auto;
+      bottom: 9px;
+      height: 10px;
+      width: 50%;
+      -webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
+      -moz-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6); }
+    #wrapper iframe:before, #wrapper object:before, #wrapper .imgwrapper:before {
+      left: 3px;
+      right: auto;
+      -webkit-transform-origin: left bottom;
+      -moz-transform-origin: left bottom;
+      -ms-transform-origin: left bottom;
+      -o-transform-origin: left bottom;
+      transform-origin: left bottom;
+      -webkit-transform: skew(-20deg) rotate(-4deg);
+      -moz-transform: skew(-20deg) rotate(-4deg);
+      -ms-transform: skew(-20deg) rotate(-4deg);
+      -o-transform: skew(-20deg) rotate(-4deg);
+      transform: skew(-20deg) rotate(-4deg); }
+    #wrapper iframe:after, #wrapper object:after, #wrapper .imgwrapper:after {
+      right: 3px;
+      left: auto;
+      -webkit-transform-origin: right bottom;
+      -moz-transform-origin: right bottom;
+      -ms-transform-origin: right bottom;
+      -o-transform-origin: right bottom;
+      transform-origin: right bottom;
+      -webkit-transform: skew(20deg) rotate(4deg);
+      -moz-transform: skew(20deg) rotate(4deg);
+      -ms-transform: skew(20deg) rotate(4deg);
+      -o-transform: skew(20deg) rotate(4deg);
+      transform: skew(20deg) rotate(4deg); }
   #wrapper section {
     margin-bottom: 5.4em; }
 

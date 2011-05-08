@@ -31,3 +31,70 @@ $base-vertical-margin: 1.75em
   -webkit-border-radius: $radius
   -moz-border-radius: $radius
   border-radius: $radius
+
+@mixin curled-shadow()
+  background: transparent
+  position:   relative
+  z-index:    1
+
+  overflow: show
+  margin:   0
+  padding:  0
+
+  & > *
+    background: white
+
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27)
+    -moz-box-shadow:    0 1px 4px rgba(0, 0, 0, 0.27)
+    box-shadow:         0 1px 4px rgba(0, 0, 0, 0.27)
+
+  &:before, &:after
+    background: transparent
+  
+    content:    ''
+    z-index:    -1
+    position:   absolute
+    top:        auto
+    bottom:     9px
+
+    height:     10px
+    width:      50%
+
+    -webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6)
+    -moz-box-shadow:    0 10px 12px rgba(0, 0, 0, 0.6)
+    box-shadow:         0 10px 12px rgba(0, 0, 0, 0.6)
+
+  $skew   = 20deg
+  $rotate =  4deg
+
+  &:before
+    left:  3px
+    right: auto
+
+    -webkit-transform-origin: left bottom
+    -moz-transform-origin:    left bottom
+    -ms-transform-origin:     left bottom
+    -o-transform-origin:      left bottom
+    transform-origin:         left bottom
+
+    -webkit-transform: skew(-$skew) rotate(-$rotate)
+    -moz-transform:    skew(-$skew) rotate(-$rotate)
+    -ms-transform:     skew(-$skew) rotate(-$rotate)
+    -o-transform:      skew(-$skew) rotate(-$rotate)
+    transform:         skew(-$skew) rotate(-$rotate)
+
+  &:after
+    right: 3px
+    left:  auto
+
+    -webkit-transform-origin: right bottom
+    -moz-transform-origin:    right bottom
+    -ms-transform-origin:     right bottom
+    -o-transform-origin:      right bottom
+    transform-origin:         right bottom
+
+    -webkit-transform: skew($skew) rotate($rotate)
+    -moz-transform:    skew($skew) rotate($rotate)
+    -ms-transform:     skew($skew) rotate($rotate)
+    -o-transform:      skew($skew) rotate($rotate)
+    transform:         skew($skew) rotate($rotate)
