@@ -5,3 +5,25 @@ markdown:   maruku
 exclude:    default.sass
 
 category_dir: ''
+
+embed_anything:
+  soundcloud:
+    api_key:       jOiiqq4Q3Ha050KqbC6Q
+    height:        600px
+    width:         600px
+
+    parameters:
+      player_type: artwork
+      color:       0066FF
+      auto_play:   false
+
+  vimeo:
+    parameters:
+      width:       600px
+      byline:      0
+      color:       0066FF
+
+  youtube:
+    parameters:
+      width:       600px
+      hd:          1

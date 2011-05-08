@@ -11,11 +11,10 @@ It uses the [Echonest API][echonest_api] to resolve beat information off of [Sou
 
 I plan to publish this online, though I haven’t had the time yet to write a backend. I’ll look into this as soon as I have some spare time.
 
-<iframe width='600' height='480' src='https://www.youtube.com/embed/K6BhnFegmb0' frameborder='0'>
-  
-</iframe>
+{% embed https://www.youtube.com/watch?v=K6BhnFegmb0 %}
+
 Thanks to Parker for MCing the presentation.
 
-[vib_ribbon]: http://www.vib-ribbon.com
-[echonest_api]: http://developer.echonest.com
-[soundcloud]: http://soundcloud.com/tracks
+[vib_ribbon]:        http://www.vib-ribbon.com
+[echonest_api]:      http://developer.echonest.com
+[soundcloud_tracks]: http://soundcloud.com/tracks

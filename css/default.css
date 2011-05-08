@@ -208,21 +208,20 @@ h4 {
   width: auto;
   max-width: 600px;
   margin: 0 auto; }
-  #wrapper iframe, #wrapper object, #wrapper .imgwrapper {
+  #wrapper .embed, #wrapper .imgwrapper {
     display: inline-block;
-    background: transparent;
     position: relative;
     z-index: 1;
     overflow: show;
     margin: 0;
     padding: 0;
     max-width: 100%; }
-    #wrapper iframe > *, #wrapper object > *, #wrapper .imgwrapper > * {
+    #wrapper .embed > *, #wrapper .imgwrapper > * {
       background: white;
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27); }
-    #wrapper iframe:before, #wrapper iframe:after, #wrapper object:before, #wrapper object:after, #wrapper .imgwrapper:before, #wrapper .imgwrapper:after {
+    #wrapper .embed:before, #wrapper .embed:after, #wrapper .imgwrapper:before, #wrapper .imgwrapper:after {
       background: transparent;
       content: "";
       z-index: -1;
@@ -234,7 +233,7 @@ h4 {
       -webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
       -moz-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
       box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6); }
-    #wrapper iframe:before, #wrapper object:before, #wrapper .imgwrapper:before {
+    #wrapper .embed:before, #wrapper .imgwrapper:before {
       left: 3px;
       right: auto;
       -webkit-transform-origin: left bottom;
@@ -247,7 +246,7 @@ h4 {
       -ms-transform: skew(-20deg) rotate(-4deg);
       -o-transform: skew(-20deg) rotate(-4deg);
       transform: skew(-20deg) rotate(-4deg); }
-    #wrapper iframe:after, #wrapper object:after, #wrapper .imgwrapper:after {
+    #wrapper .embed:after, #wrapper .imgwrapper:after {
       right: 3px;
       left: auto;
       -webkit-transform-origin: right bottom;
