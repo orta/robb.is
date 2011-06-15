@@ -10,9 +10,6 @@ $light-text-color: #777
   margin:  0
   padding: 0
 
-html
-  overflow: hidden
-
 body
   font: ($base-font * 1.05) 'Georgia', serif
   color: $font-color
@@ -27,33 +24,6 @@ body
   left:          0px
 
   overflow: auto
-
-body::-webkit-scrollbar
-  width:  $vertical-rhythm / 4
-  height: $vertical-rhythm / 4
-
-body::-webkit-scrollbar-button:start:decrement,
-body::-webkit-scrollbar-button:end:increment
-  display: block
-  height:  $vertical-rhythm / 2
-
-body::-webkit-scrollbar-button:vertical:increment
-  background-color: none
-
-body::-webkit-scrollbar-track
-  background:            #e2e2e2
-  -webkit-border-radius: $vertical-rhythm / 4
-  -webkit-box-shadow:    inset 0 0 1px rgba(0,0,0,0.2)
-
-body::-webkit-scrollbar-thumb:vertical
-  -webkit-border-radius: $vertical-rhythm / 4
-
-  background-color: $base-color
-
-body::-webkit-scrollbar-thumb:horizontal
-  width:                 50px
-  background-color:      #ccc
-  -webkit-border-radius: $vertical-rhythm / 4
 
 p
   @include adjust-font-size(1, 1, 1)
