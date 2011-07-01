@@ -61,7 +61,7 @@ h1
   @include adjust-font-size($h1-scale, 0.6, 0.4)
   font-weight: normal
 h2
-  @include adjust-font-size($h2-scale, 1.5, 0.5)
+  @include adjust-font-size($h2-scale, 0.5, 0.5)
   font-weight: normal
 h3
   @include adjust-font-size($h3-scale, 1.5, 0.5)
@@ -69,7 +69,7 @@ h3
 h4
   @include adjust-font-size($h4-scale, 2, 0)
 
-.about, blockquote
+.about, blockquote, .info
   color: $light-text-color
   font-style: italic
 
@@ -87,51 +87,34 @@ h4
 
   margin: 0 auto
 
-  .embed, .imgwrapper
-    display: inline-block
+.about
+  margin-bottom: 3em * $base-scale
 
-    @include curled-shadow()
-
-    max-width: 100%
-
-  section
-    margin-bottom: 6em * $base-scale
-
-#wrapper > header
-  .about a
-    display: inline-block
-
-#wrapper > footer
+footer.page
   color: $light-text-color
 
-  margin-top:  -5em * $base-scale
-  padding-top:  1em * $base-scale
-  border-top:   1px dashed #333
-  text-align:   center
+  padding-top:    1em * $base-scale
+  padding-bottom: 1em * $base-scale
+  text-align:    center
 
-  P
-    font-style: italic
-    @include adjust-font-size(0.8, 0.25, 0.25)
+  font-style: italic
+  
+  p
+    @include adjust-font-size(0.8, 0.5, 0.5)
 
 article
-  header
-    .info
-      @include adjust-font-size(0.8, 0, 0)
+  margin-bottom: 4em * $base-scale
+  
+  .info
+    display: block
+    @include adjust-font-size(0.8, 0.5, 0.5)
 
-      width:        10em * $base-scale
-      margin-left: -12em * $base-scale
-
-      float: left
-      clear: both
-      text-align: right
-
-      span
-        display: block
-
-      a
-        text-decoration: none
+    a
+      text-decoration: none
 
   section
+    clear: both
+  
     p, blockquote
       @include adjust-font-size(1, 0.5, 0.5)
 
@@ -143,3 +126,11 @@ section.category
 
 .hyphenate
   text-align: justify
+
+.embed, .imgwrapper
+  display: inline-block
+
+  @include curled-shadow()
+
+  max-width: 100%
+

@@ -4,7 +4,12 @@ layout: default
 <article class="post full">
   <header>
     <h2>{{ page.title }}</h2>
-
+  </header>
+  <section class="hyphenate">
+    {{ content }}
+  </section>
+  <!-- Consider adding disqus comments -->
+  <footer>
     <div class="info">
       {% if page.date %}
       <span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
@@ -14,11 +19,6 @@ layout: default
         in <a href="/{{ page.category }}">{{ page.category }}</a>
       </span>
       {% endif %}
-    </div>
-
-  </header>
-  <section class="hyphenate">
-    {{ content }}
-  </section>
-  <!-- Consider adding disqus comments -->
+    </div>  
+  </footer>
 </article>
