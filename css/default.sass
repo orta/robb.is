@@ -114,7 +114,11 @@ article
 
   section
     clear: both
-  
+
+    text-align: center
+
+    p, blockquote, li, h1, h2, h3, h4, h5, h6
+      text-align: left
     p, blockquote
       @include adjust-font-size(1, 0.5, 0.5)
 
@@ -125,7 +129,11 @@ section.category
   margin-bottom: 6em * $base-scale
 
 .hyphenate
-  text-align: justify
+  p, blockquote
+    text-align: justify
+
+img
+  display: inline-block
 
 .embed, .imgwrapper
   display: inline-block
@@ -133,4 +141,4 @@ section.category
   @include curled-shadow()
 
   max-width: 100%
-
+  text-align: center
