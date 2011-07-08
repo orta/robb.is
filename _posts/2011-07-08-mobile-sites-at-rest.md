@@ -42,7 +42,7 @@ you are.
 
 _Tip:_ Make sure you hide the status bar from the main menu before
 you pin the app to the status bar, you can still resize the app
-by dragging the corners, even though there are not handles visible.
+by dragging the corners, even though there are no handles visible.
 
 I'll keep experimenting with Fluid, as I'm curious how Google+ and other
 mobile sites will work out.
