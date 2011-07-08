@@ -16,7 +16,7 @@ certainly is not optimized for that screen size - especially in landscape.
 
 <img src='/img/sc-mobile-ipad.png' alt='Eew!' />
 
-Just pointing any modern browser to [http://m.soundcloud.com](http://m.soundcloud.com])
+Just pointing any modern browser to [http://m.soundcloud.com](http://m.soundcloud.com)
 will do the trick, but switching between tabs just to play another track is a hassle,
 So is accidentally closing a tab.<br />
 Luckily for us, there is a tool that allows you to create single site browsers.
