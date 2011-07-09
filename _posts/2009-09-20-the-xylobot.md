@@ -12,6 +12,6 @@ On the computer side, a Java application is listening to incoming MIDI data and 
 
 The Xylobot also was mentioned by Peter in [his Music Hackday wrap-up][cdm_mhd_berlin] on Create Digital Music.
 
-{% embed http://vimeo.com/6668819 %}
+{% embedly http://vimeo.com/6668819 %}
 
 [cdm_mhd_berlin]: http://createdigitalmusic.com/2009/09/wild-musical-inventions-from-berlin-hackday/

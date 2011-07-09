@@ -6,4 +6,4 @@ category: ❤ing
 
 Leider zum Glück.
 
-{% embed http://soundcloud.com/torpedo-boyz/ich-bin-auslander-leider-zum-gluck %}
+{% embedly http://www.soundcloud.com/torpedo-boyz/ich-bin-auslander-leider-zum-gluck %}

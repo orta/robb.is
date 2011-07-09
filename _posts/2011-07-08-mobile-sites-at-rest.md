@@ -25,7 +25,9 @@ It's called [Fluid][fluid].
 Just enter a name, the URL and where it should get the icon from and
 presto, you got yourself a nice little app.
 
-<img src='/img/sc-mobile-fluid.png' alt='Eew!' />
+<div>
+  <img src='/img/sc-mobile-fluid.png' alt='That’s better' />
+</div>
 
 Now, this is cool and all, but I really urge you to go the extra mile.
 Turns out, if you spend $5 on Fluid's pro version you'll get

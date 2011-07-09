@@ -1,29 +1,29 @@
 auto:       false
 server:     false
 permalink:  /:categories/:title
-markdown:   maruku
+markdown:   kramdown
 exclude:    default.sass
 
 category_dir: ''
 
-embed_anything:
-  soundcloud:
-    api_key:       jOiiqq4Q3Ha050KqbC6Q
-    height:        600px
-    width:         600px
+embedly:
+  api_key: edd850c4aa4c11e0b1524040d3dc5c07
 
-    parameters:
-      player_type: artwork
-      color:       0066FF
-      auto_play:   false
+  soundcloud:
+    player_type: artwork
+    color:       0066FF
+    width:       600px
+    height:      600px
 
   vimeo:
-    parameters:
-      width:       600px
-      byline:      0
-      color:       0066FF
+    width:  600
+    byline: 0
+    color:  FF0000
 
   youtube:
-    parameters:
-      width:       600px
-      hd:          1
+    width:    600
+    maxwidth: 600
+
+  flickr:
+    width:    600
+    maxwidth: 600

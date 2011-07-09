@@ -11,7 +11,7 @@ It uses the [Echonest API][echonest_api] to resolve beat information off of [Sou
 
 I plan to publish this online, though I haven’t had the time yet to write a backend. I’ll look into this as soon as I have some spare time.
 
-{% embed https://www.youtube.com/watch?v=K6BhnFegmb0 %}
+{% embedly https://youtube.com/watch?v=K6BhnFegmb0 %}
 
 Thanks to Parker for MCing the presentation.
 

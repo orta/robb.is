@@ -135,7 +135,7 @@ section.category
 img
   display: inline-block
 
-.embed, .imgwrapper
+.embed.video, .embed.rich, .imgwrapper
   display: inline-block
 
   @include curled-shadow()
@@ -143,5 +143,6 @@ img
   max-width: 100%
   text-align: center
 
-  embed
-    display: block
+.embed.youtube
+  object
+    display: inline-block
