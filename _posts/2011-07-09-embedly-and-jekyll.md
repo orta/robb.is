@@ -58,5 +58,5 @@ Maybe they could include a plug-in like this in the future?
 [oembed]:   http://oembed.com
 [embedly]:  http://embed.ly
 [plug-in]:  https://github.com/robb/jekyll-embedly-client
-[gh-pages]: https://pages.github.com
+[gh-pages]: http://pages.github.com
 [issues]:   https://github.com/robb/jekyll-embedly-client/issues
