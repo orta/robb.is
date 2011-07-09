@@ -28,6 +28,12 @@ body
 p
   @include adjust-font-size(1, 1, 1)
 
+pre, code
+  font-family: 'Monaco', 'Menlo', 'Courier New'
+
+pre
+  @include adjust-font-size(0.9, 0.5, 0.5)
+
 a, a:link, a:active, a:visited
   color: $base-color
 
@@ -61,7 +67,7 @@ h1
   @include adjust-font-size($h1-scale, 0.6, 0.4)
   font-weight: normal
 h2
-  @include adjust-font-size($h2-scale, 0.5, 0.5)
+  @include adjust-font-size($h2-scale, 1.5, 0.5)
   font-weight: normal
 h3
   @include adjust-font-size($h3-scale, 1.5, 0.5)
@@ -117,9 +123,10 @@ article
 
     text-align: center
 
-    p, blockquote, li, h1, h2, h3, h4, h5, h6
+    *:not(div)
       text-align: left
-    p, blockquote
+
+    p, blockquote, .embed.wikipedia
       @include adjust-font-size(1, 0.5, 0.5)
 
     img
@@ -129,13 +136,13 @@ section.category
   margin-bottom: 6em * $base-scale
 
 .hyphenate
-  p, blockquote
+  p, blockquote, .embed.wikipedia
     text-align: justify
 
 img
   display: inline-block
 
-.embed.video, .embed.rich, .imgwrapper
+.embed.video, .embed.rich, .embed.photo:not(.xkcd), .imgwrapper
   display: inline-block
 
   @include curled-shadow()
@@ -146,3 +153,20 @@ img
 .embed.youtube
   object
     display: inline-block
+
+.embed.wikipedia
+  color: $light-text-color
+
+  p
+    font-style: italic
+
+    b
+      color: $font-color
+    a
+      color: lighten($base-color, 20)
+    a:hover
+      color: darken(lighten($base-color, 20), 20)
+
+  &:after
+    content:    "From wikipedia, the free encyclopedia"
+    color:      $font-color
