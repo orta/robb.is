@@ -38,7 +38,7 @@ With that, you can turn SoundCloud mobile into a small icon on the top of
 your Mac's screen, that gives you easy access to the app, wherever
 you are.
 
-<div class="imgwrapper">
+<div class="img-wrapper">
   <img src='/img/sc-mobile-pinned.png' alt='Nice!' />
 </div>
 

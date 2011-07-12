@@ -17,12 +17,6 @@ body
   padding: 3em * $base-scale
   line-height: $vertical-rhythm
 
-  position: absolute
-  top:           0px
-  right:        10px
-  bottom:        0px
-  left:          0px
-
   overflow: auto
 
 p
@@ -32,7 +26,25 @@ pre, code
   font-family: 'Monaco', 'Menlo', 'Courier New'
 
 pre
+  overflow: auto
+  background: #EEE
+  
   @include adjust-font-size(0.9, 0.5, 0.5)
+  padding: 1em * $base-scale
+
+  border-radius: 0.5em * $base-scale
+
+pre::-webkit-scrollbar
+  width:  8px
+  height: 8px
+
+pre::-webkit-scrollbar-thumb
+  border-radius: 0.5em * $base-scale
+  background: #CCC
+
+pre::-webkit-scrollbar-track
+  background: #EEE
+  border-radius: 0.5em * $base-scale
 
 a, a:link, a:active, a:visited
   color: $base-color
@@ -142,7 +154,7 @@ section.category
 img
   display: inline-block
 
-.embed.video, .embed.rich, .embed.photo:not(.xkcd), .imgwrapper
+.embed.video, .embed.rich, .embed.photo:not(.xkcd), .img-wrapper
   display: inline-block
 
   @include curled-shadow()
