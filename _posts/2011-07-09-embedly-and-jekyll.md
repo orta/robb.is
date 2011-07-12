@@ -1,6 +1,6 @@
 ---
 layout:      project
-title:       An embed.ly client for Jekyll
+title:       An embed.ly plug-in for Jekyll
 category:    working-on
 description: Add oEmbed to your static website
 ---

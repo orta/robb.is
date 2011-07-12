@@ -3,6 +3,7 @@ server:     false
 permalink:  /:categories/:title
 markdown:   kramdown
 exclude:    default.sass
+pygments:   true
 
 category_dir: ''
 
@@ -12,8 +13,9 @@ embedly:
   soundcloud:
     player_type: artwork
     color:       0066FF
-    width:       600px
-    height:      600px
+    width:       600
+    height:      600
+    maxwidth:    600
 
   vimeo:
     width:  600
