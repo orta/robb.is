@@ -13,14 +13,13 @@ embedly:
   soundcloud:
     player_type: artwork
     color:       0066FF
-    width:       600
-    height:      600
     maxwidth:    600
+    width:       600
 
   vimeo:
     width:  600
     byline: 0
-    color:  FF0000
+    color:  0066FF
 
   youtube:
     width:    600
