@@ -1,5 +1,4 @@
 @import "mixins.sass"
-@import "fonts.sass"
 @import "reset.scss"
 
 $font-color: #222
@@ -11,7 +10,7 @@ $light-text-color: #777
   padding: 0
 
 body
-  font: ($base-font * 1.05) 'Georgia', serif
+  font: ($base-font * 1.05) ff-meta-serif-web-pro, 'Georgia', serif
   color: $font-color
 
   padding: 3em * $base-scale
@@ -64,7 +63,7 @@ a:active
   top: 1px
 
 h1, h2, h3, h4
-  font-family: 'MuseoSlab', 'Helvetica', sans
+  font-family: museo-slab, serif
 
   a, a:link, a:active, a:visited
     text-decoration: none
