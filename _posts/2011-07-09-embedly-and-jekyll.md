@@ -25,7 +25,7 @@ Now, do you care for an example?
 
 ## Wikipedia
 
-<pre>{<!---->% embedly http://en.wikipedia.org/wiki/SoundCloud %}</pre>
+<pre><code>{<!---->% embedly http://en.wikipedia.org/wiki/SoundCloud %}</code></pre>
 
 turns into
 
@@ -33,13 +33,13 @@ turns into
 
 ## XKCD
 
-<pre>{<!---->% embedly http://xkcd.com/918 %}</pre>
+<pre><code>{<!---->% embedly http://xkcd.com/918 %}</code></pre>
 
 {% embedly http://xkcd.com/918/ %}
 
 ## Flickr
 
-<pre>{<!---->% embedly http://www.flickr.com/photos/visivo/3389278626 %}</pre>
+<pre><code>{<!---->% embedly http://www.flickr.com/photos/visivo/3389278626 %}</code></pre>
 
 {% embedly http://www.flickr.com/photos/visivo/3389278626 %}
 
