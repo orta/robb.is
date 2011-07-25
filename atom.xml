@@ -10,7 +10,7 @@ layout: nil
   <id>http://robb.is/</id>
   <author>
     <name>Robert Böhnke</name>
-    <email>robert.boehnke@gmail.com</email>
+    <email>robb@robb.is</email>
   </author>
   {% for post in site.posts %}
   <entry>
