@@ -16,4 +16,8 @@ on your Mac, you'll get this:
 
 (via [Johannes][johannes])
 
+**Update:** Apparently, the cat is [owned by Rasmus][cat], former
+Spotify lead designer.
+
 [johannes]: https://twitter.com/johanneswagener
+[cat]:      http://www.flickr.com/photos/rsms/299729369/
