@@ -151,6 +151,7 @@ article
     img
       max-width: 600px
 
+
 section.category
   margin-bottom: 6em * $base-scale
 
@@ -160,6 +161,14 @@ section.category
 
 img
   display: inline-block
+
+  &.left
+    float:  left
+    margin: 0 (1em * $base-scale) (1em * $base-scale) 0
+
+  &.right
+    float: right
+    margin: 0 0 (1em * $base-scale) (1em * $base-scale)
 
 .embed.video, .embed.rich, .embed.photo:not(.xkcd), .img-wrapper
   display: inline-block
