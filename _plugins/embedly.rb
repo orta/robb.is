@@ -74,6 +74,11 @@ module Jekyll
         html = json_rep['html']
       end
 
+      # Route around iframe bug in jekyll
+      html.gsub!(/ allowfullscreen(\s|>)/){ " allowfullscreen=\"true\"#{$1}"}
+      html.gsub!(/ webkitallowfullscreen(\s|>)/){ " webkitallowfullscreen=\"true\"#{$1}"}
+      html.gsub! '><\/iframe>', '> </iframe>'
+
       "<div class=\"embed #{type} #{provider}\">#{html}</div>"
     end
 
