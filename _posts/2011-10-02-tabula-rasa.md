@@ -39,7 +39,9 @@ _Even if you don't run Mac OS X_ on your computer, go and
 too. How comes you can read this if you're installing F.lux? Do you got it? OK,
 let's continue…
 
-**iTerm 2:** iTerm 2 is a great replacement for the default Terminal.app OS X
+## iTerm 2
+
+iTerm 2 is a great replacement for the default Terminal.app OS X
 ships with. It has a couple of great features such as split windows, Growl
 support and is much more customizable than the default.
 
