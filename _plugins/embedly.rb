@@ -32,12 +32,25 @@ module Jekyll
         raise "You must provide embed.ly api key."
       end
 
-      embed @url
+      attempts = 3
+      begin
+        embed @url
+      rescue Exception => e
+        puts e.message
+        if (attempts -= 1) > 0
+          puts "Retrying"
+          retry
+        else
+          ""
+        end
+      end
     end
 
     private
 
     def embed(url)
+      puts "Embeddig #{url}"
+
       provider     = Domainatrix.parse(url).domain
       param_string = ""
       params       = (@config[provider] or {}).merge @parameters
@@ -68,16 +81,15 @@ module Jekyll
         url    = json_rep['url']
         width  = json_rep['width']
         height = json_rep['height']
-        desc   = CGI::escapeHTML json_rep['description']
+        desc   = json_rep['description'] and CGI::escapeHTML json_rep['description'] or ""
         html   = "<img src=\"#{url}\" alt=\"#{desc}\" width=\"#{width}\" height=\"#{height}\" />"
       else
         html = json_rep['html']
+        # Route around iframe bug in jekyll
+        html.gsub!(/ allowfullscreen(\s|>)/){ " allowfullscreen=\"true\"#{$1}"}
+        html.gsub!(/ webkitallowfullscreen(\s|>)/){ " webkitallowfullscreen=\"true\"#{$1}"}
+        html.gsub! '><\/iframe>', '> </iframe>'
       end
-
-      # Route around iframe bug in jekyll
-      html.gsub!(/ allowfullscreen(\s|>)/){ " allowfullscreen=\"true\"#{$1}"}
-      html.gsub!(/ webkitallowfullscreen(\s|>)/){ " webkitallowfullscreen=\"true\"#{$1}"}
-      html.gsub! '><\/iframe>', '> </iframe>'
 
       "<div class=\"embed #{type} #{provider}\">#{html}</div>"
     end
