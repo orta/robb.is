@@ -7,7 +7,7 @@ category: ❤ing
 <img src='/img/blackwell-deception-rosa.png' alt='Rosa Blackwell' class='left' />
 
 I've read much about the Blackwell series of indie point and click adventures and
-after the recent release of the latest entry in the series, _The Blackwell Deception_,
+after the recent release of the latest entry in the series, [The Blackwell Deception][deception],
 I finally gave them a spin.
 
 Written by Dave Gilbert, the games follow the story of medium-against-her-will
@@ -34,3 +34,5 @@ to say the least.
 
 Still, this is a well written series of adventure games and I urge you to
 check it out.
+
+[deception]: http://www.wadjeteyegames.com/blackwell-deception.html
