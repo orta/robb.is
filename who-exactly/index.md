@@ -5,15 +5,22 @@ title:  About me
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
 I’m a 23-year old developer from Berlin.
-I’m working on the [SoundCloud Desktop][soundcloud_desktop] application and I study Computer Science at [Freie Universität Berlin][fu_berlin].
+I’m working on the [Desktop][soundcloud_desktop] and
+[iOS][soundcloud_ios] applications at [SoundCloud][soundcloud] and I study
+Computer Science at [Freie Universität Berlin][fu_berlin].
 
-If you would like to get in touch with me, send me an e-mail to [robb@robb.is](mailto:robb@robb.is). You can also follow me on Twitter where I’m [@ceterum_censeo][twitter].
+If you would like to get in touch with me, send me an e-mail to
+[robb@robb.is](mailto:robb@robb.is). You can also follow me on
+Twitter where I’m [@ceterum_censeo][twitter].
 
 ## Projects
 
 Here are some of the things I worked on or am working on now:
 
 <ul>
+  <li>
+    <a href="http://itunes.apple.com/en/app/soundcloud/id336353151">SoundCloud iOS</a> – The official SoundCloud app for iPhone and iPad
+  </li>
   <li>
     <a href="http://itunes.apple.com/en/app/soundcloud/id412754595">SoundCloud Desktop</a> – The official SoundCloud app for OS X
   </li>
@@ -28,15 +35,17 @@ Here are some of the things I worked on or am working on now:
 
 ## Me, elsewhere
 
-* [SoundCloud][soundcloud]
+* [SoundCloud][soundcloud_profile]
 * [Github][github]
 * [Twitter][twitter]
 * [Vimeo][vimeo]
 
-[soundcloud_desktop]: http://soundcloud.com/apps/soundcloud-desktop
+[soundcloud_desktop]: http://itunes.apple.com/en/app/soundcloud/id412754595
+[soundcloud_ios]:     http://itunes.apple.com/en/app/soundcloud/id336353151
+[soundcloud]:         https://soundcloud.com
 [fu_berlin]:          http://www.fu-berlin.de
 
-[soundcloud]: https://soundcloud.com/robb
-[github]:     https://github.com/robb
-[vimeo]:      https://vimeo.com/robb
-[twitter]:    https://twitter.com/ceterum_censeo
+[soundcloud_profile]: https://soundcloud.com/robb
+[github]:             https://github.com/robb
+[vimeo]:              https://vimeo.com/robb
+[twitter]:            https://twitter.com/ceterum_censeo
