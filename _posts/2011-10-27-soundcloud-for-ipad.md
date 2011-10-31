@@ -12,7 +12,7 @@ And now, what you've all been waiting for:
 You can find the app [in the App Store][appstore].
 
 Big ups to [Toto][toto], [Max][max], [Gernot][gernot], [Ullrich][ullrich]
-and [Tobias][tobias] from [NXTBGTHNG][nxtbgthng]
+and [Tobias][tobias] from [nxtbgthng][nxtbgthng]
 as well as [Katharina][katharina], [Mark][mark], [Tobi][tobi] and [Phil][phil] from SoundCloud,&nbsp;
 I'm happy we finally got this out to the community.
 
