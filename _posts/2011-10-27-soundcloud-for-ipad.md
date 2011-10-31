@@ -5,8 +5,6 @@ category:    working-on
 description: The official SoundCloud iPad app
 ---
 
-<img src='/img/soundcloud-ipad.jpg' alt='SoundCloud for iPad' />
-
 And now, what you've all been waiting for:
 
 {% embedly http://vimeo.com/31084756 %}
