@@ -6,7 +6,7 @@
 
   to {
     -webkit-transform-origin: 170px 170px;
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(-360deg);
   }
 }
 
@@ -18,7 +18,7 @@
 
   to {
     -moz-transform-origin: 170px 170px;
-    -moz-transform: rotate(360deg);
+    -moz-transform: rotate(-360deg);
   }
 }
 
@@ -174,11 +174,11 @@ cite {
   font-size: 30px;
   color: #004e72;
   -webkit-animation-name: rotate;
-  -webkit-animation-duration: 8s;
+  -webkit-animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-name: rotate;
-  -moz-animation-duration: 8s;
+  -moz-animation-duration: 89s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
 }
