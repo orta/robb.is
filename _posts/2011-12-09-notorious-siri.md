@@ -5,7 +5,7 @@ category:    working-on
 description: lets Siri spit some wicked lyrics
 ---
 
-_Notorious Siri_ was my hack for the [Music Hack Day 2011 in London][mhd].
+_Notorious Siri_ is my hack for the [Music Hack Day London 2011][mhd].
 
 <div>
   <img src='/img/notorious-siri.png' alt='Notorious Siri' />
