@@ -14,9 +14,9 @@ My prompt now looks something like this:
 
 <img src='/img/prompt.png' alt='My prompt'/>
 
-The right-hand side all relevant information about my currrent repo. The red
-circle indicates that I have untracked files but it being empty means nothing is
-staged.<br />
+The right-hand side contains all relevant information about my currrent repo.
+The red circle indicates that I have untracked files but it being empty means
+nothing is staged.<br />
 The color indicates the time since the last commit, more than 30 minutes in this
 case.<br />
 It also tells me the branch I am on or the SHA1 of the current HEAD, if I am in
