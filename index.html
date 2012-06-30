@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts limit:5 %}
-    {% include post-preview.html %}
-  {% endfor %}
-</div>
+{% for post in site.posts limit:5 %}
+  {% include preview.html %}
+{% endfor %}
