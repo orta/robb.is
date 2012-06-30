@@ -5,4 +5,4 @@ category:  ❤ing
 published: false
 ---
 
-{% embedly http://soundcloud.com/stretta/radius-clause %}
+<div class="embed" data-url="http://soundcloud.com/stretta/radius-clause"></div>

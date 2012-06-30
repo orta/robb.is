@@ -5,4 +5,4 @@ category:  ❤ing
 published: false
 ---
 
-{% embedly http://soundcloud.com/stretta/nyan-cat-ambient-version, color: 063366 %}
+<div class="embed" data-url="http://soundcloud.com/stretta/nyan-cat-ambient-version"></div>

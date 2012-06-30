@@ -4,4 +4,4 @@ title:  Flogging Molly – Speed Of Darkness
 category: ❤ing
 ---
 
-{% embedly http://soundcloud.com/floggingmolly/sets/speed-of-speed-album-sampler %}
+<div class="embed" data-url="http://soundcloud.com/floggingmolly/sets/speed-of-speed-album-sampler"></div>

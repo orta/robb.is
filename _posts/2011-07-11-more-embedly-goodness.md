@@ -13,9 +13,9 @@ pass along parameters specific to a particular embed, e.g.
 
 will produce
 
-{% embedly http://soundcloud.com/battles/ice-cream, color: FF11FF, player_type: default %}
-{% embedly http://soundcloud.com/workit/the-drums-money, color: FFCC00, player_type: default %}
-{% embedly http://soundcloud.com/modularpeople/the-avalanches-since-i-left-you-stereolab-remix, color: 00CCFF, player_type: default %}
+<div class="embed" data-url="http://soundcloud.com/battles/ice-cream"></div>
+<div class="embed" data-url="http://soundcloud.com/workit/the-drums-money"></div>
+<div class="embed" data-url="http://soundcloud.com/modularpeople/the-avalanches-since-i-left-you-stereolab-remix"></div>
 
 Hooray for colorful SoundCloud players!
 

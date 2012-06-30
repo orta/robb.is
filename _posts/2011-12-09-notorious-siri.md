@@ -20,7 +20,7 @@ Siri's speech synthesis is synced to the beat using the timestamps obtained from
 the Echonest API which were then manually tweaked, to smooth out delays in the
 text-to-speech engine.
 
-{% embedly http://vimeo.com/33402886 %}
+<div class="embed" data-url="http://vimeo.com/33402886"></div>
 
 Big thanks to Universal Music for awarding me a nice pair of Dr. Dre headphones
 

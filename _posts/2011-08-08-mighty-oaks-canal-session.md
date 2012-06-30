@@ -5,8 +5,8 @@ category:  ❤ing
 published: false
 ---
 
-{% embedly http://vimeo.com/27378913 %}
+<div class="embed" data-url="http://vimeo.com/27378913"></div>
 
-{% embedly http://vimeo.com/27258161 %}
+<div class="embed" data-url="http://vimeo.com/27258161"></div>
 
-{% embedly http://vimeo.com/27256375 %}
+<div class="embed" data-url="http://vimeo.com/27256375"></div>

@@ -7,7 +7,7 @@ description: The official SoundCloud iPad app
 
 And now, what you've all been waiting for:
 
-{% embedly http://vimeo.com/31084756 %}
+<div class="embed" data-url="http://vimeo.com/31084756"></div>
 
 You can find the app [in the App Store][appstore].
 

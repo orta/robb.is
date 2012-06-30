@@ -4,4 +4,4 @@ title:  Das Racist
 category: ❤ing
 ---
 
-{% embedly http://soundcloud.com/dasracist/sets/mishka-presents-das-racist-shut-up-dude-mixtape %}
+<div class="embed" data-url="http://soundcloud.com/dasracist/sets/mishka-presents-das-racist-shut-up-dude-mixtape"></div>

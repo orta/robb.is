@@ -4,4 +4,4 @@ title:       Anamanaguchi – Daytrotter session
 category:    ❤ing
 ---
 
-{% embedly http://soundcloud.com/lightfiction/sets/anamanaguchi-daytrotter/, player_type: default %}
+<div class="embed" data-url="http://soundcloud.com/lightfiction/sets/anamanaguchi-daytrotter/"></div>

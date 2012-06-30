@@ -25,7 +25,7 @@ Convergence_ as well as aforementioned _Blackwell Deception_.
 The games, running at a decidedly oldschool 640x480, also feature a great,
 jazzy soundtrack. Listen for example to Rosa's Theme from the Blackwell Deception:
 
-{% embedly http://soundcloud.com/thomas-regin/blackwell-deception-rosas-theme, player_type: dafault, color: 3a079b, show_comments: false %}
+<div class="embed" data-url="http://soundcloud.com/thomas-regin/blackwell-deception-rosas-theme"></div>
 
 Unfortunately, the team at Wadjet Eye decided to use the AGS Engine, a freeware
 adventure game engine that only runs on Microsoft Windows.

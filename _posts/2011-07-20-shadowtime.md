@@ -4,4 +4,4 @@ title:       Edison – Shadowtime
 category:    ❤ing
 ---
 
-{% embedly http://vimeo.com/26610039 %}
+<div class="embed" data-url="http://vimeo.com/26610039"></div>

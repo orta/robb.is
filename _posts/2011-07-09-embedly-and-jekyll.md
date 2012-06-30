@@ -29,19 +29,19 @@ Now, do you care for an example?
 
 turns into
 
-{% embedly http://en.wikipedia.org/wiki/SoundCloud %}
+<div class="embed" data-url="http://en.wikipedia.org/wiki/SoundCloud"></div>
 
 ## XKCD
 
 <pre><code>{<!---->% embedly http://xkcd.com/918 %}</code></pre>
 
-{% embedly http://xkcd.com/918/ %}
+<div class="embed" data-url="http://xkcd.com/918/"></div>
 
 ## Flickr
 
 <pre><code>{<!---->% embedly http://www.flickr.com/photos/visivo/3389278626 %}</code></pre>
 
-{% embedly http://www.flickr.com/photos/visivo/3389278626 %}
+<div class="embed" data-url="http://www.flickr.com/photos/visivo/3389278626"></div>
 
 Overall, embed.ly supports over 180 services. I’ve made sure you can customize
 and style your embeds as well as possible.
