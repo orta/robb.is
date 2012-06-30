@@ -1,11 +1,9 @@
 <header class="page">
   <h1 class="breadcrumb">
-    {% if page.is_category_page %}
-    <a href="/">robb.is</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: 'index.html' | remove: '/' }}</a>
-    {% elsif page.category %}
-    <a href="/">robb.is</a>/<a href="/{{ page.category }}">{{ page.category }}</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove_first: page.category | remove: '/' | remove: 'index.html' }}</a>
+    {% if page.category %}
+    <a href="/">robb.is</a>/<a href="/{{ page.category }}">{{ page.category }}</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: page.category | remove: '%E2%9D%A4ing' | remove: '/' | remove: 'index.html' }}</a>
     {% else %}
-    <a href="/">robb.is</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: 'index.html' | remove: '/' }}</a>    
+    <a href="/">robb.is</a>/<a href="{{ page.url | remove: 'index.html' }}">{{ page.url | remove: 'index.html' | remove: '/' }}</a>
     {% endif %}
   </h1>
 
