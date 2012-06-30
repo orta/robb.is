@@ -1,5 +1,6 @@
 ---
-layout:      project
+layout:      post
+project:     true
 title:       Notorious Siri
 category:    working-on
 description: lets Siri spit some wicked lyrics

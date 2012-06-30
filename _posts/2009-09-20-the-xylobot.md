@@ -1,5 +1,6 @@
 ---
-layout:      project
+layout:      post
+project:     true
 title:       Xylobot
 category:    working-on
 description: A monome-controlled, xylophone-playing robot

@@ -1,5 +1,6 @@
 ---
-layout:      project
+layout:      post
+project:     true
 title:       Vib Ribboff
 category:    working-on
 description: A browser based rhythm game

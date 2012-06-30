@@ -1,5 +1,6 @@
 ---
-layout:      project
+layout:      post
+project:     true
 title:       Radio Free Hackday
 category:    working-on
 description: A physical way to browse SoundCloud tracks
