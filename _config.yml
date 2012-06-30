@@ -6,25 +6,3 @@ exclude:    default.sass
 pygments:   true
 
 category_dir: ''
-
-embedly:
-  api_key: edd850c4aa4c11e0b1524040d3dc5c07
-
-  soundcloud:
-    player_type: artwork
-    color:       0066FF
-    maxwidth:    600
-    width:       600
-
-  vimeo:
-    width:  600
-    byline: 0
-    color:  0066FF
-
-  youtube:
-    width:    600
-    maxwidth: 600
-
-  flickr:
-    width:    600
-    maxwidth: 600
