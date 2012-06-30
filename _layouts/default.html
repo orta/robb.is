@@ -17,6 +17,8 @@
     <!-- TODO: Add meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/default.css" />
+
+    <script type="text/javascript" src="/js/oEmbed.js"></script>
     <script type="text/javascript" src="/js/hyphenator.js" async></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -39,5 +41,19 @@
 
       {% include footer.html %}
     </div>
+  <script type="text/javascript">
+    oEmbed.config['vimeo.com'] = {
+      'maxwidth': 600
+    };
+
+    oEmbed.config['youtube.com'] = {
+      'maxwidth': 600
+    };
+
+    var embeds = document.querySelectorAll('div.embed');
+    for (var i = 0; i < embeds.length; i++) {
+      oEmbed.embed(embeds[i]);
+    }
+  </script>
   </body>
 </html>
