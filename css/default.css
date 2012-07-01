@@ -12,6 +12,23 @@
   font-style: normal;
 }
 
+.ss-icon {
+  font-family: "SSStandardRegular";
+  font-family: "SSStandardRegular";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+
+  -webkit-font-feature-settings: "liga",  "dlig";
+  -moz-font-feature-settings:    "liga=1, dlig=1";
+  -moz-font-feature-settings:    "liga",  "dlig";
+  -ms-font-feature-settings:     "liga",  "dlig";
+  -o-font-feature-settings:      "liga",  "dlig";
+  font-feature-settings:         "liga",  "dlig";
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -101,6 +118,40 @@ aside {
   color: rgba(20, 20, 20, 0.6);
 }
 
+aside footer {
+  position: absolute;
+  /*bottom:   2rem;*/
+}
+
+aside ul.bubbles {
+  margin: 0;
+}
+
+aside ul.bubbles li {
+  display: inline-block;
+  margin:  0 0.5rem 1rem 0;
+}
+
+aside ul.bubbles a {
+  display: block;
+
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: white;
+
+  width:   3rem;
+  height:  3rem;
+  padding: 0.9rem 0.8rem;
+  font-size: 1.5rem;
+
+  text-align:  center;
+  text-decoration: none;
+}
+
+aside ul.bubbles a:hover {
+  -webkit-transform: scale(1.1);
+}
+
 article {
   padding: 2rem 1rem 2rem 14rem;
   overflow-x: hidden;
@@ -120,21 +171,6 @@ article > header, article > section, article > footer {
   color:           rgba(20, 20, 20, 0.6);
   width:           300px
   text-decoration: none;
-
-  font-family: "SSStandardRegular";
-  font-family: "SSStandardRegular";
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-rendering: optimizeLegibility;
-  white-space: nowrap;
-
-  -webkit-font-feature-settings: "liga",  "dlig";
-  -moz-font-feature-settings:    "liga=1, dlig=1";
-  -moz-font-feature-settings:    "liga",  "dlig";
-  -ms-font-feature-settings:     "liga",  "dlig";
-  -o-font-feature-settings:      "liga",  "dlig";
-  font-feature-settings:         "liga",  "dlig";
 }
 
 #pagination .disabled {
