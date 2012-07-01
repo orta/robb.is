@@ -170,9 +170,23 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
 }
 
+.external a {
+  text-decoration: underline;
+}
+
+a.link {
+  color:           rgba(255, 255, 255, 0.6);
+  font-size:       1.2rem;
+  text-decoration: none;
+  border-bottom:   none;
+}
+
+.external a.link:hover {
+  color:  rgba(255, 255, 255, 1);
+}
+
 footer {
   padding: 1em 45%;
-  text-align: center;
 }
 
 footer .previous, #pagination .next {
@@ -203,8 +217,6 @@ article {
   color: white;
 }
 
-
-
 article  {
   text-align: center;
 }
@@ -212,6 +224,11 @@ article  {
 article blockquote, article h1, article h2, article h3, article h4, article h5,
 article h6, article ol, article p, article pre, article ul {
   text-align: left;
+}
+
+blockquote {
+  border-left:  0.5rem solid rgba(255, 255, 255, 0.2);
+  padding-left: 0.5rem;
 }
 
 img {
