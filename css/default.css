@@ -115,7 +115,7 @@ aside {
 
   padding: 2rem 1em 2em 2em;
 
-  color: rgba(20, 20, 20, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 aside ul.bubbles {
@@ -157,7 +157,7 @@ aside ul.bubbles a:hover {
 }
 
 #main article:first-child {
-  border-top:  0.5rem solid rgba(20, 20, 20, 0.6);
+  border-top:  0.5rem solid rgba(0, 0, 0, 0.6);
   padding-top: 1.5rem !important;
 }
 
@@ -177,7 +177,7 @@ footer {
 
 footer .previous, #pagination .next {
   display:         inline-block;
-  color:           rgba(20, 20, 20, 0.6);
+  color:           rgba(0, 0, 0, 0.6);
   width:           300px
   text-decoration: none;
 }
@@ -194,7 +194,7 @@ body {
 
 a {
   text-decoration: underline;
-  color: rgba(20, 20, 20, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
 }
 
