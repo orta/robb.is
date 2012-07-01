@@ -1,3 +1,9 @@
+{% if page.color %}
+  {% assign color = page.color %}
+{% else %}
+  {% assign color = 'CC6633' %}
+{% endif %}
+
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -52,7 +58,7 @@
     {% if page.color %}
     <style type="text/css">
       body {
-        background: #{{ page.color }};
+        background: #{{ color }};
       }
     </style>
     {% endif %}
@@ -65,20 +71,12 @@
     </section>
   <script type="text/javascript">
     oEmbed.config['soundcloud.com'] = {
-      {% if page.color %}
-      'color': '{{ page.color }}'
-      {% else %}
-      'color': 'CC6633'
-      {% endif %}
+      'color': '{{ color }}'
     };
 
     oEmbed.config['vimeo.com'] = {
       'maxwidth': 600,
-      {% if page.color %}
-      'color': '{{ page.color }}'
-      {% else %}
-      'color': 'CC6633'
-      {% endif %}
+      'color': '{{ color }}'
     };
 
     oEmbed.config['youtube.com'] = {
