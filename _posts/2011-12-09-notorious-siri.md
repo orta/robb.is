@@ -4,7 +4,7 @@ project:     true
 title:       Notorious Siri
 category:    working-on
 description: lets Siri spit some wicked lyrics
-color:       9226A0
+color:       75D9F6
 ---
 
 _Notorious Siri_ is my hack for the [Music Hack Day London 2011][mhd].

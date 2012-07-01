@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  About me
-color:  AB75FF
+color:  E14825
 ---
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
