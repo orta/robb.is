@@ -6,7 +6,10 @@
   oEmbed.endpoints = {
     'soundcloud.com': 'https://soundcloud.com/oembed.json',
     'vimeo.com': 'https://vimeo.com/api/oembed.json',
-    'youtube.com': 'http://api.embed.ly/1/oembed'
+    'youtube.com': 'http://api.embed.ly/1/oembed',
+    'wikipedia.org': 'http://api.embed.ly/1/oembed',
+    'flickr.com': 'http://api.embed.ly/1/oembed',
+    'xkcd.com': 'http://api.embed.ly/1/oembed'
   };
 
   oEmbed.errorMessage = 'Encountered error :-/';
@@ -58,7 +61,15 @@
       embed.classList.add('embed');
       embed.classList.add(result != null ? result.type : void 0);
       embed.classList.add(result != null ? result.provider_name.toLowerCase() : void 0);
-      return embed.innerHTML = result != null ? result.html : void 0;
+      console.log(result);
+      if (result.type === 'photo') {
+        embed.innerHTML = "<img src='" + result.url + "'>";
+      } else if (result != null ? result.html : void 0) {
+        embed.innerHTML = result != null ? result.html : void 0;
+      } else {
+        embed.innerHTML = "<a href=\"" + result.url + "\">\n  <img src=\"" + result.thumbnail_url + "\">\n</a>";
+      }
+      return console.log(embed.innerHTML);
     };
     error = function() {
       var message;

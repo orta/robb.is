@@ -5,6 +5,9 @@ oEmbed.endpoints =
   'soundcloud.com' : 'https://soundcloud.com/oembed.json'
   'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
   'youtube.com'    : 'http://api.embed.ly/1/oembed'
+  'wikipedia.org'  : 'http://api.embed.ly/1/oembed'
+  'flickr.com'     : 'http://api.embed.ly/1/oembed'
+  'xkcd.com'       : 'http://api.embed.ly/1/oembed'
 
 oEmbed.errorMessage = 'Encountered error :-/'
 
@@ -44,7 +47,16 @@ oEmbed.embed = (embed, config = {}) ->
     embed.classList.add result?.type
     embed.classList.add result?.provider_name.toLowerCase()
 
-    embed.innerHTML = result?.html
+    if result.type is 'photo'
+      embed.innerHTML = "<img src='#{result.url}'>"
+    else if result?.html
+      embed.innerHTML = result?.html
+    else
+      embed.innerHTML = """
+        <a href="#{result.url}">
+          <img src="#{result.thumbnail_url}">
+        </a>
+      """
 
   error = ->
     embed.classList.remove 'loading'
