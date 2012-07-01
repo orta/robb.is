@@ -1,4 +1,5 @@
 ---
+layout:   post
 category: working-on
 color:    FFDE00
 ---
