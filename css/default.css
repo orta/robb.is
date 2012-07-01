@@ -72,24 +72,7 @@ fieldset, h1, h2, h3, h4, h5, h6, hgroup, hr, img, ol, p, pre, table, ul {
   margin-bottom: 0.75rem;
 }
 
-article {
-  padding: 0 2rem;
-  margin: 0 0 2rem 0;
-}
-
 /* Layout */
-
-body {
-  border-top: 0.5rem solid rgba(20, 20, 20, 0.6);
-
-  background: #C3C200;
-}
-
-a {
-  text-decoration: underline;
-  color: rgba(20, 20, 20, 0.6);
-  font-weight: 600;
-}
 
 aside {
   position: fixed;
@@ -104,17 +87,55 @@ aside {
   color: rgba(20, 20, 20, 0.6);
 }
 
-aside h1, aside h2, aside h3, aside h4, aside h5, aside h6 {
+article {
+  padding: 2rem 1rem 2rem 14rem;
+  overflow-x: hidden;
+}
+
+article > header, article > section, article > footer {
+  width: 600px;
+}
+
+/* Colors */
+
+body {
+  background: #FFCC00;
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(20, 20, 20, 0.6);
+  font-weight: 600;
+}
+
+aside h1, aside h2, aside h3, aside h4, aside h5, aside h6,
+article {
   color: white;
 }
 
-section#main {
-  max-width: 52rem;
-  padding: 1.5rem 1rem 2rem 14rem;
 
-  overflow-x: hidden;
+article section {
+  text-align: center;
+}
 
-  color: white;
+article section p {
+  text-align: left;
+}
+
+img {
+  position: relative;
+  display:  inline-block;
+
+  max-width: 100%;
+}
+
+section#main article:first-child {
+  border-top:  0.5rem solid rgba(20, 20, 20, 0.6);
+  padding-top: 1.5rem !important;
+}
+
+section#main article:nth-child(2n) {
+  background: rgba(255, 10, 00, 0.1);
 }
 
 /* Fonts */
@@ -125,4 +146,114 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li {
   font-family: "ff-meta-web-pro";
+}
+
+/* Images */
+
+img.left {
+  float: left;
+  margin: 0 0.9em 0.9em 0;
+}
+
+img.right {
+  float: right;
+  margin: 0 0 0.9em 0.9em;
+}
+
+.img-wrapper {
+  border-radius: 20px;
+  overflow: hidden !important;
+}
+
+.img-wrapper img {
+  border-radius: 2px;
+  margin: 0;
+}
+
+/* Embeds */
+
+.embed, .img-wrapper {
+  margin: 0.5em 0;
+}
+
+.embed.soundcloud {
+  width: 100%;
+}
+
+.embed.video > *, .embed.rich > *, .embed.photo > *, .img-wrapper > *
+{
+  background: white;
+
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow:    0 1px 4px rgba(0, 0, 0, 0.27);
+  box-shadow:         0 1px 4px rgba(0, 0, 0, 0.27);
+}
+
+/* Page curl for images and embeds */
+
+.embed.video, .embed.rich, .embed.photo, .img-wrapper {
+  display:  inline-block;
+  position: relative;
+
+  overflow: show;
+  padding: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.embed.video:before, .embed.video:after, .embed.rich:before, .embed.rich:after, .embed.photo:before, .embed.photo:after, .img-wrapper:before, .img-wrapper:after
+{
+  position:   absolute;
+  background: inherit;
+  bottom:     8px;
+
+  content: "";
+
+  width:      70%;
+  max-width:  300px;
+  height:     55%;
+  max-height: 100px;
+  z-index: -1;
+}
+
+.embed.video:before, .embed.rich:before, .embed.photo:before, .img-wrapper:before {
+  left:  1px;
+  right: auto;
+
+  -webkit-box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:    4px 6px 8px rgba(0, 0, 0, 0.5);
+  box-shadow:         4px 6px 8px rgba(0, 0, 0, 0.5);
+
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin:    left bottom;
+  -ms-transform-origin:     left bottom;
+  -o-transform-origin:      left bottom;
+  transform-origin:         left bottom;
+
+  -webkit-transform: skew(-20deg) rotate(-4deg);
+  -moz-transform:    skew(-20deg) rotate(-4deg);
+  -ms-transform:     skew(-20deg) rotate(-4deg);
+  -o-transform:      skew(-20deg) rotate(-4deg);
+  transform:         skew(-20deg) rotate(-4deg);
+}
+
+.embed.video:after, .embed.rich:after, .embed.photo:after, .img-wrapper:after {
+  left:  auto;
+  right: 1px;
+
+  -webkit-box-shadow: -4px 6px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:    -4px 6px 8px rgba(0, 0, 0, 0.5);
+  box-shadow:         -4px 6px 8px rgba(0, 0, 0, 0.5);
+
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin:    right bottom;
+  -ms-transform-origin:     right bottom;
+  -o-transform-origin:      right bottom;
+  transform-origin:         right bottom;
+
+  -webkit-transform: skew(20deg) rotate(4deg);
+  -moz-transform:    skew(20deg) rotate(4deg);
+  -ms-transform:     skew(20deg) rotate(4deg);
+  -o-transform:      skew(20deg) rotate(4deg);
+  transform:         skew(20deg) rotate(4deg);
 }

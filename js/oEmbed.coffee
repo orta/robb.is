@@ -19,7 +19,7 @@ oEmbed.parametersForNode = (node) ->
 
   attributes
 
-oEmbed.embed = (embed) ->
+oEmbed.embed = (embed, config = {}) ->
   attributes = @parametersForNode embed
 
   # The host of this URL, including subdomains
@@ -29,8 +29,9 @@ oEmbed.embed = (embed) ->
   provider = (provider for provider of @endpoints when host.match provider)[0]
 
   parameters = []
-  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of attributes
   parameters.push "#{k}=#{encodeURIComponent v}" for k, v of oEmbed.config[provider]
+  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of attributes
+  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of config
 
   # Create a request URL from the provider's oEmbed endpoint
   requestURL =  oEmbed.endpoints[provider]

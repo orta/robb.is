@@ -1,4 +1,6 @@
-<article>
+{% capture id %}post-{{ post.title | downcase | replace: ' ','-' }}{% endcapture%}
+
+<article id="{{ id }}" {% if post.color %}style="background: #{{ post.color }}" data-color="{{ post.color }}"{% endif %}>
   <header>
     <h2>{{ post.title }}</h2>
   </header>

@@ -1,7 +1,7 @@
 {% if page.color %}
   {% assign color = page.color %}
 {% else %}
-  {% assign color = 'CC6633' %}
+  {% assign color = 'FFCC00' %}
 {% endif %}
 
 <!DOCTYPE HTML>
@@ -85,7 +85,13 @@
 
     var embeds = document.querySelectorAll('div.embed');
     for (var i = 0; i < embeds.length; i++) {
-      oEmbed.embed(embeds[i]);
+      var config = {};
+      var color;
+      if (color = embeds[i].parentNode.parentNode.dataset.color) {
+        config.color = color;
+      }
+
+      oEmbed.embed(embeds[i], config);
     }
   </script>
   </body>

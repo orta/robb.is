@@ -24,8 +24,9 @@
     return attributes;
   };
 
-  oEmbed.embed = function(embed) {
+  oEmbed.embed = function(embed, config) {
     var attributes, error, host, k, parameters, provider, requestURL, success, v, _ref2;
+    if (config == null) config = {};
     attributes = this.parametersForNode(embed);
     host = attributes.url.match(/https?\:\/\/([^\/]+)(\/.+)?/)[1];
     provider = ((function() {
@@ -37,13 +38,17 @@
       return _results;
     }).call(this))[0];
     parameters = [];
+    _ref2 = oEmbed.config[provider];
+    for (k in _ref2) {
+      v = _ref2[k];
+      parameters.push("" + k + "=" + (encodeURIComponent(v)));
+    }
     for (k in attributes) {
       v = attributes[k];
       parameters.push("" + k + "=" + (encodeURIComponent(v)));
     }
-    _ref2 = oEmbed.config[provider];
-    for (k in _ref2) {
-      v = _ref2[k];
+    for (k in config) {
+      v = config[k];
       parameters.push("" + k + "=" + (encodeURIComponent(v)));
     }
     requestURL = oEmbed.endpoints[provider];

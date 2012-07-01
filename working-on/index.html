@@ -1,19 +1,6 @@
 ---
 layout: default
 ---
-<section class="category">
-  <p>Things I have been working on, some of them were built at
-    <a href="http://musichackday.org">Music Hackdays</a>.</p>
-
-  <ul class="posts">
-    {% for post in site.categories['working-on'] %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {% if post.description %}
-          – 
-          {{ post.description }}
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+{% for post in site.categories['working-on'] %}
+  {% include preview.html %}
+{% endfor %}
