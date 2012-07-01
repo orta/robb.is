@@ -1,0 +1,36 @@
+{% for post in paginator.posts %}
+  {% if forloop.last %}
+    {% if post.color %}
+      {% capture color %}#{{post.color }}{% endcapture%}
+    {% else %}
+      {% assign color = 'rgba(255, 10, 00, 0.1)' %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<section id="pagination" style="background: {{ color }}">
+  <nav>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a class="previous" href="/">previous</a>
+      {% else %}
+      <a class="previous" href="/page{{paginator.previous_page}}">previous</a>
+      {% endif %}
+    {% else %}
+      <span class="previous disabled">
+        previous
+      </span>
+    {% endif %}
+
+
+    {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">
+      next
+    </a>
+    {% else %}
+    <span class="next disabled">
+      next
+    </span>
+    {% endif %}
+  </nav>
+</section>

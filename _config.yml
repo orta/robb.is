@@ -4,5 +4,6 @@ permalink:  /:categories/:title
 markdown:   kramdown
 exclude:    default.sass
 pygments:   true
+paginate:   4
 
 category_dir: ''

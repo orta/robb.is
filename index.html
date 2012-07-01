@@ -2,6 +2,8 @@
 layout: default
 ---
 
-{% for post in site.posts limit:5 %}
+{% for post in paginator.posts %}
   {% include preview.html %}
 {% endfor %}
+
+{% include pagination.html %}
