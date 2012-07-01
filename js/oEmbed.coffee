@@ -6,7 +6,7 @@ oEmbed.endpoints =
   'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
   'youtube.com'    : 'http://api.embed.ly/1/oembed'
 
-oEmbed.errorMessage = 'Failed to embed'
+oEmbed.errorMessage = 'Encountered error :-/'
 
 oEmbed.config = {}
 
@@ -38,23 +38,26 @@ oEmbed.embed = (embed, config = {}) ->
   requestURL += '?' + parameters[0] + '&' + parameters[1..].join('&')
 
   success = (result) ->
-    container = document.createElement 'div'
-    container.classList.add 'embed'
-    container.classList.add result?.type
-    container.classList.add result?.provider_name.toLowerCase()
+    embed.classList.remove 'loading'
 
-    container.innerHTML = result.html
+    embed.classList.add 'embed'
+    embed.classList.add result?.type
+    embed.classList.add result?.provider_name.toLowerCase()
 
-    embed.parentNode.replaceChild container, embed
+    embed.innerHTML = result?.html
 
   error = ->
-    container = document.createElement 'div'
-    container.classList.add 'embed'
-    container.classList.add 'failed'
+    embed.classList.remove 'loading'
+    embed.classList.add 'embed'
+    embed.classList.add 'failed'
 
-    container.innerHTML = oEmbed.errorMessage
+    message = document.createElement 'div'
+    message.classList.add 'message'
+    message.innerText = oEmbed.errorMessage
 
-    embed.parentNode.replaceChild container, embed
+    embed.appendChild message
+
+  embed.classList.add 'loading'
 
   oEmbed.fetchJSON requestURL, {success, error}
 
@@ -63,7 +66,12 @@ oEmbed.fetchJSON = (url, {success, error}) ->
             new ActiveXObject 'Microsoft.XMLHTTP'
 
   xmlHTTP.onload = ->
-    json = JSON.parse xmlHTTP.responseText
+    try
+      json = JSON.parse xmlHTTP.responseText
+    catch e
+      error?()
+      return
+
     success? json
 
   xmlHTTP.onerror = ->

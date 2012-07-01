@@ -9,7 +9,7 @@
     'youtube.com': 'http://api.embed.ly/1/oembed'
   };
 
-  oEmbed.errorMessage = 'Failed to embed';
+  oEmbed.errorMessage = 'Encountered error :-/';
 
   oEmbed.config = {};
 
@@ -54,22 +54,23 @@
     requestURL = oEmbed.endpoints[provider];
     requestURL += '?' + parameters[0] + '&' + parameters.slice(1).join('&');
     success = function(result) {
-      var container;
-      container = document.createElement('div');
-      container.classList.add('embed');
-      container.classList.add(result != null ? result.type : void 0);
-      container.classList.add(result != null ? result.provider_name.toLowerCase() : void 0);
-      container.innerHTML = result.html;
-      return embed.parentNode.replaceChild(container, embed);
+      embed.classList.remove('loading');
+      embed.classList.add('embed');
+      embed.classList.add(result != null ? result.type : void 0);
+      embed.classList.add(result != null ? result.provider_name.toLowerCase() : void 0);
+      return embed.innerHTML = result != null ? result.html : void 0;
     };
     error = function() {
-      var container;
-      container = document.createElement('div');
-      container.classList.add('embed');
-      container.classList.add('failed');
-      container.innerHTML = oEmbed.errorMessage;
-      return embed.parentNode.replaceChild(container, embed);
+      var message;
+      embed.classList.remove('loading');
+      embed.classList.add('embed');
+      embed.classList.add('failed');
+      message = document.createElement('div');
+      message.classList.add('message');
+      message.innerText = oEmbed.errorMessage;
+      return embed.appendChild(message);
     };
+    embed.classList.add('loading');
     return oEmbed.fetchJSON(requestURL, {
       success: success,
       error: error
@@ -82,7 +83,12 @@
     xmlHTTP = XMLHttpRequest && new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
     xmlHTTP.onload = function() {
       var json;
-      json = JSON.parse(xmlHTTP.responseText);
+      try {
+        json = JSON.parse(xmlHTTP.responseText);
+      } catch (e) {
+        if (typeof error === "function") error();
+        return;
+      }
       return typeof success === "function" ? success(json) : void 0;
     };
     xmlHTTP.onerror = function() {
