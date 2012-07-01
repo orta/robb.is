@@ -13,9 +13,9 @@ pass along parameters specific to a particular embed, e.g.
 
 will produce
 
-<div class="embed" data-url="http://soundcloud.com/battles/ice-cream"></div>
-<div class="embed" data-url="http://soundcloud.com/workit/the-drums-money"></div>
-<div class="embed" data-url="http://soundcloud.com/modularpeople/the-avalanches-since-i-left-you-stereolab-remix"></div>
+<div class="embed" data-url="http://soundcloud.com/battles/ice-cream" data-color="FF11FF"></div>
+<div class="embed" data-url="http://soundcloud.com/workit/the-drums-money" data-color="FFCC00"></div>
+<div class="embed" data-url="http://soundcloud.com/modularpeople/the-avalanches-since-i-left-you-stereolab-remix" data-color="00CCFF"></div>
 
 Hooray for colorful SoundCloud players!
 

@@ -3,6 +3,7 @@ layout:      post
 title:       SoundCloud for iPad
 category:    working-on
 description: The official SoundCloud iPad app
+color:       ED7233
 ---
 
 And now, what you've all been waiting for:

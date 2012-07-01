@@ -3,6 +3,7 @@ layout:      post
 title:       The Laughing Man
 category:    working-on
 description: the Laughing Man logo built with HTML and CSS
+color:       4779A2
 ---
 
 [I recreated the logo][logo] of The Laughing Man from

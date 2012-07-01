@@ -3,6 +3,7 @@ layout:      post
 title:       My dotfiles
 category:    working-on
 description: I've open-sourced my dotfiles
+color:       5FCDE3
 ---
 
 After using [oh_my_zsh][oh_my_zsh] for quite a while, I recently switched to

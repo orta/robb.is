@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  Torpedo Boys – Ich bin Ausländer
+layout:   post
+title:    Torpedo Boys – Ich bin Ausländer
 category: ❤ing
+color:    75ABFF
 ---
 
 Leider zum Glück.

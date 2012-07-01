@@ -2,6 +2,7 @@
 layout:   post
 title:    Tabula Rasa
 category: thinking-about
+color:    71629A
 ---
 
 Today I finally received my new 13 inch MacBook Air. I've been pondering over
