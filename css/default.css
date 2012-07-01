@@ -1,0 +1,128 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section video {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+img {
+  border: none;
+}
+
+input, select, textarea {
+  font: inherit;
+}
+
+/* Sane box layout */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Vertical rhythm */
+html {
+  font: 17px/1.5em sans-serif;
+}
+
+h1 {
+  font-size: 2.0rem;
+  line-height: 3.0rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 3.0rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  line-height: 3.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+fieldset, h1, h2, h3, h4, h5, h6, hgroup, hr, img, ol, p, pre, table, ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+article {
+  padding: 0 2rem;
+  margin: 0 0 2rem 0;
+}
+
+/* Layout */
+
+body {
+  border-top: 0.5rem solid rgba(20, 20, 20, 0.6);
+
+  background: #C3C200;
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(20, 20, 20, 0.6);
+  font-weight: 600;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 14rem;
+
+  padding: 2rem 1em 2em 2em;
+
+  color: rgba(20, 20, 20, 0.6);
+}
+
+aside h1, aside h2, aside h3, aside h4, aside h5, aside h6 {
+  color: white;
+}
+
+section#main {
+  max-width: 52rem;
+  padding: 1.5rem 1rem 2rem 14rem;
+
+  overflow-x: hidden;
+
+  color: white;
+}
+
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-meta-web-pro";
+}
+
+p, li {
+  font-family: "ff-meta-web-pro";
+}
