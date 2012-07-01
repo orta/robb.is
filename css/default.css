@@ -147,28 +147,29 @@ aside ul.bubbles a:hover {
   -webkit-transform: scale(1.1);
 }
 
-article {
-  padding: 2rem 1rem 2rem 14rem;
+#main article {
+  padding: 2rem 1rem 2rem 15rem;
   overflow-x: hidden;
 }
 
-article > header, article > section, article > footer {
+#main article header, article section, article footer {
   width: 600px;
 }
 
-#pagination {
+
+footer {
   padding: 1em 45%;
   text-align: center;
 }
 
-#pagination .previous, #pagination .next {
+footer .previous, #pagination .next {
   display:         inline-block;
   color:           rgba(20, 20, 20, 0.6);
   width:           300px
   text-decoration: none;
 }
 
-#pagination .disabled {
+footer .disabled {
   color: rgba(20, 20, 20, 0.2);
 }
 

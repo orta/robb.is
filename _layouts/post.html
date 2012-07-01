@@ -10,3 +10,26 @@ layout: default
     {{ content }}
   </section>
 </article>
+
+<footer>
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}" class="ss-icon previous">
+    previous
+  </a>
+  {% else %}
+  <span class="ss-icon previous disabled">
+    previous
+  </span>
+  {% endif %}
+
+  {% if page.next %}
+  <a href="{{ page.next.url }}" class="ss-icon next">
+    next
+  </a>
+  {% else %}
+  <span class="ss-icon next disabled">
+    next
+  </span>
+  {% endif %}
+
+</footer>

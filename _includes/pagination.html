@@ -8,7 +8,7 @@
   {% endif %}
 {% endfor %}
 
-<section id="pagination" style="background: {{ color }}">
+<footer style="background: {{ color }}">
   <nav>
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
@@ -33,4 +33,4 @@
     </span>
     {% endif %}
   </nav>
-</section>
+</footer>
