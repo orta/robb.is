@@ -16,7 +16,7 @@
   font-family: "SSStandardRegular";
   font-family: "SSStandardRegular";
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal !important;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
