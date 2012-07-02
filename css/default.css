@@ -33,10 +33,43 @@
   font-weight: normal;
 }
 
+/* Device based triggers */
+.iphone.only, .ipad.only {
+  display: none;
+}
+
+.desktop.only {
+  display: auto;
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+  .ipad.only {
+    display: inline;
+  }
+
+  .desktop.only {
+    display: none
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .iphone.only {
+    display: inline !important;
+  }
+
+  .desktop.only {
+    display: none
+  }
+}
+
 /* Reset */
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,
@@ -58,6 +91,12 @@ img {
 
 input, select, textarea {
   font: inherit;
+}
+
+@media only screen and (max-width : 768px) {
+  li {
+    margin-left: 1.5rem;
+  }
 }
 
 /* Sane box layout */
@@ -155,7 +194,7 @@ aside ul.bubbles a {
 
 #main article:first-child {
   border-top:  0.5rem solid rgba(0, 0, 0, 0.6);
-  padding-top: 1.5rem !important;
+  padding-top: 1.5rem;
 }
 
 pre {
@@ -167,7 +206,53 @@ pre {
 }
 
 footer {
-  padding: 1em 45%;
+  padding: 1em;
+  text-align: center;
+}
+
+/* iPad landscape and smaller */
+@media only screen and (max-width : 768px) {
+  aside {
+    display:  static;
+    position: inherit;
+
+    width:    auto;
+    padding:  1rem 1rem 0 1rem;
+
+    border-top:  0.5rem solid rgba(0, 0, 0, 0.6);
+    padding-top: 1.5rem 2rem 1rem 2rem;
+  }
+
+  aside ul.bubbles a {
+    width:  44px;
+    height: 44px;
+
+    padding:   12px 11px;
+    font-size: 22px;
+  }
+
+  aside ul.bubbles li:last-child {
+    margin-right: 0;
+  }
+
+  #main article {
+    padding: 1rem;
+  }
+
+  #main article:first-child {
+    border:      none;
+    padding-top: 0;
+  }
+
+  #main article header, article section, article footer {
+    width: auto;
+  }
+
+  pre {
+    margin:  0;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
 }
 
 /* Fonts and styling */
@@ -217,7 +302,7 @@ a.link {
 footer .previous, #pagination .next {
   display:         inline-block;
   color:           rgba(0, 0, 0, 0.6);
-  width:           300px
+
   text-decoration: none;
 }
 

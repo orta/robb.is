@@ -1,7 +1,15 @@
 {% if page.color %}
   {% assign color = page.color %}
 {% else %}
-  {% assign color = 'FFCC00' %}
+  {% for post in paginator.posts %}
+    {% if forloop.first %}
+      {% if post.color %}
+        {% assign color = post.color %}
+      {% else %}
+        {% assign color = 'FFCC00' %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 <!DOCTYPE HTML>
@@ -41,6 +49,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/default.css" />
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/pygments.css" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
 
     <script type="text/javascript" src="/js/oEmbed.js"></script>
     <script type="text/javascript" src="/js/hyphenator.js" async></script>
@@ -56,13 +65,11 @@
     </script>
     <script type="text/javascript" src="http://use.typekit.com/eia0osi.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    {% if page.color %}
     <style type="text/css">
       body {
         background: #{{ color }};
       }
     </style>
-    {% endif %}
   </head>
   <body>
     {% include aside.html %}
