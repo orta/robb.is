@@ -1,14 +1,24 @@
 ---
 layout: default
 ---
-<section class="category">
-  <p>Rants and ravings, whatever did not fit elsewhere.</p>
 
-  <ul class="posts">
-    {% for post in site.categories['thinking-about'] %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%b %d, %Y" }}
-      </li>
-    {% endfor %}
+<article>
+  <h2>… thinking about</h2>
+  <p>
+    Whatever did not fit elsewhere
+  </p>
+  <ul>
+  {% for post in site.categories['thinking-about'] %}
+    <li>
+      {{ post.date | date: '%b %d %y' }} – <a href="{{post.url}}">{{post.title}}</a>
+      {{ post.description }}
+    </li>
+  {% endfor %}
   </ul>
-</section>
+</article>
+
+<footer>
+  <a href="/" class="ss-icon">
+    back
+  </a>
+</footer>
