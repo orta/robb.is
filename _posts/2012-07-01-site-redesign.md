@@ -1,7 +1,7 @@
 ---
 layout:   post
 category: working-on
-color:    FFDE00
+color:    E8B50C
 ---
 
 I've been meaning to redesign my website for quite some time now, this weekend
