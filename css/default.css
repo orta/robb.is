@@ -240,12 +240,24 @@ img {
 
 /* Fonts */
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-meta-web-pro";
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
 }
 
-p, li {
-  font-family: "ff-meta-web-pro";
+pre, tt, code, kbd, samp {
+  font-family: Menlo, "droid-sans-mono", monospace;
+  font-size:   0.95em;
+}
+
+pre {
+  background: rgba(255, 255, 255, 0.9);
+  color:      #000000;
+
+  margin:        0 -1rem;
+  padding:       1rem;
+  border-radius: 0.5rem;
+
+  overflow: auto;
 }
 
 /* Images */
