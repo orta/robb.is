@@ -39,12 +39,12 @@
 }
 
 .desktop.only {
-  display: auto;
+  display: inline;
 }
 
 @media only screen and (min-width : 481px) and (max-width : 768px) {
   .ipad.only {
-    display: inline;
+    display: inline !important;
   }
 
   .desktop.only {
