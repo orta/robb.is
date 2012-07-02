@@ -118,8 +118,6 @@ aside {
   width: 14rem;
 
   padding: 2rem 1em 2em 2em;
-
-  color: rgba(0, 0, 0, 0.6);
 }
 
 aside ul.bubbles {
@@ -268,6 +266,10 @@ pre, tt, code, kbd, samp {
 pre {
   background: rgba(255, 255, 255, 0.9);
   color:      #000000;
+}
+
+.light {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Images */

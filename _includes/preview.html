@@ -21,4 +21,30 @@
       {{ post.content }}
     {% endif %}
   </section>
+
+  {% if post == page and post.date %}
+  {% capture day %}{{ post.date | date: '%d' }}{% endcapture %}
+
+  {% if day == '01' or day == '21' or day == '31' %}
+  {% assign sup = 'st' %}
+  {% elsif day == '02' or day == '22' or day == '32' %}
+  {% assign sup = 'nd' %}
+  {% else %}
+  {% assign sup = 'th' %}
+  {% endif %}
+
+  <section class="small light">
+    <p>
+      Published
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+        {{ post.date | date: '%d' | plus: 0 }}<sup>{{ sup }}</sup>
+        of {{ post.date | date: '%B, %Y'}}
+      </time>
+      in
+      <a href="/{{ page.category}}">
+        {{ page.category}}
+      </a>
+    </p>
+  </section>
+  {% endif %}
 </article>
