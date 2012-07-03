@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  Golden Gate CMYK
-color:  ED4C00
-link:   http://goldengatebridge.org/research/facts.php#cmyk
+layout:   post
+title:    Golden Gate CMYK
+color:    ED4C00
+link:     http://goldengatebridge.org/research/facts.php#cmyk
+category: ❤ing
 ---
 
 So apparently, the official Golden Gate bridge color is:

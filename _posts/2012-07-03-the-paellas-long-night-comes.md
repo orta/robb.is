@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  The Paellas
-color:  2484CB
-link:   http://thepaella-s.tumblr.com/
+layout:   post
+title:    The Paellas
+color:    2484CB
+link:     http://thepaella-s.tumblr.com/
+category: ❤ing
 ---
 
 I just discovered this shoe-gazing gem from Osaka, Japan
