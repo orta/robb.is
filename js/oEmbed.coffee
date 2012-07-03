@@ -33,8 +33,8 @@ oEmbed.embed = (embed, config = {}) ->
 
   parameters = []
   parameters.push "#{k}=#{encodeURIComponent v}" for k, v of oEmbed.config[provider]
-  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of attributes
   parameters.push "#{k}=#{encodeURIComponent v}" for k, v of config
+  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of attributes
 
   # Create a request URL from the provider's oEmbed endpoint
   requestURL =  oEmbed.endpoints[provider]

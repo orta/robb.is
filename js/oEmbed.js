@@ -46,12 +46,12 @@
       v = _ref2[k];
       parameters.push("" + k + "=" + (encodeURIComponent(v)));
     }
-    for (k in attributes) {
-      v = attributes[k];
-      parameters.push("" + k + "=" + (encodeURIComponent(v)));
-    }
     for (k in config) {
       v = config[k];
+      parameters.push("" + k + "=" + (encodeURIComponent(v)));
+    }
+    for (k in attributes) {
+      v = attributes[k];
       parameters.push("" + k + "=" + (encodeURIComponent(v)));
     }
     requestURL = oEmbed.endpoints[provider];
@@ -61,15 +61,13 @@
       embed.classList.add('embed');
       embed.classList.add(result != null ? result.type : void 0);
       embed.classList.add(result != null ? result.provider_name.toLowerCase() : void 0);
-      console.log(result);
       if (result.type === 'photo') {
-        embed.innerHTML = "<img src='" + result.url + "'>";
+        return embed.innerHTML = "<img src='" + result.url + "'>";
       } else if (result != null ? result.html : void 0) {
-        embed.innerHTML = result != null ? result.html : void 0;
+        return embed.innerHTML = result != null ? result.html : void 0;
       } else {
-        embed.innerHTML = "<a href=\"" + result.url + "\">\n  <img src=\"" + result.thumbnail_url + "\">\n</a>";
+        return embed.innerHTML = "<a href=\"" + result.url + "\">\n  <img src=\"" + result.thumbnail_url + "\">\n</a>";
       }
-      return console.log(embed.innerHTML);
     };
     error = function() {
       var message;
