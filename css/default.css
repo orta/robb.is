@@ -12,6 +12,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "SSSocial";
+  src: url('/fonts/ss-social-regular.eot');
+  src: url('/fonts/ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/ss-social-regular.woff') format('woff'),
+       url('/fonts/ss-social-regular.ttf') format('truetype'),
+       url('/fonts/ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .ss-icon {
   font-family: "SSStandardRegular";
   font-family: "SSStandardRegular";
@@ -29,7 +40,24 @@
   font-feature-settings:         "liga",  "dlig";
 }
 
-.ss-icon a {
+.ss-social {
+  font-family: "SSSocial";
+  font-family: "SSSocial";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+
+  -webkit-font-feature-settings: "liga",  "dlig";
+  -moz-font-feature-settings:    "liga=1, dlig=1";
+  -moz-font-feature-settings:    "liga",  "dlig";
+  -ms-font-feature-settings:     "liga",  "dlig";
+  -o-font-feature-settings:      "liga",  "dlig";
+  font-feature-settings:         "liga",  "dlig";
+}
+
+.ss-icon a, .ss-social a {
   font-weight: normal;
 }
 
@@ -163,23 +191,33 @@ aside ul.bubbles {
   margin: 0;
 }
 
+aside ul.bubbles:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
 aside ul.bubbles li {
   display: inline-block;
-  margin:  0 0.5rem 1rem 0;
+  margin:  0 0.5rem 0.5em 0;
 }
 
 aside ul.bubbles a {
   display: block;
-
-  border-radius: 999px;
-  color: white;
-
   width:   3rem;
   height:  3rem;
-  padding: 0.9rem 0.8rem;
-  font-size: 1.5rem;
 
-  text-align:  center;
+  border-radius: 999px;
+
+  color: white;
+
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+
+  text-align: center;
   text-decoration: none;
 }
 
