@@ -2,7 +2,7 @@
 layout:      post
 title:       How to build awesome CSS Envelopes
 category:    working-on
-description: Awesome looking envelopes built with HTML & CSS
+description: A small tutorial how to build nice-looking envelopes with HTML & CSS
 color:       BB1914
 ---
 
