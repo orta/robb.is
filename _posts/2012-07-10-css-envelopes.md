@@ -19,7 +19,7 @@ nothing but HTML and CSS and the awesome [Symbolset Social font][ss-social].
 
 So, let's have a look at the code, shall we?
 
-### First: the HTML
+### First thing's first – the HTML
 
 {% highlight html %}
 <a class="envelope" href="https://twitter.com/ceterum_censeo">
@@ -253,6 +253,8 @@ Now our envelope actually looks pretty nice.
 Now, the flaps may look a bit odd, but we'll just cover that up with the seal
 and keep that between the two of us, okay?
 
+### The seal
+
 The seal itself is actually pretty straight forward. First, we position it in
 the roughly in center of the envelope.
 
@@ -345,8 +347,10 @@ Now we're pretty much finished:
   <img src="/img/envelope-5.png">
 </div>
 
-But hold your horses! As a small bonus, let's add two wax drops next to the
-seal to make it look even more awesome.
+### But, where's the drop?!
+
+As a small bonus, let's add two wax drops next to the seal to make it look even
+more awesome.
 
 We're going to use the `:before` and `:after` pseudo-selectors to avoid adding
 more tags to our markup. This first piece of code defines the common attributes
