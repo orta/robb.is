@@ -19,7 +19,7 @@ nothing but HTML and CSS and the awesome [Symbolset Social font][ss-social].
 
 So, let's have a look at the code, shall we?
 
-### First thing's first – the HTML
+### First things first – the HTML
 
 {% highlight html %}
 <a class="envelope" href="https://twitter.com/ceterum_censeo">
