@@ -1,5 +1,6 @@
 ---
 layout:      post
+project:     true
 title:       How to build awesome CSS Envelopes
 category:    working-on
 description: A small tutorial how to build nice-looking envelopes with HTML & CSS
