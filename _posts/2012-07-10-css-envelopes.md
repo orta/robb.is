@@ -409,8 +409,11 @@ And here is the final result:
 I hope you enjoyed this small tutorial, if you have any feedback, feel free to
 send me a tweet [@ceterum_censeo][twitter] or an [e-mail][email].
 
+You can also [flattr this][flattr], if you fancy.
+
 [dribbble]:  http://dribbble.com/shots/473676--2-Dribbble-Invites-Available
 [envelopes]: /hacking-on/css-envelopes
 [ss-social]: http://symbolset.com/#social
 [twitter]:   https://twitter.com/ceterum_censeo
+[flattr]:    https://flattr.com/thing/773436/CSS-Envelopes
 [email]:     mailto:robb@robb.is
