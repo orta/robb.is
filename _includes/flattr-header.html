@@ -1,0 +1,7 @@
+{% comment %} Concatenating the URL parameters {% endcomment %}
+{% capture p %}?url=http%3A%2F%2Frobb.is{{ page.url | remove: 'index.html' | remove: 'atom.xml' | cgi_escape }}{% endcapture %}
+{% capture p %}{{p}}{% if page.title %}&title={{ page.title | cgi_escape }}{% else %}&title=Robb+B%C3%B6hnke+-+His+life+and+times{% endif %}{% endcapture %}
+{% capture p %}{{p}}{% if page.description %}&description={{ page.description | cgi_escape }}{% endif %}{% endcapture %}
+{% capture p %}{{p}}&user_id=robert-boehnke{% endcapture %}
+{% capture p %}{{p}}&category=text{% endcapture %}
+<link rel="payment" href="https://flattr.com/submit/auto{{ p }}" type="text/html" />

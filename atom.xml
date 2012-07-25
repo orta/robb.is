@@ -6,6 +6,7 @@ layout: nil
   <title>robb.is</title>
   <link href="http://robb.is/"/>
   <link type="application/atom+xml" rel="self" href="http://robb.is/atom.xml"/>
+  {% include flattr-header.html %}
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://robb.is/</id>
   <author>
@@ -16,6 +17,8 @@ layout: nil
   <entry>
     <id>http://robb.is{{ post.id | uri_escape }}</id>
     <link type="text/html" rel="alternate" href="http://robb.is{{ post.url }}"/>
+    {% assign page = post %}
+    {% include flattr-header.html %}
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
