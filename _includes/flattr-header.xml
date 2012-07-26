@@ -5,4 +5,4 @@
 {% capture p %}{{p}}&user_id=robert-boehnke{% endcapture %}
 {% capture p %}{{p}}&category=text{% endcapture %}
 
-<link type="text/html" rel="payment" href="https://flattr.com/submit/auto{{ p }}" />
+<link type="text/html" rel="payment" href="https://flattr.com/submit/auto{{ p | xml_escape }}" />
