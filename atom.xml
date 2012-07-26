@@ -16,7 +16,11 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <id>http://robb.is{{ post.id | uri_escape }}</id>
+    {% if post.link %}
+    <link type="text/html" rel="alternate" href="{{ post.link }}"/>
+    {% else %}
     <link type="text/html" rel="alternate" href="http://robb.is{{ post.url }}"/>
+    {% endif %}
     {% assign page = post %}
     {% include flattr-header.xml %}
     <title>{{ post.title }}</title>
