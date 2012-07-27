@@ -14,9 +14,11 @@ nothing but HTML and CSS and the awesome [Symbolset Social font][ss-social].
 
 [This][envelopes] is what I came up with:
 
-<a href="/hacking-on/css-envelopes">
-  <img src="/img/css-envelopes.png">
-</a>
+<div>
+  <a href="/hacking-on/css-envelopes">
+    <img src="/img/css-envelopes.png">
+  </a>
+</div>
 
 So, let's have a look at the code, shall we?
 
