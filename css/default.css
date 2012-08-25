@@ -227,7 +227,8 @@ aside ul.bubbles a {
 }
 
 #main article header, article section, article footer {
-  width: 600px;
+  /*width:     600px;*/
+  max-width: 600px;
 }
 
 #main article:first-child {
@@ -251,11 +252,13 @@ footer {
 /* iPad landscape and smaller */
 @media only screen and (max-width : 768px) {
   aside {
-    display:  static;
+    display:  block;
     position: inherit;
 
     width:    auto;
     padding:  1rem 1rem 0 1rem;
+
+    text-align: center;
 
     border-top:  0.5rem solid rgba(0, 0, 0, 0.6);
     padding-top: 1.5rem 2rem 1rem 2rem;
@@ -420,6 +423,10 @@ img.right {
   overflow: hidden !important;
 }
 
+.embed {
+  max-width: 100%;
+}
+
 .embed.soundcloud, .embed.failed {
   width: 100%;
 }
@@ -445,6 +452,7 @@ img.right {
 .embed.video > *, .embed.rich > *, .embed.photo > *, .img-wrapper > *
 {
   background: white;
+  max-width:  100%;
 
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
   -moz-box-shadow:    0 1px 4px rgba(0, 0, 0, 0.27);
