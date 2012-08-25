@@ -227,7 +227,6 @@ aside ul.bubbles a {
 }
 
 #main article header, article section, article footer {
-  /*width:     600px;*/
   max-width: 600px;
 }
 
@@ -286,7 +285,8 @@ footer {
   }
 
   #main article header, article section, article footer {
-    width: auto;
+    width:     100%;
+    max-width: 100%;
   }
 
   pre {
