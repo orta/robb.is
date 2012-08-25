@@ -224,6 +224,10 @@ aside ul.bubbles a {
 #main article {
   padding: 2rem 1rem 2rem 15rem;
   overflow-x: hidden;
+
+  background-image: -webkit-linear-gradient(top,
+                                            rgba(255, 255, 255, 0.1) 0,
+                                            rgba(255, 255, 255, 0.0) 5rem);
 }
 
 #main article header, article section, article footer {
@@ -261,6 +265,10 @@ footer {
 
     border-top:  0.5rem solid rgba(0, 0, 0, 0.6);
     padding-top: 1.5rem 2rem 1rem 2rem;
+
+    background-image: -webkit-linear-gradient(top,
+                                              rgba(255, 255, 255, 0.1) 0,
+                                              rgba(255, 255, 255, 0.0) 5rem);
   }
 
   aside ul.bubbles a {
@@ -282,6 +290,8 @@ footer {
   #main article:first-child {
     border:      none;
     padding-top: 0;
+
+    background-image: none;
   }
 
   #main article header, article section, article footer {
@@ -299,7 +309,7 @@ footer {
 /* Fonts and styling */
 
 body {
-  background: #FFCC00;
+  background-color: #FFCC00;
 }
 
 a {
@@ -309,7 +319,7 @@ a {
 }
 
 #main article:nth-child(2n) {
-  background: rgba(255, 10, 00, 0.1);
+  background-color: rgba(255, 10, 00, 0.1);
 }
 
 aside ul.bubbles a {
@@ -390,8 +400,8 @@ pre, tt, code, kbd, samp {
 }
 
 pre {
-  background: rgba(255, 255, 255, 0.9);
-  color:      #000000;
+  background-color: rgba(255, 255, 255, 0.9);
+  color:            #000000;
 }
 
 .light {
@@ -443,7 +453,7 @@ img.right {
   color: #333333;
   text-shadow: 0 1px 0 #FFFFFF;
 
-  background: #f5f5f5;
+  background-color: #f5f5f5;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
   -moz-box-shadow:    0 1px 4px rgba(0, 0, 0, 0.27);
   box-shadow:         0 1px 4px rgba(0, 0, 0, 0.27);
@@ -451,8 +461,8 @@ img.right {
 
 .embed.video > *, .embed.rich > *, .embed.photo > *, .img-wrapper > *
 {
-  background: white;
-  max-width:  100%;
+  background-color: white;
+  max-width:        100%;
 
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
   -moz-box-shadow:    0 1px 4px rgba(0, 0, 0, 0.27);
@@ -476,9 +486,9 @@ img.right {
 .embed.photo:before,  .embed.photo:after,
 .embed.failed:before, .embed.failed:after,
 .img-wrapper:before,  .img-wrapper:after {
-  position:   absolute;
-  background: inherit;
-  bottom:     8px;
+  position:         absolute;
+  background-color: inherit;
+  bottom:           8px;
 
   content: "";
 

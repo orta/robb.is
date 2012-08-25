@@ -1,6 +1,6 @@
 {% capture id %}post-{{ post.title | downcase | replace: ' ','-' }}{% endcapture%}
 
-<article id="{{ id }}" {% if post.color %}style="background: #{{ post.color }}" data-color="{{ post.color }}"{% endif %}>
+<article id="{{ id }}" {% if post.color %}style="background-color: #{{ post.color }}" data-color="{{ post.color }}"{% endif %}>
   {% if post.link %}
   <h2 class="external">
     <a href="{{ post.link }}">{{ post.title }}</a>
