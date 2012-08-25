@@ -2,7 +2,7 @@
 layout:   post
 title:    An Introduction to SceneKit
 color:    DD2299
-link:     http://mjtsai.com/blog/2012/08/21/an-introduction-to-scenekit/
+link:     http://iphonedevelopment.blogspot.de/2012/08/an-introduction-to-scenekit.html
 category: ❤ing
 ---
 
