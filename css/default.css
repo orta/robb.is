@@ -42,19 +42,20 @@
 
 .ss-social {
   font-family: "SSSocial";
-  font-family: "SSSocial";
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-rendering: optimizeLegibility;
-  white-space: nowrap;
 
-  -webkit-font-feature-settings: "liga",  "dlig";
-  -moz-font-feature-settings:    "liga=1, dlig=1";
-  -moz-font-feature-settings:    "liga",  "dlig";
-  -ms-font-feature-settings:     "liga",  "dlig";
-  -o-font-feature-settings:      "liga",  "dlig";
-  font-feature-settings:         "liga",  "dlig";
+  font-style:      normal;
+  font-weight:     normal;
+  text-decoration: none;
+  text-rendering:  optimizeLegibility;
+  white-space:     nowrap;
+
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings:    "liga=1";
+  -moz-font-feature-settings:    "liga";
+  -ms-font-feature-settings:     "liga" 1;
+  -o-font-feature-settings:      "liga";
+  font-feature-settings:         "liga";
+  -webkit-font-smoothing:        antialiased;
 }
 
 .ss-icon a, .ss-social a {
