@@ -1,6 +1,7 @@
 ---
 layout:      post
 project:     true
+color:       B06411
 title:       Radio Free Hackday
 category:    working-on
 description: A physical way to browse SoundCloud tracks
