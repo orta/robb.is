@@ -2,7 +2,6 @@
 layout:   post
 title:    Hotline Miami
 category: ❤ing
-link:     http://vimeo.com/45249615
 color:    E60066
 ---
 
