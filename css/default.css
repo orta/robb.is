@@ -23,26 +23,18 @@
   font-style: normal;
 }
 
-.ss-icon {
-  font-family: "SSStandardRegular";
-  font-family: "SSStandardRegular";
+@font-face {
+  font-family: "SSSocial";
+  src: url('/fonts/ss-social-circle.eot');
+  src: url('/fonts/ss-social-circle.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/ss-social-circle.woff') format('woff'),
+       url('/fonts/ss-social-circle.ttf') format('truetype'),
+       url('/fonts/ss-social-circle.svg#SSCircleRegular') format('svg');
+  font-weight: bold;
   font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-rendering: optimizeLegibility;
-  white-space: nowrap;
-
-  -webkit-font-feature-settings: "liga",  "dlig";
-  -moz-font-feature-settings:    "liga=1, dlig=1";
-  -moz-font-feature-settings:    "liga",  "dlig";
-  -ms-font-feature-settings:     "liga",  "dlig";
-  -o-font-feature-settings:      "liga",  "dlig";
-  font-feature-settings:         "liga",  "dlig";
 }
 
-.ss-social {
-  font-family: "SSSocial";
-
+.ss-icon, .ss-social, .ss-circle {
   font-style:      normal;
   font-weight:     normal;
   text-decoration: none;
@@ -56,6 +48,19 @@
   -o-font-feature-settings:      "liga";
   font-feature-settings:         "liga";
   -webkit-font-smoothing:        antialiased;
+}
+
+.ss-icon {
+  font-family: "SSStandardRegular";
+}
+
+.ss-social {
+  font-family: "SSSocial";
+}
+
+.ss-circle {
+  font-family: "SSSocial";
+  font-weight: bold;
 }
 
 .ss-icon a, .ss-social a {
@@ -202,24 +207,30 @@ aside ul.bubbles:after {
 }
 
 aside ul.bubbles li {
-  display: inline-block;
-  margin:  0 0.5rem 0.5em 0;
+  float: left;
+
+  width: 3rem;
+  height: 3rem;
+
+  display: block;
+  margin:  0 1rem 1rem 0;
+
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 aside ul.bubbles a {
-  display: block;
-  width:   3rem;
-  height:  3rem;
+  color: rgba(255, 255, 255, 0.6);
 
-  border-radius: 999px;
+  font-size: 3rem;
+  line-height: 4rem;
 
-  color: white;
-
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-
-  text-align: center;
   text-decoration: none;
+}
+
+aside ul.bubbles a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 #main article {
@@ -321,14 +332,6 @@ a {
 
 #main article:nth-child(2n) {
   background-color: rgba(255, 10, 00, 0.1);
-}
-
-aside ul.bubbles a {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-aside ul.bubbles a:hover {
-  -webkit-transform: scale(1.1);
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
