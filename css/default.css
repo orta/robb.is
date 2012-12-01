@@ -285,12 +285,9 @@ footer {
                                               rgba(255, 255, 255, 0.0) 5rem);
   }
 
-  aside ul.bubbles a {
-    width:  44px;
-    height: 44px;
-
-    padding:   12px 11px;
-    font-size: 22px;
+  aside ul.bubbles li {
+    float: none;
+    display: inline-block;
   }
 
   aside ul.bubbles li:last-child {
