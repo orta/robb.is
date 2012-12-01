@@ -25,7 +25,7 @@ Here are some of the things I worked on or am working on now:
     <a href="http://itunes.apple.com/en/app/soundcloud/id336353151">SoundCloud iOS</a> – The official SoundCloud app for iPhone and iPad
   </li>
   <li>
-    <a href="http://itunes.apple.com/en/app/soundcloud/id412754595">SoundCloud Desktop</a> – The official SoundCloud app for OS X
+    <a href="https://play.google.com/store/apps/details?id=com.soundcloud.android">SoundCloud Android</a> – The official SoundCloud app for Android
   </li>
 {% for project in site.posts %}
   {% if project.project %}

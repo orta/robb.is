@@ -193,11 +193,11 @@ aside {
   padding: 2rem 1em 2em 2em;
 }
 
-aside ul.bubbles {
+ul.bubbles {
   margin: 0;
 }
 
-aside ul.bubbles:after {
+ul.bubbles:after {
   content: ".";
   display: block;
   clear: both;
@@ -206,30 +206,32 @@ aside ul.bubbles:after {
   height: 0;
 }
 
-aside ul.bubbles li {
+ul.bubbles li {
   float: left;
 
+  display: block;
   width: 3rem;
   height: 3rem;
 
-  display: block;
-  margin:  0 1rem 1rem 0;
-
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  list-style: none;
+  margin: 0 1rem 1rem 0;
 }
 
-aside ul.bubbles a {
+a.icon {
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 3rem;
   line-height: 4rem;
 
   text-decoration: none;
+
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+
 }
 
-aside ul.bubbles a:hover {
+a.icon:hover {
   color: rgba(255, 255, 255, 1);
 }
 
