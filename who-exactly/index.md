@@ -6,9 +6,8 @@ color:  E14825
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
 I’m a 24-year old developer from Berlin.
-I’m working on the [Desktop][soundcloud_desktop] and
-[iOS][soundcloud_ios] applications at [SoundCloud][soundcloud] and I study
-Computer Science at [Freie Universität Berlin][fu_berlin].
+I’m working on the [Android][soundcloud_android] and
+[iOS][soundcloud_ios] applications at [SoundCloud][soundcloud].
 
 If you would like to get in touch with me, send me an e-mail to
 [robb@robb.is](mailto:robb@robb.is). You can also follow me on
@@ -43,10 +42,9 @@ Here are some of the things I worked on or am working on now:
 * [Twitter][twitter]
 * [Vimeo][vimeo]
 
-[soundcloud_desktop]: http://itunes.apple.com/en/app/soundcloud/id412754595
+[soundcloud_android]: https://play.google.com/store/apps/details?id=com.soundcloud.android
 [soundcloud_ios]:     http://itunes.apple.com/en/app/soundcloud/id336353151
 [soundcloud]:         https://soundcloud.com
-[fu_berlin]:          http://www.fu-berlin.de
 [usesthis]:           http://robert.bohnke.usesthis.com
 
 [soundcloud_profile]: https://soundcloud.com/robb
