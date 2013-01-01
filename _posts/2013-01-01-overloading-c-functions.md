@@ -102,4 +102,20 @@ I think function overloading is a welcome addition to C and it goes to show how
 knowing the underpinnings of Objective-C can help you write better and more
 concise code.
 
-[extensions]: http://clang.llvm.org/docs/LanguageExtensions.html
+_Update:_ [Nick Lockwood][nicklockwood] raised the point that `map` may be
+better suited for a category. When I came up with this example, I was also
+considering an `each` implementation that could deal with
+`id<NSFastEnumeration>`. E.g.:
+
+{% highlight objectivec %}
+OVERLOADABLE void each(id<NSFastEnumeration> list, void(^)(id obj));
+OVERLOADABLE void each(NSArray *array, void(^)(id obj));
+OVERLOADABLE void each(NSDictionary *dict, void(^)(id key, id obj));
+{% endhighlight %}
+
+That being said, if you're looking for a solid and well tested map category,
+check out [BlocksKit].
+
+[extensions]:   http://clang.llvm.org/docs/LanguageExtensions.html
+[nicklockwood]: https://twitter.com/nicklockwood
+[blockskit]:    https://github.com/pandamonia/BlocksKit
