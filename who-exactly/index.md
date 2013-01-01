@@ -21,15 +21,22 @@ Here are some of the things I worked on or am working on now:
 
 <ul>
   <li>
-    <a href="http://itunes.apple.com/en/app/soundcloud/id336353151">SoundCloud iOS</a> – The official SoundCloud app for iPhone and iPad
+    <a href="http://itunes.apple.com/en/app/soundcloud/id336353151">SoundCloud iOS</a><br>
+    The official SoundCloud app for iPhone and iPad
   </li>
   <li>
-    <a href="https://play.google.com/store/apps/details?id=com.soundcloud.android">SoundCloud Android</a> – The official SoundCloud app for Android
+    <a href="https://play.google.com/store/apps/details?id=com.soundcloud.android">SoundCloud Android</a><br>
+    The official SoundCloud app for Android
+  </li>
+  <li>
+    SoundCloud Desktop<br>
+    The official SoundCloud app for OS X (discontinued)
   </li>
 {% for project in site.posts %}
   {% if project.project %}
     <li>
-      <a href="{{ project.url }}">{{ project.title }}</a> – {{ project.description}}
+      <a href="{{ project.url }}">{{ project.title }}</a><br>
+      {{ project.description}}
     </li>
   {% endif %}
 {% endfor %}

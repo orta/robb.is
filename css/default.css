@@ -180,6 +180,14 @@ fieldset, h1, h2, h3, h4, h5, h6, hgroup, hr, img, ol, p, pre, table, ul {
   margin-bottom: 0.75rem;
 }
 
+li {
+  margin-bottom: 0.25rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
 /* Layout */
 
 aside {
