@@ -1,0 +1,26 @@
+---
+layout:   post
+title:    KSImageNamed Xcode plug-in
+color:    6688CC
+link:     https://github.com/ksuther/KSImageNamed-Xcode
+category: ❤ing
+---
+
+A common pain-point when dealing with user interfaces in Xcode is making sure
+you correctly call `-[UIImage imageNamed:]`. Since the compiler does not assist
+you with making sure the the image name you pass in actually exists, it's easy
+for typos to sneak in.
+
+Enter [KSImageNamed], a nifty Xcode plugin that adds auto-completion for exactly
+this case:
+
+<div class="img-wrapper">
+	<img src="/img/ksimagenamed.png" alt="KSImageNamed in action">
+</div>
+
+> Just type in [NSImage imageNamed: or [UIImage imageNamed: and all the images
+> in your project will conveniently appear in the autocomplete menu.
+
+Easy as that! Makes me wish Xcode could to this out of the box.
+
+[ksimagenamed]: https://github.com/ksuther/KSImageNamed-Xcode
