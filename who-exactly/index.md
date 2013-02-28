@@ -1,17 +1,15 @@
 ---
 layout: post
 title:  About me
-color:  E14825
+color:  40B0D0
 ---
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
 I’m a 24-year old developer from Berlin.
-I’m working on the [Android][soundcloud_android] and
-[iOS][soundcloud_ios] applications at [SoundCloud][soundcloud].
 
 If you would like to get in touch with me, send me an e-mail to
 [robb@robb.is](mailto:robb@robb.is). You can also follow me on
-Twitter where I’m [@ceterum_censeo][twitter].
+Twitter where I’m [@ceterum_censeo][twitter] or App.net where I go by [@tmp][appdotnet].
 
 You can read about some of the tools I use on [usesthis.com][usesthis].
 
@@ -31,6 +29,10 @@ Here are some of the things I worked on or am working on now:
   <li>
     SoundCloud Desktop<br>
     The official SoundCloud app for OS X (discontinued)
+  </li>
+  <li>
+    <a href="http://nerds.fm">nerds.fm</a><br>
+    A podcast about programming and technology by <a href="https://twitter.com/343max">Max</a> and yours truly
   </li>
 {% for project in site.posts %}
   {% if project.project %}
@@ -58,3 +60,4 @@ Here are some of the things I worked on or am working on now:
 [github]:             https://github.com/robb
 [vimeo]:              https://vimeo.com/robb
 [twitter]:            https://twitter.com/ceterum_censeo
+[appdotnet]:          https://alpha.app.net/tmp
