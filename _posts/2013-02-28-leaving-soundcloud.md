@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     Goodbye, SoundCloud
-permalink: leaving-soundcloud
+permalink: /leaving-soundcloud
 color:     FF8010
 ---
 
