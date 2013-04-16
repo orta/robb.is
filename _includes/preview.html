@@ -40,10 +40,12 @@
         {{ post.date | date: '%d' | plus: 0 }}<sup>{{ sup }}</sup>
         of {{ post.date | date: '%B, %Y'}}
       </time>
-      in
-      <a href="/{{ page.category}}">
-        {{ page.category}}
-      </a>
+      {% if page.category %}
+        in
+        <a href="/{{ page.category}}">
+          {{ page.category}}
+        </a>
+      {% endif %}
     </p>
   </section>
   {% endif %}
