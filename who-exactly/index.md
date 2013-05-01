@@ -5,7 +5,7 @@ color:  40B0D0
 ---
 
 Hi, my name is **Robert Böhnke**, but you can call me **Robb**.
-I’m a 24-year old developer from Berlin.
+I'm a mobile developer from Berlin.
 
 If you would like to get in touch with me, send me an e-mail to
 [robb@robb.is](mailto:robb@robb.is). You can also follow me on
