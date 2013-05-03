@@ -4,6 +4,7 @@ oEmbed = window.oEmbed ?= {}
 oEmbed.endpoints =
   'soundcloud.com' : 'https://soundcloud.com/oembed.json'
   'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
+  'speakerdeck.com': 'http://api.embed.ly/1/oembed'
   'youtube.com'    : 'http://api.embed.ly/1/oembed'
   'wikipedia.org'  : 'http://api.embed.ly/1/oembed'
   'flickr.com'     : 'http://api.embed.ly/1/oembed'
@@ -41,11 +42,13 @@ oEmbed.embed = (embed, config = {}) ->
   requestURL += '?' + parameters[0] + '&' + parameters[1..].join('&')
 
   success = (result) ->
+    console.log result
+
     embed.classList.remove 'loading'
 
     embed.classList.add 'embed'
     embed.classList.add result?.type
-    embed.classList.add result?.provider_name.toLowerCase()
+    embed.classList.add result?.provider_name.toLowerCase().replace /\s+/, '-'
 
     if result.type is 'photo'
       embed.innerHTML = "<img src='#{result.url}'>"
