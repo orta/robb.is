@@ -1,3 +1,4 @@
+# Rewrite the host to robb.is
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !=robb.is
 RewriteRule (.*) http://robb.is/$1 [R=302,L]
@@ -11,3 +12,6 @@ Header set Cache-Control "max-age=7200, must-revalidate"
 <filesMatch ".(woff|)$">
 Header set Cache-Control "max-age=604800, must-revalidate"
 </FilesMatch>
+
+# Enable compression
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
