@@ -1,3 +1,13 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !=robb.is
 RewriteRule (.*) http://robb.is/$1 [R=302,L]
+
+# Cache for 2 hours
+<filesMatch ".(html|css|js)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+# Cache for one week
+<filesMatch ".(woff|)$">
+Header set Cache-Control "max-age=604800, must-revalidate"
+</FilesMatch>
