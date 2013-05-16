@@ -1,0 +1,6 @@
+[submodule "hacking-on/ipod-shuffle"]
+	path = hacking-on/ipod-shuffle
+	url = https://github.com/robb/ipod-shuffle.git
+[submodule "hacking-on/css-envelopes"]
+	path = hacking-on/css-envelopes
+	url = https://github.com/robb/css-envelopes.git
