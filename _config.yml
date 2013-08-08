@@ -1,3 +1,5 @@
+exclude: [ Makefile, scripts ]
+
 permalink:  /:categories/:title
 markdown:   kramdown
 pygments:   true
