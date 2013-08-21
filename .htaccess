@@ -15,3 +15,6 @@ Header set Cache-Control "max-age=604800, must-revalidate"
 
 # Enable compression
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+# Redirects
+Redirect 301 /ludum-dare /hacking-on/neukoelln-nights
