@@ -4,3 +4,6 @@
 [submodule "hacking-on/css-envelopes"]
 	path = hacking-on/css-envelopes
 	url = https://github.com/robb/css-envelopes.git
+[submodule "hacking-on/neukoelln-nights"]
+	path = hacking-on/neukoelln-nights
+	url = https://github.com/robb/neukoelln-nights.git
