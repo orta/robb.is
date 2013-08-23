@@ -1,9 +1,10 @@
 ---
 layout: post
 title: My talk for UIKonf 2013 on ReactiveCocoa
-category: working-on
+category: speaking-at
 project: true
 description: My talk for UIKonf 2013. It's about ReactiveCocoa!
+permalink: speaking-at/uikonf-2013
 
 color: 7BC3F9
 ---

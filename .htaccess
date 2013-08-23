@@ -18,3 +18,5 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javasc
 
 # Redirects
 Redirect 301 /ludum-dare /hacking-on/neukoelln-nights
+
+Redirect 301 /working-on/my-talk-for-uikonf-2013 /speaking-at/uikonf-2013
