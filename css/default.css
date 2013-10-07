@@ -443,8 +443,6 @@ img.right {
 /* Footnotes */
 
 ol.footnotes {
-  margin-left: 1rem;
-
   counter-reset: item;
   list-style: none;
 
