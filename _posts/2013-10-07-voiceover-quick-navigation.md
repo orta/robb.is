@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    VoiceOver Quick Navigation
-color:    11DD55
+color:    11AA55
 category: thinking-about
 ---
 
