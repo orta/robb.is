@@ -6,15 +6,14 @@ category: thinking-about
 ---
 
 I've maintained for a long time that great apps should have great accessibility
-support, but today I learned of another reason that I think developers would be
-very interested in as well.
+support, but today I learned of another reason that might also be of particular interest to developers.
 
 If you don't know, _VoiceOver_ is the name of Apple's accessibility technology
-to help users with visual or motor impairments to use their iPhones. It's most
-well known for its screen reader capabilities but it also supports controlling
+to help users with visual or motor impairments use their iPhones. It's most
+well-known for its screen reader capabilities, but it also supports controlling
 your iPhone or iPad entirely with the keyboard.
 
-This is great to avoid reaching over to your phone all the time and it's also
+This is great to avoid reaching over to your phone all the time, and it's also
 much easier to enter your test account's password on a physical keyboard.
 
 ### Setup
@@ -30,7 +29,7 @@ Home Button<sup>1</sup>.
 
 ### Navigation
 
-If you haven't used VoiceOver before, it allows you navigate through the visible
+VoiceOver allows you navigate through the visible
 items both by dragging your finger across the screen and by swiping left and
 right over the screen.
 
@@ -63,7 +62,7 @@ The Rotor is a secondary menu that allows you to chose what happens if you press
 ↑ or ↓ or swipe up or down on the screen. Once you set it to _Adjust Value_,
 you'll be able to use ↑ or ↓ down to adjust values.
 
-There is a couple of other useful settings for the Rotor, such as _Vertical
+There are a couple of other useful settings for the Rotor, such as _Vertical
 Navigation_ that can be enabled in the _Rotor_ menu in the VoiceOver settings.
 
 ### Advanced shortcuts
@@ -198,7 +197,7 @@ Turn on Quick Nav to control VoiceOver using the arrow keys.
     </tr>
 </table>
 
-I hope that this neat trick helps you avoid some arm strain from reaching over
+I hope that this neat trick helps you avoid some arm strain from repeatedly reaching over
 to your phones. If you'd like to read more about accessibility, check out
 sessions [200 & 202 from this year's WWDC](https://developer.apple.com/wwdc/videos/).
 
