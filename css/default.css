@@ -261,12 +261,16 @@ a.icon:hover {
   padding-top: 1.5rem;
 }
 
-pre {
+pre, table {
   margin:        0 -1rem;
   padding:       1rem;
   border-radius: 0.5rem;
 
   overflow: auto;
+}
+
+table {
+  border-spacing: 1rem 0.25rem;
 }
 
 footer {
@@ -318,7 +322,7 @@ footer {
     max-width: 100%;
   }
 
-  pre {
+  pre, table {
     margin:  0.5rem -0.5rem;
     padding: 0.5rem;
     border-radius: 4px;
@@ -390,7 +394,7 @@ img {
 
 /* … then override that in elements containing text #hack */
 article blockquote, article h1, article h2, article h3, article h4, article h5,
-article h6, article ol, article p, article pre, article ul {
+article h6, article ol, article p, article pre, article ul, table {
   text-align: left;
 }
 
@@ -401,7 +405,7 @@ blockquote {
 
 /* Fonts */
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p, li, td {
   font-family: "ff-meta-web-pro", Helvetica, sans-serif;
 }
 
@@ -410,7 +414,7 @@ pre, tt, code, kbd, samp {
   font-size:   0.95em;
 }
 
-pre {
+pre, table {
   background-color: rgba(255, 255, 255, 0.9);
   color:            #000000;
 }
@@ -434,6 +438,36 @@ img.right {
 .img-wrapper img, .embed img {
   border-radius: 2px;
   margin: 0;
+}
+
+/* Footnotes */
+
+ol.footnotes {
+  margin-left: 1rem;
+
+  counter-reset: item;
+  list-style: none;
+
+  border-top: 1px solid white;
+  margin-top: 2em;
+  padding-top: 0.5rem;
+
+  font-size: 0.9rem;
+
+  position: relative;
+}
+
+ol.footnotes li {
+  margin-left: 1.5rem;
+}
+
+ol.footnotes li:before {
+  content: counter(item) ")";
+  counter-increment: item;
+
+  position: absolute;
+
+  left: 0;
 }
 
 /* Embeds */
