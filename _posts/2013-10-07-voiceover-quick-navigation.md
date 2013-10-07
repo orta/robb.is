@@ -68,14 +68,19 @@ Navigation_ that can be enabled in the _Rotor_ menu in the VoiceOver settings.
 
 ### Advanced shortcuts
 
-Most of the VoiceOver keyboard commands use the awkward combination of the
-Control and Options keys. If someone knows a way to map that to something easier
-to reach, such as Caps Lock, please let me know!
+Unfortunately, most of the VoiceOver keyboard commands use the awkward
+combination of the Control and Options keys. If someone knows a way to map that
+to something easier to reach, such as Caps Lock, please let me know!
 
 To press the Home Button, press ⌃⌥H. If you have good eye-sight or share and
 office with co-workers, press ⌃⌥S to mute or unmute VoiceOver.
 
-Here's a complete list of all the keyboard shortcuts supported by VoiceOver:
+To quickly change VoiceOver settings, such as Speech Rate or Typing Echo, select
+a setting using ⌃⌥⌘← or ⌃⌥⌘→ and change the selecting settings with ⌃⌥⌘↑ or
+⌃⌥⌘↓.
+
+For reference, here's a complete list of all the keyboard shortcuts supported by
+VoiceOver:
 
 ### VoiceOver keyboard commands
 
@@ -146,7 +151,7 @@ Here's a complete list of all the keyboard shortcuts supported by VoiceOver:
     </tr>
     <tr>
         <td>Adjust the setting specified by the speech rotor</td>
-        <td>⌃⌥⌘↑ or ⌃⌥⌘–↓</td>
+        <td>⌃⌥⌘↑ or ⌃⌥⌘↓</td>
     </tr>
     <tr>
         <td>Turn the screen curtain on or off</td>
