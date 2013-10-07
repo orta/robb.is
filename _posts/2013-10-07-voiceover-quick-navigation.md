@@ -6,7 +6,7 @@ category: thinking-about
 ---
 
 I've maintained for a long time that great apps should have great accessibility
-support. but today I learned of another reason that I think developers would be
+support, but today I learned of another reason that I think developers would be
 very interested in as well.
 
 If you don't know, _VoiceOver_ is the name of Apple's accessibility technology
