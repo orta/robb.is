@@ -1,7 +1,7 @@
 ---
 layout:   post
-title:    Justin Williams – Achieving Zen with Auto layout
-color:    20C0B0
+title:    Achieving Zen with Auto layout
+color:    60F060
 link:     http://vimeo.com/75232527
 category: ❤ing
 ---
