@@ -6,6 +6,6 @@ link:     http://vimeo.com/63493158
 category: ❤ing
 ---
 
-<div class="embed" data-url="http://vimeo.com/63493158">
+<div class="embed" data-url="http://vimeo.com/63493158" data-portrait="false" data-byline="false">
 
 </div>
