@@ -9,7 +9,7 @@ Header set Cache-Control "max-age=7200, must-revalidate"
 </FilesMatch>
 
 # Cache for one week
-<filesMatch ".(woff|)$">
+<filesMatch ".(woff|eot|svg|ttf)$">
 Header set Cache-Control "max-age=604800, must-revalidate"
 </FilesMatch>
 
