@@ -4,7 +4,7 @@ oEmbed = window.oEmbed ?= {}
 oEmbed.endpoints =
   'soundcloud.com' : 'https://soundcloud.com/oembed.json'
   'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
-  'speakerdeck.com': 'https://speakerdeck.com/oembed.json'
+  'speakerdeck.com': 'http://api.embed.ly/1/oembed'
   'youtube.com'    : 'http://api.embed.ly/1/oembed'
   'wikipedia.org'  : 'http://api.embed.ly/1/oembed'
   'flickr.com'     : 'http://api.embed.ly/1/oembed'
