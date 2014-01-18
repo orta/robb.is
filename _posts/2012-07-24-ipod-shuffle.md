@@ -10,7 +10,7 @@ As a small hack over the last couple of days, I've built an [iPod Shuffle][ipod]
 with CSS and HTML. I've wired up the controls to play a couple of tracks from
 SoundCloud.
 
-<div>
+<div class="image">
   <a href="/hacking-on/ipod-shuffle">
     <img src="/img/ipod-shuffle.png">
   </a>

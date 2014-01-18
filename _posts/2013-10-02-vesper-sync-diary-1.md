@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Vesper Sync Diary ＃1
+title:    Vesper Sync Diary &#35;1
 color:    12D0A0
 link:     http://inessential.com/2013/10/01/vesper_sync_diary_1
 category: ❤ing

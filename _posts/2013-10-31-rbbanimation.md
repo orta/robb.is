@@ -22,7 +22,7 @@ To use it, simply create a new animation as you normally would
 an pass in an `RBBAnimationBlock` from which you return the desired value for a
 given point in time.
 
-<div class="img-wrapper">
+<div class="image white background">
     <img src="/img/rbbanimation/rainbow.gif" alt="RBBCustomAnimation">
 </div>
 
@@ -53,7 +53,7 @@ change during an animation. Core Animation comes with the
 They are also available for `RBBTweenAnimation` through the RBBCubicBezier
 helper:
 
-<div class="img-wrapper">
+<div class="image white background">
     <img src="/img/rbbanimation/ease-in-out-back.gif" alt="RBBCubicBezier(0.68, -0.55, 0.265, 1.55)">
 </div>
 
@@ -65,7 +65,7 @@ animation.duration = 0.6;
 However, `RBBTweenAnimation` also supports more complex easing functions such as
 `RBBEasingFunctionEaseOutBounce`:
 
-<div class="img-wrapper">
+<div class="image white background">
     <img src="/img/rbbanimation/bounce.gif" alt="RBBEasingFunctionEaseOutBounce">
 </div>
 
@@ -77,7 +77,7 @@ animation.duration = 0.8;
 If you fancy, you can also specify your own easing functions, like this sine
 wave here, from scratch:
 
-<div class="img-wrapper">
+<div class="image white background">
     <img src="/img/rbbanimation/sine-wave.gif" alt="Custom easing function">
 </div>
 
@@ -97,7 +97,7 @@ I've implemented `RBBSpringAnimation` as a replacement, simply specify the
 springs `mass`, `damping`, `stiffness` as well as its initial velocity and watch
 it go:
 
-<div class="img-wrapper">
+<div class="image white background">
     <img src="/img/rbbanimation/spring.gif" alt="RBBSpringAnimation">
 </div>
 

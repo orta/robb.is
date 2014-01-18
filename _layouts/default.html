@@ -1,5 +1,6 @@
 {% if page.color %}
   {% assign color = page.color %}
+  {% assign last_color = page.color %}
 {% else %}
   {% for post in paginator.posts %}
     {% if forloop.first %}
@@ -8,6 +9,10 @@
       {% else %}
         {% assign color = 'FFCC00' %}
       {% endif %}
+    {% endif %}
+
+    {% if forloop.last %}
+      {% assign last_color = post.color %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -49,11 +54,15 @@
 
     {% include flattr-header.html %}
 
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="/webfonts/ss-social-regular.css" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="/webfonts/ss-standard.css" />
+
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/default.css" />
     <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/pygments.css" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
 
     <script type="text/javascript" src="/js/oEmbed.js"></script>
+    <script type="text/javascript" src="/js/snap.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-20850973-2']);
@@ -64,16 +73,21 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <script type="text/javascript" src="http://use.typekit.com/eia0osi.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/lfj0zgk.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <style type="text/css">
-      body {
+      html, body {
         background-color: #{{ color }};
+      }
+
+      #main > footer {
+        background-color: #{{ last_color }};
       }
     </style>
   </head>
   <body>
-    {% include aside.html %}
+    {% include header.html%}
 
     <section id="main">
       {{ content }}

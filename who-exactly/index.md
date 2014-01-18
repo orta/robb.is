@@ -9,7 +9,7 @@ I'm a mobile developer from Berlin.
 
 If you would like to get in touch with me, send me an e-mail to
 [robb@robb.is](mailto:robb@robb.is). You can also follow me on
-Twitter where I’m [@ceterum_censeo][twitter] or App.net where I go by [@tmp][appdotnet].
+Twitter where I’m [@ceterum_censeo][twitter].
 
 You can read about some of the tools I use on [usesthis.com][usesthis].
 

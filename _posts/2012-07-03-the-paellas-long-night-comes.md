@@ -8,7 +8,7 @@ category: ❤ing
 
 I just discovered this shoe-gazing gem from Osaka, Japan
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/the-paellas.jpg">
 </div>
 

@@ -13,7 +13,9 @@ suprising alias that I didn't know of.
 
 My prompt now looks something like this:
 
-<img src='/img/prompt.png' alt='My prompt'/>
+<div class="image">
+    <img src='/img/prompt.png' alt='My prompt'/>
+</div>
 
 The right-hand side contains all relevant information about my currrent repo.
 The red circle indicates that I have untracked files but it being empty means

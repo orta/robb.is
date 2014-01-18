@@ -6,6 +6,6 @@ link:     https://www.youtube.com/watch?v=KOBVHdrfOkY
 category: ❤ing
 ---
 
-<div class="embed" data-url="https://www.youtube.com/watch?v=KOBVHdrfOkY">
+<div class="large embed" data-url="https://www.youtube.com/watch?v=KOBVHdrfOkY">
     
 </div>

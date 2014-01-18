@@ -12,7 +12,7 @@ input (Think gestures, scroll views, KVO …).
 
 It's what powers the lovely intro to their app:
 
-<div class="img-wrapper">
+<div class="image white background">
     <img style="padding: 2rem;" src='/img/ifttt-intro.gif' alt='The IFTTT app into' />
 </div>
 

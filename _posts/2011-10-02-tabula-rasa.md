@@ -68,7 +68,7 @@ been TextMate. While the developer of TextMate has just reiterated that TextMate
 It comes with many great features out of the box and is also compatible to some
 of TextMates syntax highlighting bundles.
 
-<div class="img-wrapper">
+<div class="image">
   <img src='/img/sublime-text-2.png' alt='Sublime Text 2' />
 </div>
 
@@ -89,7 +89,7 @@ It has a nice, clean UI and is well integrated with GMail.
 There is [a lite version][sparrow_lite] on the Mac App Store, so make sure to
 give it a spin.
 
-<div class="img-wrapper">
+<div class="image">
   <img src='/img/Sparrow.png' alt='Sparrow' />
 </div>
 

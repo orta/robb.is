@@ -7,7 +7,7 @@ category: working-on
 
 Today, we are releasing the new version of the [SoundCloud Android app][play].
 
-<div class="image-container">
+<div class="image">
   <a href="https://play.google.com/store/apps/details?id=com.soundcloud.android">
     <img src='/img/galaxy.png' alt='The new SoundCloud Android app' />
   </a>

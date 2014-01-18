@@ -4,7 +4,7 @@ oEmbed = window.oEmbed ?= {}
 oEmbed.endpoints =
   'soundcloud.com' : 'https://soundcloud.com/oembed.json'
   'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
-  'speakerdeck.com': 'http://api.embed.ly/1/oembed'
+  'speakerdeck.com': 'https://speakerdeck.com/oembed.json'
   'youtube.com'    : 'http://api.embed.ly/1/oembed'
   'wikipedia.org'  : 'http://api.embed.ly/1/oembed'
   'flickr.com'     : 'http://api.embed.ly/1/oembed'
@@ -42,24 +42,32 @@ oEmbed.embed = (embed, config = {}) ->
   requestURL += '?' + parameters[0] + '&' + parameters[1..].join('&')
 
   success = (result) ->
-    console.log result
+    # Work around what appears to be a cache collision that sometimes mixes up
+    # dynamically inserted iframes
+    setTimeout ->
+      embed.classList.remove 'loading'
 
-    embed.classList.remove 'loading'
+      embed.classList.add 'embed'
+      embed.classList.add result?.type
+      embed.classList.add result?.provider_name.toLowerCase().replace /\s+/, '-'
 
-    embed.classList.add 'embed'
-    embed.classList.add result?.type
-    embed.classList.add result?.provider_name.toLowerCase().replace /\s+/, '-'
+      if result.type is 'photo'
+        embed.innerHTML = "<img src='#{result.url}'>"
+      else if result?.html
+        embed.innerHTML = result.html
 
-    if result.type is 'photo'
-      embed.innerHTML = "<img src='#{result.url}'>"
-    else if result?.html
-      embed.innerHTML = result?.html
-    else
-      embed.innerHTML = """
-        <a href="#{result.url}">
-          <img src="#{result.thumbnail_url}">
-        </a>
-      """
+        if result.width? and result.height? and not result.width.toString().match '%'
+          embed.dataset.aspectRatio = result.height / result.width
+
+        window.dispatchEvent new Event 'resize'
+
+      else
+        embed.innerHTML = """
+          <a href="#{result.url}">
+            <img src="#{result.thumbnail_url}">
+          </a>
+        """
+    , Math.random() * 10
 
   error = ->
     embed.classList.remove 'loading'

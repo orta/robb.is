@@ -10,7 +10,7 @@ Turns out, if you run
 
 on your Mac, you'll get this:
 
-<div class="img-wrapper">
+<div class="image">
   <img src='/img/spotify-lolcat-preview-background.png' alt='OMG!' />
 </div>
 

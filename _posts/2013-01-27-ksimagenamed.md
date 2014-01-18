@@ -14,7 +14,7 @@ for typos to sneak in.
 Enter [KSImageNamed], a nifty Xcode plugin that adds auto-completion for exactly
 this case:
 
-<div class="img-wrapper">
+<div class="image">
 	<img src="/img/ksimagenamed.png" alt="KSImageNamed in action">
 </div>
 

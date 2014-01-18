@@ -14,7 +14,7 @@ In the show, the Laughing Man is a notorious hacker, capable
 of hacking TV cameras as well as the eyes of onlookers in
 real-time, hiding his face behind his infamous logo.
 
-<div class="img-wrapper">
+<div class="image">
   <img src='/img/laughing-man.png' alt='The Laughing Man' />
 </div>
 

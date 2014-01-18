@@ -16,16 +16,16 @@ There is some stunning imagery there, covering the length and breadth of
 Triforce of Fractals. It also comes with Mathematica code examples so you can
 follow at home, if you've got a copy (I unfortunately don't).
 
-<div class="img-wrapper">
-    <img style="padding: 2rem;" src="/img/sierpinski-1.png" alt="Sierpinski Triangle Awesomesauce">
+<div class="image white background" style="padding: 2rem;">
+    <img src="/img/sierpinski-1.png" alt="Sierpinski Triangle Awesomesauce">
 </div>
 
-<div class="img-wrapper">
-    <img style="padding: 2rem;" src="/img/sierpinski-2.png" alt="More Sierpinski Triangle Awesomesauce">
+<div class="image white background" style="padding: 2rem;">
+    <img src="/img/sierpinski-2.png" alt="More Sierpinski Triangle Awesomesauce">
 </div>
 
-<div class="img-wrapper">
-    <img style="padding: 2rem;" src="/img/sierpinski-3.png" alt="Moo!">
+<div class="image white background" style="padding: 2rem;">
+    <img src="/img/sierpinski-3.png" alt="Moo!">
 </div>
 
 > This cow does not cower. Infinity cannot bully this bull, cannot bloviate this

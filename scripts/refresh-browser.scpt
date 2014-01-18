@@ -1,4 +1,4 @@
-set tabName to "Robb is"
+set hostname to "localhost"
 
 tell application "System Events"
     set isChromeRunning to (count of (every process whose bundle identifier is "com.google.chrome")) > 0
@@ -6,13 +6,13 @@ tell application "System Events"
 end tell
 
 if isChromeRunning
-    tell application "Google Chrome" to tell every tab of every window whose title contains tabName
+    tell application "Google Chrome" to tell every tab of every window whose URL contains hostname
         reload
     end tell
 end if
 
 if isSafariRunning
-    tell application "Safari" to tell every tab of every window whose name contains tabName
+    tell application "Safari" to tell every tab of every window whose URL contains hostname
         open location (get its URL)
     end tell
 end if

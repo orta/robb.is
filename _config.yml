@@ -3,6 +3,6 @@ exclude: [ Makefile, scripts ]
 permalink:  /:categories/:title
 markdown:   kramdown
 pygments:   true
-paginate:   4
+paginate:   7
 
 category_dir: ''

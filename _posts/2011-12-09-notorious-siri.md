@@ -9,7 +9,7 @@ color:       75D9F6
 
 _Notorious Siri_ is my hack for the [Music Hack Day London 2011][mhd].
 
-<div>
+<div class="image">
   <img src='/img/notorious-siri.png' alt='Notorious Siri' />
 </div>
 

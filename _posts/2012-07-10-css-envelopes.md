@@ -14,7 +14,7 @@ nothing but HTML and CSS and the awesome [Symbolset Social font][ss-social].
 
 [This][envelopes] is what I came up with:
 
-<div>
+<div class="image">
   <a href="/hacking-on/css-envelopes">
     <img src="/img/css-envelopes.png">
   </a>
@@ -155,7 +155,7 @@ Notice that I reversed their colors as this they draw the top flap.
 
 This is what the envelope looks like, so far:
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/envelope-1.png">
 </div>
 
@@ -192,7 +192,7 @@ my stylesheet. (Some may consider this cheating, I couldn't care less…)
 
 Our envelope looks a lot better now:
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/envelope-2.png">
 </div>
 
@@ -249,7 +249,7 @@ turn up the border radius to avoid nasty paper cuts.
 
 Now our envelope actually looks pretty nice.
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/envelope-3.png">
 </div>
 
@@ -304,7 +304,7 @@ Let's add a dash of color and some more highlights…
 
 and we're almost there.
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/envelope-4.png">
 </div>
 
@@ -346,7 +346,7 @@ need to re-color the seal if I want a different kind of wax.
 
 Now we're pretty much finished:
 
-<div class="img-wra">
+<div class="image">
   <img src="/img/envelope-5.png">
 </div>
 
@@ -404,7 +404,7 @@ We want both drops to look different so we set different values for `width`,
 
 And here is the final result:
 
-<div class="img-wrapper">
+<div class="image">
   <img src="/img/envelope-6.png">
 </div>
 

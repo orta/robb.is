@@ -18,7 +18,7 @@ While I am still waiting for the DVD package I ordered, containing all four
 games of the series, I got to download the two latest ones: _The Blackwell
 Convergence_ as well as aforementioned _Blackwell Deception_.
 
-<div class="img-wrapper">
+<div class="image">
   <img src='/img/blackwell-convergence-screenshot.png' alt='Another day, another satisfied spook.' />
 </div>
 

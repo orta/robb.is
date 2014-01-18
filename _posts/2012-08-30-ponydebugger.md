@@ -6,11 +6,10 @@ link:     http://corner.squareup.com/2012/08/ponydebugger-remote-debugging.html
 category: ❤ing
 ---
 
+<img src="/img/ponydebugger.png" class="float right">
 [PonyDebugger][ponydebugger] is a powerful new tool released by the Square iOS
 team today. It consists of a client library and server component to remotely
 debug the network traffic and Core Data stack of your application
-
-<img src="/img/ponydebugger.png" class="float right">
 
 > PonyDebugger acts as a powerful network debugger, allowing users the ability
 > to see an application’s network requests in real time. This means that it
