@@ -106,6 +106,13 @@ p, ul, blockquote, table, .highlight, .image {
 }
 
 @media (max-width : 480px) {
+  h1, h2, h3, p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
   ul {
     padding-left: @grid-base;
   }
