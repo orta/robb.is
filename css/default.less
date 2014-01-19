@@ -27,13 +27,30 @@
 * {
   padding: 0;
   margin: 0;
+
+  box-sizing: border-box;
 }
 
 body {
   font-size: 100%;
   line-height: @grid-base;
+}
 
-  word-wrap: break-word;
+article {
+  padding: 2 * @grid-base;
+
+  @media screen and (max-width : 480px) {
+    padding: @grid-base @grid-base / 2 @grid-base * 2;
+  }
+
+  & > * {
+    .flexbox(column, center, center);
+
+    & > * {
+      width: 20 * @grid-base;
+      max-width: 100%;
+    }
+  }
 }
 
 h1 {
@@ -130,8 +147,7 @@ table {
 
 .highlight, table {
   padding: 1 * @grid-base;
-
-  .grid(0, -1, 1);
+  width: 22 * @grid-base;
 
   @media (max-width : 480px) {
     padding: 0.25 * @grid-base;
@@ -145,33 +161,11 @@ table {
 blockquote {
   border-left: @grid-base / 4 solid rgba(255, 255, 255, 0.333);
   padding-left: @grid-base / 4;
-  margin-left: @grid-base / 2;
 }
 
 small, aside {
   font-size: 0.9 @grid-font-size;
   line-height: 100%;
-}
-
-article {
-  padding: 2 * @grid-base;
-
-  @media screen and (max-width : 480px) {
-    padding: @grid-base @grid-base / 2 @grid-base * 2;
-  }
-
-  & > * {
-    .flexbox(column, center, center);
-
-    & > * {
-      width: 20 * @grid-base;
-      max-width: 100%;
-    }
-  }
-
-  footer p:last-child {
-    .grid(0);
-  }
 }
 
 .main {
@@ -187,9 +181,6 @@ article {
     display: block;
 
     .flexbox(row, flex-start, center);
-
-    padding: 0 @grid-base;
-    margin: 0 -@grid-base;
 
     width: 20 * @grid-base;
     max-width: 100%;
