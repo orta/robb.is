@@ -19,7 +19,7 @@ module Assets
     def write(dest)
       dest_path = destination(dest)
 
-      parser = Less::Parser.new :filename => dest_path
+      parser = Less::Parser.new :paths => [ File.dirname(@less_file.path) ], :filename => File.basename(@less_file.path)
       tree = parser.parse File.read @less_file.path
 
       FileUtils.mkdir_p(File.dirname(dest_path))

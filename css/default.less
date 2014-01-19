@@ -1,3 +1,5 @@
+@import "_flexbox";
+
 // Grid
 
 @grid-base: 32px;
@@ -20,86 +22,6 @@
   margin-right: @right * @grid-base;
   margin-bottom: @bottom * @grid-base;
   margin-left: @left * @grid-base;
-}
-
-.flexbox(@direction, @justify-content, @align-items) {
-  display: -webkit-flex !important;
-  display: -moz-flex !important;
-  display: flex !important;
-
-  -webkit-flex-direction: @direction !important;
-  -moz-flex-direction: @direction !important;
-  flex-direction: @direction !important;
-
-  -webkit-flex-wrap: nowrap !important;
-  -moz-flex-wrap: nowrap !important;
-  flex-wrap: nowrap !important;
-
-  -webkit-justify-content: @justify-content !important;
-  -moz-justify-content: @justify-content !important;
-  justify-content: @justify-content !important;
-
-  -webkit-align-items: @align-items !important;
-  -moz-align-items: @align-items !important;
-  align-items: @align-items !important;
-}
-
-.flex(@grow, @shrink, @basis) {
-  -webkit-flex: @grow @shrink @basis !important;
-  -moz-flex: @grow @shrink @basis !important;
-  flex: @grow @shrink @basis !important;
-}
-
-// Legacy flexbox syntax
-
-.flexbox(@_, @_, @_) {
-  display: -webkit-box;
-  display: -moz-box;
-}
-
-.flexbox(row, @_, @_) {
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-}
-
-.flexbox(column, @_, @_) {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-}
-
-.flexbox(@_, center, @_) {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-}
-
-.flexbox(@_, flex-start, @_) {
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-}
-
-.flexbox(@_, flex-end, @_) {
-  -webkit-box-pack: end;
-  -moz-box-pack: end;
-}
-
-.flexbox(@_, @_, flex-start) {
-  -webkit-box-align: start;
-  -moz-box-align: start;
-}
-
-.flexbox(@_, @_, center) {
-  -webkit-box-align: center;
-  -moz-box-align: center;
-}
-
-.flexbox(@_, @_, flex-end) {
-  -webkit-box-align: end;
-  -moz-box-align: end;
-}
-
-.flex(@grow, @shrink, @basis) {
-  -webkit-box-flex: @grow;
-  -moz-box-flex: @grow;
 }
 
 * {
