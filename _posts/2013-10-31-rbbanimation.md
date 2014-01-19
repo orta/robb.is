@@ -7,12 +7,12 @@ color:    5050C0
 description: Block-based animations made easy.
 ---
 
-[RBBAnimation] is a subclass of `CAKeyframeAnimation` that allows you do use
+[RBBAnimation] is a subclass of `CAKeyframeAnimation` that allows you to use
 blocks to describe your animation instead of having to write out every frame by
 hand.
 
 It comes out of the box with a replacement for CASpringAnimation, support for
-custom easing functions such as bouncing as well as hooks to allow your writing
+custom easing functions such as bouncing as well as hooks to allow you to write
 your own animations fully from scratch.
 
 ### RBBCustomAnimation
