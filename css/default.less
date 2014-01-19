@@ -23,25 +23,83 @@
 }
 
 .flexbox(@direction, @justify-content, @align-items) {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
+  display: -webkit-flex !important;
+  display: -moz-flex !important;
+  display: flex !important;
 
-  -webkit-flex-direction: @direction;
-  -moz-flex-direction: @direction;
-  flex-direction: @direction;
+  -webkit-flex-direction: @direction !important;
+  -moz-flex-direction: @direction !important;
+  flex-direction: @direction !important;
 
-  -webkit-flex-wrap: nowrap;
-  -moz-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap !important;
+  -moz-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
 
-  -webkit-justify-content: @justify-content;
-  -moz-justify-content: @justify-content;
-  justify-content: @justify-content;
+  -webkit-justify-content: @justify-content !important;
+  -moz-justify-content: @justify-content !important;
+  justify-content: @justify-content !important;
 
-  -webkit-align-items: @align-items;
-  -moz-align-items: @align-items;
-  align-items: @align-items;
+  -webkit-align-items: @align-items !important;
+  -moz-align-items: @align-items !important;
+  align-items: @align-items !important;
+}
+
+.flex(@grow, @shrink, @basis) {
+  -webkit-flex: @grow @shrink @basis !important;
+  -moz-flex: @grow @shrink @basis !important;
+  flex: @grow @shrink @basis !important;
+}
+
+// Legacy flexbox syntax
+
+.flexbox(@_, @_, @_) {
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+.flexbox(row, @_, @_) {
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+}
+
+.flexbox(column, @_, @_) {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+
+.flexbox(@_, center, @_) {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+}
+
+.flexbox(@_, flex-start, @_) {
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+}
+
+.flexbox(@_, flex-end, @_) {
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+}
+
+.flexbox(@_, @_, flex-start) {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+}
+
+.flexbox(@_, @_, center) {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+}
+
+.flexbox(@_, @_, flex-end) {
+  -webkit-box-align: end;
+  -moz-box-align: end;
+}
+
+.flex(@grow, @shrink, @basis) {
+  -webkit-box-flex: @grow;
+  -moz-box-flex: @grow;
 }
 
 * {
@@ -204,12 +262,15 @@ article {
   }
 
   nav {
-    .flexbox(row, flex-end, center);
+    display: block;
+
+    .flexbox(row, flex-start, center);
+
+    padding: 0 @grid-base;
+    margin: 0 -@grid-base;
 
     width: 20 * @grid-base;
     max-width: 100%;
-
-    padding: 0 @grid-base;
 
     @media screen and (max-width : 480px) {
       padding: 0;
@@ -222,15 +283,13 @@ header.main {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 
     h1 {
-      display: inline;
+      display: block;
 
-      -webkit-flex: 1 1 auto;
-      -moz-flex: 1 1 auto;
-      flex: 1 1 auto;
+      .flex(1, 1, auto);
     }
 
     ul {
-      display: inline;
+      display: block;
 
       li {
         display: inline;
@@ -264,9 +323,7 @@ footer.main {
   .previous, .next {
     margin: 0;
 
-    -webkit-flex: 1 1 auto;
-    -moz-flex: 1 1 auto;
-    flex: 1 1 auto;
+    .flex(1, 1, auto);
 
     text-align: center;
 
