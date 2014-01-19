@@ -94,10 +94,6 @@ p, ul, blockquote, table, .highlight, .image {
 
   .grid(0, 0, 1);
 
-  &:last-child {
-    margin-bottom: 0;
-  }
-
   @media (max-width : 480px) {
     font-size: 0.8 * @grid-font-size;
 
@@ -161,6 +157,8 @@ table {
 blockquote {
   border-left: @grid-base / 4 solid rgba(255, 255, 255, 0.333);
   padding-left: @grid-base / 4;
+
+  & > *:last-child { margin-bottom: 0; }
 }
 
 small, aside {
