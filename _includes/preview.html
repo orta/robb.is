@@ -4,7 +4,8 @@
   <header>
     {% if post.link %}
     <h2 class="external">
-      <a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a class="ss-icon link" href="{{ post.url | remove: 'index.html' }}" title="Permalink to {{ post.title }}">link</a>
+      <a href="{{ post.link }}">{{ post.title }}</a>
+      <a class="ss-icon link" href="{{ post.url | remove: 'index.html' }}" title="Permalink to {{ post.title }}">link</a>
     </h2>
     {% else %}
     <h2>
