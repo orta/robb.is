@@ -21,7 +21,7 @@ There we're some fun talks by [Boris Bügling][boris],
 [Claudiu Ursache][claudiu], [Jens Ravens][jens], [Florian Hanke][florian],
 [Chris Eidhof][chris] and [Orta].
 
-Thanks to [CodeKolletive] for having us and Orta for MCing the event.
+Thanks to [CodeKollektiv] for having us and Orta for MCing the event.
 
 [mantle]: https://github.com/MantleFramework/Mantle/issues?milestone=2
 [kucha]: http://blog.cocoapods.org/Cocoa-Kucha-3-Berlin/
@@ -31,3 +31,4 @@ Thanks to [CodeKolletive] for having us and Orta for MCing the event.
 [florian]: https://twitter.com/hanke
 [chris]: https://twitter.com/chriseidhof
 [orta]: https://twitter.com/orta
+[codekollektiv]: http://codekollektiv.com/
