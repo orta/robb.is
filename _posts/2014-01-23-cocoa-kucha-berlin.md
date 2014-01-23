@@ -19,7 +19,7 @@ system of Pecha Kucha, but I think it worked out in the end.
 
 There we're some fun talks by [Boris Bügling][boris],
 [Claudiu Ursache][claudiu], [Jens Ravens][jens], [Florian Hanke][florian],
-[Chris Eidhof][chris] and [Orta].
+[Chris Eidhof][chris], [Ilja Iwas][ilja] and [Orta].
 
 Thanks to [CodeKollektiv] for having us and Orta for MCing the event.
 
@@ -30,5 +30,6 @@ Thanks to [CodeKollektiv] for having us and Orta for MCing the event.
 [jens]: https://twitter.com/jensravens
 [florian]: https://twitter.com/hanke
 [chris]: https://twitter.com/chriseidhof
+[ilja]: https://twitter.com/iljawascoding
 [orta]: https://twitter.com/orta
 [codekollektiv]: http://codekollektiv.com/
