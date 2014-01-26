@@ -13,7 +13,7 @@ layout: nil
     <name>Robert Böhnke</name>
     <email>robb@robb.is</email>
   </author>
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 10 %}
   <entry>
     <id>http://robb.is{{ post.id | uri_escape }}</id>
     {% if post.link %}
