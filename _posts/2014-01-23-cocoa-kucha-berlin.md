@@ -14,7 +14,9 @@ I had some trouble adjusting to the somewhat rigid _20 slides, 20 seconds_
 system of Pecha Kucha, but I think it worked out in the end.
 
 <div class="embed" data-url="https://speakerdeck.com/robb/cocoa-kucha-berlin-2013">
-    You can find the slides <a href="https://speakerdeck.com/robb/cocoa-kucha-berlin-2013">on Speaker Deck</a>.
+    <p>
+        You can find the slides <a href="https://speakerdeck.com/robb/cocoa-kucha-berlin-2013">on Speaker Deck</a>.
+    </p>
 </div>
 
 There we're some fun talks by [Boris Bügling][boris],
