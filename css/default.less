@@ -135,10 +135,7 @@ table {
   }
 }
 
-.embed.rich {
-  width: 22 * @grid-base;
-  margin-bottom: 1 * @grid-base;
-
+.embed {
   border-radius: 3px;
   overflow: hidden;
 
@@ -146,9 +143,14 @@ table {
     width: 30 * @grid-base;
   }
 
-  * {
+  &.video, &.rich {
+    width: 22 * @grid-base;
+    margin-bottom: 1 * @grid-base;
+  }
+
+  & > * {
     width: 100%;
-    height: 100%;
+    height: inherit;
   }
 }
 
