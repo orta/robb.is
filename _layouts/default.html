@@ -96,22 +96,11 @@
       {{ content }}
     </section>
   <script type="text/javascript">
-    oEmbed.config['soundcloud.com'] = {
-      'color': '{{ color }}'
-    };
+    oEmbed.config['soundcloud.com'] = oEmbed.config['soundcloud.com'] || {}
+    oEmbed.config['soundcloud.com'].color = '{{ color }}'
 
-    oEmbed.config['vimeo.com'] = {
-      'maxwidth': 600,
-      'color': '{{ color }}'
-    };
-
-    oEmbed.config['youtube.com'] = {
-      'maxwidth': 600
-    };
-
-    oEmbed.config['speakerdeck.com'] = {
-      'maxwidth': 600
-    };
+    oEmbed.config['vimeo.com'] = oEmbed.config['vimeo.com'] || {}
+    oEmbed.config['vimeo.com'].color = '{{ color }}'
 
     var embeds = document.querySelectorAll('div.embed');
     for (var i = 0; i < embeds.length; i++) {

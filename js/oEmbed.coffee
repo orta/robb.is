@@ -10,28 +10,28 @@ oEmbed.config =
   'embed.ly':
     key: '38d1bccb322844cd99d593cc0741be4d'
 
-oEmbed.parametersForNode = (node) ->
-  attributes = {}
+  'soundcloud.com':
+    'hide_related': yes
+    'visual': no
 
-  for {name, value} in node.attributes
-    if match = name.match /^data-(.+)/
-      attributes[match[1]] = value
+defaults = (obj) ->
+  [obj, rest...] = arguments
 
-  attributes
+  for source in rest
+    obj[key] ?= val for key, val of source
+
+  obj
 
 oEmbed.embed = (embed, config = {}) ->
-  attributes = @parametersForNode embed
-
-  # The host of this URL, including subdomains
-  host = attributes.url.match(/https?\:\/\/([^\/]+)(\/.+)?/)[1]
+  # The host of this URL, including sub domains
+  host = embed.dataset.url.match(/https?\:\/\/([^\/]+)(\/.+)?/)[1]
 
   # The first provider matching this host
   provider = (provider for provider of @endpoints when host.match provider)[0] or 'embed.ly'
 
-  parameters = []
-  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of oEmbed.config[provider]
-  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of config
-  parameters.push "#{k}=#{encodeURIComponent v}" for k, v of attributes
+  attributes = defaults {}, embed.dataset, config, oEmbed.config[provider]
+
+  parameters = ("#{k}=#{encodeURIComponent v}" for k, v of attributes)
 
   # Create a request URL from the provider's oEmbed endpoint
   requestURL =  oEmbed.endpoints[provider]
@@ -43,6 +43,11 @@ oEmbed.embed = (embed, config = {}) ->
     embed.classList.add 'embed'
     embed.classList.add result?.type
     embed.classList.add result?.provider_name?.toLowerCase().replace /\s+/, '-'
+
+    # Suppress a bug in SoundCloud's oEmbed implementation where the returned
+    # iframe always contains 'visual=true' in its argument list.
+    if result?.provider_name?.toLowerCase() is 'soundcloud' and not attributes.visual
+      result.html = result?.html?.replace /visual\=(true|false)\&?/g, ''
 
     if result.type is 'photo'
       embed.innerHTML = "<img src='#{result.url}'>"
