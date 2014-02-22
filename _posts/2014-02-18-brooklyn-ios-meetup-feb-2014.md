@@ -13,7 +13,7 @@ Here are the slides of the ReactiveCocoa talk I gave at the [Brooklyn iOS Develo
 Meetup][bidm] in February.
 
 <div class="embed" data-url="https://speakerdeck.com/robb/brooklyn-ios-developer-meetup-february-2014">
-    Find the slides on <a href="https://speakerdeck.com/robb/brooklyn-ios-developer-meetup-february-2014">Speakerdeck</a>.
+    Find the slides on <a href="https://speakerdeck.com/robb/brooklyn-ios-developer-meetup-february-2014">Speaker Deck</a>.
 </div>
 
 Thanks to [Jeff] and [Stela] for having me and to [Orta] for making the
