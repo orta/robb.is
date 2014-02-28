@@ -2,9 +2,10 @@ oEmbed = window.oEmbed ?= {}
 
 # A list of oEmbed providers and their respective endpoints
 oEmbed.endpoints =
-  'soundcloud.com' : 'https://soundcloud.com/oembed.json'
-  'vimeo.com'      : 'https://vimeo.com/api/oembed.json'
-  'embed.ly'       : 'http://api.embed.ly/1/oembed'
+  'embed.spotify.com' : 'https://embed.spotify.com/oembed/'
+  'soundcloud.com'    : 'https://soundcloud.com/oembed.json'
+  'vimeo.com'         : 'https://vimeo.com/api/oembed.json'
+  'embed.ly'          : 'http://api.embed.ly/1/oembed'
 
 oEmbed.config =
   'embed.ly':
