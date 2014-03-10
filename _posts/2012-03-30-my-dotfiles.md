@@ -9,7 +9,7 @@ color:       5FCDE3
 After using [oh_my_zsh][oh_my_zsh] for quite a while, I recently switched to
 having [my own repo][dotfiles] to store my dotfiles.
 I got a better understanding of zsh and its customization, now there is no
-suprising alias that I didn't know of.
+surprising alias that I didn't know of.
 
 My prompt now looks something like this:
 
@@ -17,7 +17,7 @@ My prompt now looks something like this:
     <img src='/img/prompt.png' alt='My prompt'/>
 </div>
 
-The right-hand side contains all relevant information about my currrent repo.
+The right-hand side contains all relevant information about my current repo.
 The red circle indicates that I have untracked files but it being empty means
 nothing is staged.<br />
 The color indicates the time since the last commit, more than 30 minutes in this
