@@ -25,7 +25,7 @@ steer them to booths specifically selected for them.
 
 I had a great time working with them and felt very welcome during the time that
 I spent at their New York office. If you happen to be looking, [they are hiring,
-too][jobs].
+too][jobs]. I highly recommend them.
 
 Thanks, [Orta], [dB], [Laura] & [Katarina].
 
