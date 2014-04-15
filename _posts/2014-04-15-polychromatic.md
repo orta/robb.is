@@ -10,7 +10,7 @@ category: ❤ing
   <img src='/img/polychromatic.png' alt='Polychromatic in action!' />
 </div>
 
-Xcode plugins are all the rage right now, and [Polychromatic] by [Kolin
+Xcode plugins are all the rage right now and [Polychromatic] by [Kolin
 Krewinkel][kolin] is a nifty one: it assigns unique colors to properties, ivars,
 and local variables, making connections between statements more obvious.
 
