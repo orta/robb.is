@@ -44,13 +44,6 @@ Here are some of the things I worked on or am working on now:
 {% endfor %}
 </ul>
 
-## Me, elsewhere
-
-* [SoundCloud][soundcloud_profile]
-* [Github][github]
-* [Twitter][twitter]
-* [Vimeo][vimeo]
-
 [soundcloud_android]: https://play.google.com/store/apps/details?id=com.soundcloud.android
 [soundcloud_ios]:     http://itunes.apple.com/en/app/soundcloud/id336353151
 [soundcloud]:         https://soundcloud.com
