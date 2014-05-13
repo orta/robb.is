@@ -1,5 +1,6 @@
 exclude: [ Makefile, scripts ]
 
+url:        http://robb.is
 permalink:  /:categories/:title
 markdown:   kramdown
 pygments:   true
