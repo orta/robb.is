@@ -92,7 +92,7 @@ h3 {
   }
 }
 
-p, ul, blockquote, table, .highlight, .image {
+p, ul, blockquote, table, .image {
   font-size: @grid-font-size;
   line-height: @grid-base;
 
@@ -103,6 +103,13 @@ p, ul, blockquote, table, .highlight, .image {
 
     .grid(0, 0, 0.5);
   }
+}
+
+.highlight {
+  font-size: 0.8 * @grid-font-size;
+  line-height: @grid-base;
+
+  .grid(0, 0, 1);
 }
 
 @media (max-width : 480px) {
