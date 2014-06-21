@@ -11,8 +11,6 @@ Vib Ribboff was my submission for the Music Hackday in New York in early 2011. I
 
 It uses the [Echonest API][echonest_api] to resolve beat information off of [SoundCloud tracks][soundcloud_tracks]. Then it composes a level, matching obstacles to beats in the song.
 
-I plan to publish this online, though I haven’t had the time yet to write a backend. I’ll look into this as soon as I have some spare time.
-
 <div class="embed" data-url="https://youtube.com/watch?v=K6BhnFegmb0">
 
 </div>
