@@ -1,9 +1,9 @@
 exclude: [ Makefile, scripts ]
 
-url:        http://robb.is
-permalink:  /:categories/:title
-markdown:   kramdown
-pygments:   true
-paginate:   7
+url:         http://robb.is
+permalink:   /:categories/:title
+markdown:    kramdown
+highlighter: pygments
+paginate:    7
 
 category_dir: ''
