@@ -181,7 +181,7 @@ Putting everything together, the result looks something like this:
     <img src="/img/hamburger-button.gif">
 </div>
 
-I'm pretty happy with how it turned out. If you'd like to, you can find the code
+I'm pretty happy with how it turned out. If you are too, you can find the code
 [on GitHub][github] and [follow me on Twitter][twitter].
 
 [shot]: https://dribbble.com/shots/1623679-Open-Close
