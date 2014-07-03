@@ -157,7 +157,7 @@ Now we only need to create the animations and add them to the layer:
 
 {% highlight text swift %}
 let strokeStart = CABasicAnimation(keyPath: "strokeStart")
-strokeStart.fromValue = hamburgerStrokeState
+strokeStart.fromValue = hamburgerStrokeStart
 strokeStart.toValue = menuStrokeStart
 strokeStart.duration = 0.5
 strokeStart.timingFunction = CAMediaTimingFunction(controlPoints: 0.25, -0.4, 0.5, 1)
