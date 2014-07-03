@@ -44,7 +44,7 @@ middle and seamlessly transitions into the outline.
 </div>
 
 I then exported this path as an SVG file and imported it into the old
-[PaintCode] 1, which converted the file into a snippet code that created a
+[PaintCode] 1, which converted the file into a code snippet that created a
 `UIBezierPath`. I then rewrote said piece of code into the following
 instructions that create the desired `CGPath` object:
 
