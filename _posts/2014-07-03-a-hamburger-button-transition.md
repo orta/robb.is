@@ -178,7 +178,7 @@ self.middle.strokeEnd = menuStrokeEnd
 Putting everything together, the result looks something like this:
 
 <div class="image">
-    <img src="img/hamburger-button.gif">
+    <img src="/img/hamburger-button.gif">
 </div>
 
 I'm pretty happy with how it turned out. If you'd like to, you can find the code
