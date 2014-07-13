@@ -47,10 +47,5 @@ Here are some of the things I worked on or am working on now:
 [soundcloud_android]: https://play.google.com/store/apps/details?id=com.soundcloud.android
 [soundcloud_ios]:     http://itunes.apple.com/en/app/soundcloud/id336353151
 [soundcloud]:         https://soundcloud.com
-[usesthis]:           http://robert.bohnke.usesthis.com
-
-[soundcloud_profile]: https://soundcloud.com/robb
-[github]:             https://github.com/robb
-[vimeo]:              https://vimeo.com/robb
 [twitter]:            https://twitter.com/ceterum_censeo
-[appdotnet]:          https://alpha.app.net/tmp
+[usesthis]:           http://robert.bohnke.usesthis.com
