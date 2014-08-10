@@ -1,14 +1,19 @@
 {% assign color = '9BABCB' %}
+{% assign text_color = 'FFFFFF' %}
 {% assign last_color = '9BABCB' %}
 
 {% if page.color %}
   {% assign color = page.color %}
   {% assign last_color = page.color %}
+  {% assign text_color = page.text_color %}
 {% else %}
   {% for post in paginator.posts %}
     {% if forloop.first %}
       {% if post.color %}
         {% assign color = post.color %}
+      {% endif %}
+      {% if post.text_color %}
+        {% assign text_color = post.text_color %}
       {% endif %}
     {% endif %}
 
@@ -84,6 +89,14 @@
         background-color: #{{ color }};
       }
 
+      header.page {
+        color: #{{ text_color }};
+      }
+
+      header.page nav {
+        border-bottom-color: #{{ text_color }};
+      }
+
       footer.page {
         background-color: #{{ last_color }};
       }
@@ -91,10 +104,7 @@
   </head>
   <body>
     {% include header.html%}
-
-    <section id="main">
-      {{ content }}
-    </section>
+    {{ content }}
   <script type="text/javascript">
     oEmbed.config['soundcloud.com'] = oEmbed.config['soundcloud.com'] || {}
     oEmbed.config['soundcloud.com'].color = '{{ color }}'

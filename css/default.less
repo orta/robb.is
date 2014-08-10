@@ -41,16 +41,29 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-size: 100%;
   line-height: @grid-base;
+
+  min-height: 100%;
 }
 
 article {
   padding: 2 * @grid-base;
 
+  background-size: cover;
+
   @media screen and (max-width : 480px) {
     padding: @grid-base @grid-base / 2 @grid-base * 2;
+  }
+
+  &:first-child {
+    padding-top: 2 * @grid-base;
+    margin-top: 6 * @grid-base;
   }
 
   & > * {
@@ -64,6 +77,10 @@ article {
 
   footer > *:last-child {
     margin-bottom: 0;
+  }
+
+  &.fill-page {
+    min-height: 100%;
   }
 }
 
@@ -220,6 +237,9 @@ small, aside {
 }
 
 header.page {
+  position: relative;
+  // margin-bottom: -2 * @grid-base;
+
   nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 

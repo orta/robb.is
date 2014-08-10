@@ -1,6 +1,11 @@
 {% capture id %}post-{{ post.title | downcase | replace: ' ','-' }}{% endcapture%}
 
-<article id="{{ id }}" {% if post.color %}style="background-color: #{{ post.color }}" data-color="{{ post.color }}"{% endif %}>
+<article
+  id="{{ id }}"
+  class="{% if include.fill %}fill-page {% endif %}"
+  style="{% if post.color %}background-color: #{{ post.color }};{% endif %}
+         {% if post.text_color %}color: #{{ post.text_color }};{% endif %}"
+  {% if post.color %}data-color="{{ post.color }}"{% endif %}>
   <header>
     {% if post.link %}
     <h2 class="external">
