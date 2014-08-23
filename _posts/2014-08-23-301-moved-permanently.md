@@ -2,7 +2,7 @@
 layout:   post
 title:    Super Mario World Review
 color:    54B402
-link:     http://mattgreer.org/super-mario-world
+link:     http://www.mattgreer.org/super-mario-world/
 category: ❤ing
 ---
 
