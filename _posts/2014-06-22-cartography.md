@@ -52,8 +52,8 @@ layout(imageView) { imageView in
 }
 {% endhighlight %}
 
-I also managed to created new attributed to constraint multiple attributes at
-the same time:
+I also managed to create new attributes to constraint multiple attributes at
+once:
 
 {% highlight text swift %}
 layout(view) { view in
