@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Swimming (Patrick Ellis Remix)
 color:    5B7DAF
 link:     https://soundcloud.com/visinin/swimming-patrick-ellis-remix

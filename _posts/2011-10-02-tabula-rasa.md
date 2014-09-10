@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Tabula Rasa
 category: thinking-about
 color:    71629A

@@ -1,5 +1,4 @@
 ---
-layout:      post
 project:     true
 color:       B06411
 title:       Radio Free Hackday

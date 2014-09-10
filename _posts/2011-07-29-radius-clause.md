@@ -1,5 +1,4 @@
 ---
-layout:    post
 title:     Radius Clause
 category:  ❤ing
 published: false

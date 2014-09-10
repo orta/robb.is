@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    How to defeat terrorism
 color:    999999
 link:     http://parkerhiggins.net/2013/04/how-to-defeat-terrorism/

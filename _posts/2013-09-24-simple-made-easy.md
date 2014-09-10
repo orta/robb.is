@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Simple Made Easy
 color:    8090B0
 link:     http://www.infoq.com/presentations/Simple-Made-Easy

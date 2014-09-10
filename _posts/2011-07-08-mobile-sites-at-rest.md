@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Mobile sites, at rest
 category: thinking-about
 ---

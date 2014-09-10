@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Uberspace
 color:    D30000
 link:     http://uberspace.de

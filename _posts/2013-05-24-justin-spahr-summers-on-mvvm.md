@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Justin Spahr-Summers on MVVM
 color:    2258A6
 link:     http://xamarin.com/evolve/2013#session-zm59b5yptf

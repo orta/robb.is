@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Squirrel.Mac
 color:    80A0E0
 link:     https://github.com/Squirrel/Squirrel.Mac

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Golden Gate CMYK
 color:    ED4C00
 link:     http://goldengatebridge.org/research/facts.php#cmyk

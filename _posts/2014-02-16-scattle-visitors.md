@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Scattle – Visitors
 color:    C9352B
 link:     https://soundcloud.com/scattle/scattle-visitors

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Through the Warp Zone
 color:    5BB69A
 link:     https://emily.st/2014/05/05/through-the-warp-zone/

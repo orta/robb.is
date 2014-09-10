@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       iPod Shuffle
 category:    working-on
 description: An iPod Shuffle built with HTML & CSS

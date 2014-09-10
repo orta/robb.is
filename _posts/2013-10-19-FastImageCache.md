@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    FastImageCache
 color:    CE3424
 link:     https://github.com/path/FastImageCache

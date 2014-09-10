@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Overloading C Functions with Clang
 color:    90B012
 category: thinking-about

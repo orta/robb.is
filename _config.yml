@@ -1,10 +1,16 @@
 exclude: [ Makefile, scripts ]
 
-url:         http://robb.is
-permalink:   /:categories/:title
-markdown:    kramdown
-highlighter: pygments
-paginate:    7
-encoding:    utf-8
-
+url:          http://robb.is
+permalink:    /:categories/:title
+markdown:     kramdown
+highlighter:  pygments
+paginate:     7
 category_dir: ''
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      # type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+

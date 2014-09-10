@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       thedickensbar.com
 colors:      1392DB
 category:    working-on

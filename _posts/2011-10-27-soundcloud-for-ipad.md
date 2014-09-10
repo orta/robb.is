@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       SoundCloud for iPad
 category:    working-on
 description: The official SoundCloud iPad app

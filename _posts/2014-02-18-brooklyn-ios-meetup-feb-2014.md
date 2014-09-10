@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Let's Talk about ReactiveCocoa!
 category: speaking-at
 project: true

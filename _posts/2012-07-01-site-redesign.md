@@ -1,5 +1,4 @@
 ---
-layout:   post
 category: working-on
 color:    E8B50C
 ---

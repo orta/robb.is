@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Flogging Molly – Speed Of Darkness
 category: ❤ing
 ---

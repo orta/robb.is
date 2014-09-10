@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    PonyDebugger – Remote Debugging for iOS
 color:    E2802E
 link:     http://corner.squareup.com/2012/08/ponydebugger-remote-debugging.html

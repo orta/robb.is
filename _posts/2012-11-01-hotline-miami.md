@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Hotline Miami
 category: ❤ing
 color:    E60066

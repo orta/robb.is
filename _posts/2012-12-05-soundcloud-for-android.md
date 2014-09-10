@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    The new SoundCloud Android App
 color:    FF6600
 category: working-on

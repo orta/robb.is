@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    NSBrief with Justin Spahr-Summers
 color:    DD3355
 link:     http://nsbrief.com/81-justin-spahr-summers/

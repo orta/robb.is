@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My talk for UIKonf 2013 on ReactiveCocoa
 category: speaking-at
 project: true

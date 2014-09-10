@@ -1,5 +1,4 @@
 ---
-layout:    post
 title:     Mighty Oaks – canal session
 category:  ❤ing
 published: false

@@ -1,5 +1,4 @@
 ---
-layout:      post
 project:     true
 title:       How to build awesome CSS Envelopes
 category:    working-on

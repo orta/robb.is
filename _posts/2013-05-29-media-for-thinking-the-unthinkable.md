@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Bret Victor - Media for Thinking the Unthinkable
 color:    446688
 link:     http://vimeo.com/67076984

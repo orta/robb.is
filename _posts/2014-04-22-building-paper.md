@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Building Paper
 color:    3D5E96
 link:     https://www.youtube.com/watch?v=OiY1cheLpmI

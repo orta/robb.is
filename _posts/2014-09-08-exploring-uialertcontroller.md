@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Exploring UIAlertController
 color:    FA41A3
 link:     http://ashfurrow.com/blog/uialertviewcontroller-example

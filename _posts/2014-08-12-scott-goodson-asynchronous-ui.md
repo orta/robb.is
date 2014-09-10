@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Scott Goodson - Asynchronous UI
 color:    52818A
 link:     http://new.livestream.com/accounts/7925260/events/3214603/videos/57840338/

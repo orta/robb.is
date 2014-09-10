@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       Anamanaguchi – Daytrotter session
 category:    ❤ing
 ---

@@ -1,5 +1,4 @@
 ---
-layout:    post
 title:     Goodbye, SoundCloud
 permalink: /leaving-soundcloud
 color:     FF8010

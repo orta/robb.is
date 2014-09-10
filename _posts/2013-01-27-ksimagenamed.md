@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    KSImageNamed Xcode plug-in
 color:    6688CC
 link:     https://github.com/ksuther/KSImageNamed-Xcode

@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       Cocoa Kucha Berlin
 color:       38D044
 project:     true

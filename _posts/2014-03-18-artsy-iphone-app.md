@@ -1,7 +1,6 @@
 ---
 title:       The Artsy iPhone app
 category:    working-on
-layout:      post
 project:     true
 color:       583DCA
 description: The official Artsy app for iPhone

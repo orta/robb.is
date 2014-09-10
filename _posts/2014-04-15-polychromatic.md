@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Polychromatic
 color:    7F72BC
 link:     https://github.com/kolinkrewinkel/Polychromatic

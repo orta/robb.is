@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Jazz Hands
 color:    AACCEE
 link:     https://github.com/IFTTT/JazzHands

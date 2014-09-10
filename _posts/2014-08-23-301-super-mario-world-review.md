@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Super Mario World Review
 color:    54B402
 link:     http://www.mattgreer.org/super-mario-world/

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Art Hack Day Berlin 2013
 color:    3388CC
 link:     http://vimeo.com/76620957

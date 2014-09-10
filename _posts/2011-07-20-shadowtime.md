@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       Edison – Shadowtime
 category:    ❤ing
 ---

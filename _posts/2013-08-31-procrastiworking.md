@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Procrastiworking
 color:    F95040
 link:     https://www.youtube.com/watch?v=RZbqJxQJ5LY

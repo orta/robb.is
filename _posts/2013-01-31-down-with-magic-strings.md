@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Down with Magic Strings!
 color:    78CA93
 link:     http://www.cimgf.com/2013/01/29/down-with-magic-strings/

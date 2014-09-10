@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    On Burritos, Sandwiches, and the Law
 color:    B1C161
 link:     http://parkerhiggins.net/2012/09/on-burritos-sandwiches-and-the-law/

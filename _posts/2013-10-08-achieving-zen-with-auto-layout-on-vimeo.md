@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Achieving Zen with Auto layout
 color:    20D060
 link:     http://vimeo.com/75232527

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Moments of Peace in Cheap Rooms
 color:    EEDDBB
 link:     https://soundcloud.com/patrick/moments-of-peace-in-cheap-rooms/

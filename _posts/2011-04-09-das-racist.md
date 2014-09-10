@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Das Racist
 category: ❤ing
 ---

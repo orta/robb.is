@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Beastie Boys
 category: ❤ing
 ---

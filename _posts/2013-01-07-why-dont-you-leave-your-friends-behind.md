@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Koda – Why Don't You Leave Your Friends Behind
 color:    3733A0
 link:     https://soundcloud.com/kodachrome/koda-why-dont-you-leave-your

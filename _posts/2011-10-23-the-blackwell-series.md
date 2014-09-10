@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    The Blackwell Series
 category: ❤ing
 ---

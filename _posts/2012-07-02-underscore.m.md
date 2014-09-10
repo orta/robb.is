@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Underscore.m
 category: working-on
 project:  true

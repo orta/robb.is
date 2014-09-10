@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Cartography
 category: working-on
 project: true

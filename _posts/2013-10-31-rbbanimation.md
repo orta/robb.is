@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    RBBAnimation
 category: working-on
 project:  true

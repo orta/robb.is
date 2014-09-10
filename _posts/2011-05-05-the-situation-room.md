@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  The SoundCloud situation room
 category: ❤ing
 ---

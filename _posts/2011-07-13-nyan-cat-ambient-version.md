@@ -1,5 +1,4 @@
 ---
-layout:    post
 title:     Nyan Cat – Ambient Version
 category:  ❤ing
 published: false

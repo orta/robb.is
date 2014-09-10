@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       The Laughing Man
 category:    working-on
 description: the Laughing Man logo built with HTML and CSS

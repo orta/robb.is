@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    The Paellas
 color:    2484CB
 link:     http://thepaella-s.tumblr.com/

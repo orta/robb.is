@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Jumsoft pulling iCloud sync from Money
 color:    EE5050
 link:     http://www.jumsoft.com/2013/01/response-to-sync-issues/

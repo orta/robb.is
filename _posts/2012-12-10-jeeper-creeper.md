@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Sinkane - Jeeper Creeper
 category: ❤ing
 color:    007A34

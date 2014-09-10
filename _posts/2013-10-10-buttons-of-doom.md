@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Edison – Buttons of Doom
 color:    E05040
 link:     http://vimeo.com/63493158

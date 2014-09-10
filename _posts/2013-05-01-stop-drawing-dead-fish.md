@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Bret Victor – Stop Drawing Dead Fish
 color:    3377AA
 link:     http://vimeo.com/64895205

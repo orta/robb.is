@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Tycho - Montana
 color:    DCD9C6
 link:     https://soundcloud.com/tycho/tycho-montana

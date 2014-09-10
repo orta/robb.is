@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    CoffeeScript Source Maps
 color:    865635
 link:     http://ryanflorence.com/2012/coffeescript-source-maps/

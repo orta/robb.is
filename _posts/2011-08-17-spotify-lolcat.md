@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       Spotify lolcat
 category:    ❤ing
 ---

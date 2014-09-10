@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       Sixteen Tons of Work
 category:    ❤ing
 ---

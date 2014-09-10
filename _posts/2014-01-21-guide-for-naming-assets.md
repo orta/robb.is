@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    A Guide for Naming Assets
 link:	  https://github.com/dkhamsing/ios-asset-names
 color:    F09900

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Layer Trees vs. Flat Drawing
 color:    338888
 link:     http://floriankugler.com/blog/2013/5/24/layer-trees-vs-flat-drawing-graphics-performance-across-ios-device-generations

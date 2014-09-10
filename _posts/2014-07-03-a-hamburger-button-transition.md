@@ -1,5 +1,4 @@
 ---
-layout:      post
 project:     true
 title:       How to build a nice Hamburger Button transition in Swift
 category:    working-on

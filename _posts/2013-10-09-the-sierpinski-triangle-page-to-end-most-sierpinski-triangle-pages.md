@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    The Sierpinski Triangle Page to End Most Sierpinski Triangle Pages™
 color:    EE5500
 link:     http://www.oftenpaper.net/sierpinski.htm

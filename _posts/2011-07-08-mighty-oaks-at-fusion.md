@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Mighty Oaks at Fusion
 category: ❤ing
 ---

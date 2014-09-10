@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Chromeo – Over Your Shoulder
 color:    F787C9
 link:     https://soundcloud.com/chromeo/over-your-shoulder

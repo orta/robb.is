@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Under the Hood – Rebuilding Facebook for iOS
 color:    3A579B
 link:     https://www.facebook.com/notes/facebook-engineering/under-the-hood-rebuilding-facebook-for-ios/10151036091753920

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    How to Make a Vesper
 color:    4C6988
 link:     http://vesperapp.co/blog/how-to-make-a-vesper/

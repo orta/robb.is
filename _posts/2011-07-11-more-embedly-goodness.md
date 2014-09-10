@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       More embed.ly goodness
 category:    working-on
 ---

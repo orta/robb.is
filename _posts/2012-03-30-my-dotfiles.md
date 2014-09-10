@@ -1,5 +1,4 @@
 ---
-layout:      post
 title:       My dotfiles
 category:    working-on
 description: I've open-sourced my dotfiles

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My talk for CocoaHeads on Underscore.m and Asterism
 category: speaking-at
 project: true

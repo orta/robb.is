@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Stubbilino
 category: working-on
 project:  true

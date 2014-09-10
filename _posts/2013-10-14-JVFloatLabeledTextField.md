@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    JVFloatLabeledTextField
 color:    6655EE
 link:     https://github.com/jverdi/JVFloatLabeledTextField

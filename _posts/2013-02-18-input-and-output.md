@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Input and Output
 color:    F0C060
 link:     http://blog.maybeapps.com/post/42894317939/input-and-output

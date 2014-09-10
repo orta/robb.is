@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    CocoaPods Keys
 color:    C04546
 link:     https://github.com/orta/cocoapods-keys

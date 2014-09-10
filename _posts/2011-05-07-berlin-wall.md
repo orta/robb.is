@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Berlin Wall
 category: ❤ing
 color: 661109

@@ -1,5 +1,4 @@
 ---
-layout:   post
 title:    Chilly Gonzales - White Keys
 category: ❤ing
 link:     http://vimeo.com/45249615
