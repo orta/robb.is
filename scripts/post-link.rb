@@ -49,7 +49,6 @@ path = "_posts/#{Time.now.strftime('%Y-%m-%y')}-#{slugize(document.title)}.md"
 
 File.write path, <<-eos
 ---
-layout:   default
 title:    #{(document.title or 'TITLE').strip}
 date:     #{Time.now.utc.iso8601}
 link:     #{url}
