@@ -22,5 +22,5 @@ snap = ->
 
     element.style.marginBottom = "#{offset}px"
 
-snap()
 window.addEventListener 'resize', snap
+document.addEventListener 'DOMContentLoaded', snap
