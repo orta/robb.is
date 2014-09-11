@@ -6,8 +6,8 @@ color:    55C8A5
 category: ❤ing
 ---
 
-[Ash] started a new project called [AnyoneCanLearn] after a [particularly bad
-experience on StackOverflow](blog-post). It's meant to be a resource for people
+[Ash] started a new project called [AnyoneCanLearn] after a  [particularly bad
+experience on StackOverflow][blog-post]. It's meant to be a resource for people
 answering questions and those who answer them to maintain positive atmosphere.
 
 He describes its values as follows:
