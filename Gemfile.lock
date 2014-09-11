@@ -66,6 +66,7 @@ GEM
     ref (1.0.5)
     reverse_markdown (0.5.1)
       nokogiri
+    ruby-oembed (0.8.10)
     ruby-readability (0.7.0)
       guess_html_encoding (>= 0.0.4)
       nokogiri (>= 1.6.0)
@@ -88,5 +89,6 @@ DEPENDENCIES
   jekyll
   less
   reverse_markdown
+  ruby-oembed
   ruby-readability
   therubyracer
