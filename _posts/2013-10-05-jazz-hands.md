@@ -17,8 +17,8 @@ It's what powers the lovely intro to their app:
 
 Also, this:
 
-<div class="embed" data-url="http://www.youtube.com/watch?v=xuPSIbABYVU">
-    
+<div class="embed video youtube" data-aspect-ratio="0.5625">
+    <iframe width="480" height="270" src="http://www.youtube.com/embed/xuPSIbABYVU?feature=oembed" frameborder="0" allowfullscreen></iframe>
 </div>
 
 > Travel hands, rain hands, jazz hands

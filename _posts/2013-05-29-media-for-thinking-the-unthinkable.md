@@ -5,6 +5,6 @@ link:     http://vimeo.com/67076984
 category: ❤ing
 ---
 
-<div class="large embed" data-url="http://vimeo.com/67076984">
-    
+<div class="embed video vimeo" data-aspect-ratio="0.5625">
+    <iframe src="//player.vimeo.com/video/67076984?byline=0&amp;color=446688" width="1280" height="720" frameborder="0" title="Media for Thinking the Unthinkable" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

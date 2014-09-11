@@ -21,7 +21,9 @@ Siri's speech synthesis is synced to the beat using the timestamps obtained from
 the Echonest API which were then manually tweaked, to smooth out delays in the
 text-to-speech engine.
 
-<div class="embed" data-url="http://vimeo.com/33402886"></div>
+<div class="embed video vimeo" data-aspect-ratio="0.5625">
+    <iframe src="//player.vimeo.com/video/33402886?byline=0&amp;color=75d9f6" width="640" height="360" frameborder="0" title="Notorious Siri" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 Big thanks to Universal Music for awarding me a nice pair of Dr. Dre headphones
 

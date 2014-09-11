@@ -5,8 +5,6 @@ link:     https://soundcloud.com/tycho/tycho-montana
 category: ❤ing
 ---
 
-<div class="embed" data-url="https://soundcloud.com/tycho/tycho-montana" data-aspect-ratio="1" data-hide_related="true" data-visual="true">
-    <p>
-        <a href="https://soundcloud.com/tycho/tycho-montana">Listen to the track on SoundCloud</a>
-    </p>
+<div class="embed rich soundcloud" data-aspect-ratio="1">
+    <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F130572064&amp;show_artwork=true&amp;visual=false&amp;hide_related=true&amp;color=DCD9C6&amp;show_user=true&amp;show_comments=false&amp;show_reposts=false&amp;auto_play=false"></iframe>
 </div>

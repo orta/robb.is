@@ -12,10 +12,8 @@ collaborating on at the [Cocoa Kucha][kucha].
 I had some trouble adjusting to the somewhat rigid _20 slides, 20 seconds_
 system of Pecha Kucha, but I think it worked out in the end.
 
-<div class="embed" data-url="https://speakerdeck.com/robb/cocoa-kucha-berlin-2013">
-    <p>
-        You can find the slides <a href="https://speakerdeck.com/robb/cocoa-kucha-berlin-2013">on Speaker Deck</a>.
-    </p>
+<div class="embed rich speaker deck" data-aspect-ratio="0.7140845070422536">
+    <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fspeakerdeck.com%2Fplayer%2F3ddbeee065e0013141ed0a8e078e48ce&amp;url=https%3A%2F%2Fspeakerdeck.com%2Frobb%2Fcocoa-kucha-berlin-2013&amp;image=https%3A%2F%2Fspeakerd.s3.amazonaws.com%2Fpresentations%2F3ddbeee065e0013141ed0a8e078e48ce%2Fslide_0.jpg&amp;key=01b95e9d4bd648fbb64752457c12935d&amp;type=text%2Fhtml&amp;schema=speakerdeck" width="710" height="507" scrolling="no" frameborder="0" allowfullscreen></iframe>
 </div>
 
 There we're some fun talks by [Boris Bügling][boris],

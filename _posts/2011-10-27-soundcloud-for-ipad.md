@@ -7,7 +7,9 @@ color:       ED7233
 
 And now, what you've all been waiting for:
 
-<div class="embed" data-url="http://vimeo.com/31084756"></div>
+<div class="embed video vimeo" data-aspect-ratio="0.5625">
+    <iframe src="//player.vimeo.com/video/31084756?byline=0&amp;color=ED7233" width="1280" height="720" frameborder="0" title="Introducing the SoundCloud iPad app" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 You can find the app [in the App Store][appstore].
 

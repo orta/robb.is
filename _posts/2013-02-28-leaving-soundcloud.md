@@ -18,6 +18,6 @@ taught me over the years. _You guys rock_.
 Here's a Goodbye Playlist that captures some memorable moments from past three
 years at SoundCloud:
 
-<div class="embed" data-url="https://soundcloud.com/robb/sets/goodbye-soundcloud">
-
+<div class="embed rich soundcloud">
+    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3884447&amp;show_artwork=true&amp;visual=false&amp;hide_related=true&amp;color=FF8010&amp;show_user=true&amp;show_comments=false&amp;show_reposts=false&amp;auto_play=false"></iframe>
 </div>

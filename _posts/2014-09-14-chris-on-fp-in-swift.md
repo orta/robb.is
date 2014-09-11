@@ -10,8 +10,8 @@ category: ❤ing
 Francisco about Functional Programming in Swift; a nice teaser for [his upcoming
 book][book].
 
-<div class="embed" data-url="http://www.youtube.com/watch?v=_ZenKrXkj74">
-    Watch the video on <a href="http://www.youtube.com/watch?v=_ZenKrXkj74">YouTube</a>.
+<div class="embed video youtube" data-aspect-ratio="0.5625">
+    <iframe width="480" height="270" src="http://www.youtube.com/embed/_ZenKrXkj74?feature=oembed" frameborder="0" allowfullscreen></iframe>
 </div>
 
 You can find the slides [on Speaker Deck][speakerdeck] or synced to the video

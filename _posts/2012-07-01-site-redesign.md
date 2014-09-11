@@ -14,8 +14,8 @@ I also started to resolve embeds in the client using JavaScript, this makes it
 easier for me to publish new blog posts. As a small bonus, the embeds will
 usually pick up the color of the surrounding blog post.
 
-<div class="embed" data-url="http://soundcloud.com/frittenbude/mindestens-in-1000-jahren">
-
+<div class="embed rich soundcloud">
+    <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1557000&amp;show_artwork=true&amp;visual=false&amp;hide_related=true&amp;color=E8B50C&amp;show_user=true&amp;show_comments=false&amp;show_reposts=false&amp;auto_play=false"></iframe>
 </div>
 
 I understand that there are still a couple of rough edges strewn across the

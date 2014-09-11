@@ -15,9 +15,10 @@ away your darkest secrets.
 
 Check out this video that does a great job at capturing the vibe of the event:
 
-<div class="embed" data-url="http://vimeo.com/76620957" data-portrait="false" data-byline="false">
-    
+<div class="embed video vimeo" data-aspect-ratio="0.5625">
+    <iframe src="//player.vimeo.com/video/76620957?portrait=0&amp;byline=0&amp;color=3388CC" width="1280" height="720" frameborder="0" title="Art Hack Day Berlin /// + Going Dark +" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
 
 I'll be sure to take part in the next round in February 2014 as part of
 transmediale.

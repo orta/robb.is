@@ -40,8 +40,8 @@ If you're looking for a matching soundtrack,
 adaption of Windows 7 x64 Paint.exe][paint], has interpreted an image of the
 triangle as a wave file for you:
 
-<div class="embed" data-url="https://soundcloud.com/r2bl3nd/sierpinski-triangle-image">
-    
+<div class="embed rich soundcloud">
+    <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19846604&amp;show_artwork=true&amp;visual=false&amp;hide_related=true&amp;color=EE5500&amp;show_user=true&amp;show_comments=false&amp;show_reposts=false&amp;auto_play=false"></iframe>
 </div>
 
 There's [another auditory interpretation of the triangle][mp3] at the bottom of
