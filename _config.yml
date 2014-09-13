@@ -9,8 +9,7 @@ category_dir: ''
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      # type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
     values:
       layout: "post"
 
