@@ -10,8 +10,8 @@ category: ❤ing
 
 > I’ve updated my iOS Device Summary to include the new iPhone 6 models.
 
-A handy guide if you need to figure out which devices you need to hold onto to
-test performance or how to complete your collection. Gotta catch'em all.
+A handy guide if you need to figure out which devices you need to hold on to for
+performance testing or how to complete your collection. Gotta catch'em all.
 
 > Of the two new iPhone 6 models, the iPhone 6 Plus seems to be the more
 > important device to have on hand for testing, with both a new scale factor and
