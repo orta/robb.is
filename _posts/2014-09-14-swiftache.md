@@ -6,7 +6,7 @@ color:    D2BA2B
 category: ❤ing
 ---
 
-[Bjørn Ruud]'s [Swiftache](https://github.com/BjornRuud/Swiftache):
+Bjørn Ruud's [Swiftache](https://github.com/BjornRuud/Swiftache):
 
 > A Mustache template renderer for iOS (and OS X soon) implemented in pure
 > Swift.
