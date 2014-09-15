@@ -17,4 +17,4 @@ category: ❤ing
 > Minecraft became too much for him to handle. The only option was to sell
 > Mojang.
 
-Good for him, let's hope Microsoft doesn't mess Minecraft up.
+Good for him, let's hope Microsoft doesn't mess up Minecraft.
