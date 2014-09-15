@@ -18,3 +18,15 @@ category: ❤ing
 > Mojang.
 
 Good for him, let's hope Microsoft doesn't mess up Minecraft.
+
+**Update,** [Notch writes](http://notch.net/2014/09/im-leaving-mojang/):
+
+> I’ve become a symbol. I don’t want to be a symbol, responsible for something
+> huge that I don’t understand, that I don’t want to work on, that keeps coming
+> back to me.
+
+> As soon as this deal is finalized, I will leave Mojang and go back to doing
+> Ludum Dares and small web experiments. If I ever accidentally make something
+> that seems to gain traction, I’ll probably abandon it immediately.
+
+> It’s not about the money. It’s about my sanity.
