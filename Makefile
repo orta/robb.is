@@ -10,4 +10,5 @@ refresh:
 	@osascript scripts/refresh-browser.scpt
 
 serve:
-	@jekyll serve
+	@jekyll serve --quiet --detach --no-watch
+	@osascript scripts/refresh-browser.scpt
