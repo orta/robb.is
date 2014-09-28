@@ -17,4 +17,3 @@ category: ❤ing
 > work at all times. At the present moment, the baseline functionality is there.
 > Left to implement are special characters, Shift, multitouch, and improved
 > graphics (including translucenty and dark mode).
-
