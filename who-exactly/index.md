@@ -8,10 +8,8 @@ Hi, my name is **Robb Böhnke**. I'm a freelance software engineer from Berlin.
 _I am currently available for iOS and Mac contracting_.
 
 If you would like to get in touch with me, send an e-mail to
-[robb@robb.is](mailto:robb@robb.is) or follow me on Twitter where I'm
-[@ceterum_censeo][twitter].
-
-You can also check out my [GitHub profile][github], if you'd like.
+[robb@robb.is](mailto:robb@robb.is). You can also check out my [GitHub
+profile][github], if you'd like.
 
 Here are some of the things I worked on or am working on now:
 
