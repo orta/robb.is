@@ -17,7 +17,7 @@ Here are some of the things I worked on or am working on now:
 ### Apps
 
 - [SoundCloud for iOS](http://itunes.apple.com/en/app/soundcloud/id336353151)  
-  The official SoundCLoud app for iPhone and iPad
+  The official SoundCloud app for iPhone and iPad
 - [SoundCloud for Android](https://play.google.com/store/apps/details?id=com.soundcloud.android)  
   The official SoundCloud Android app
 - [The Artsy iPhone app](/working-on/artsy-iphone-app)  
