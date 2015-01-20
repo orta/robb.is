@@ -30,7 +30,7 @@ Here are some of the things I worked on or am working on now:
   Declarative Auto Layout in Swift
 - [Carthage](https://github.com/Carthage/Carthage)  
   A simple, decentralized dependency manager for Cocoa 
-- [Mantle](https://github.com/Mantle/Mantle)
+- [Mantle](https://github.com/Mantle/Mantle)  
   A Model framework for Cocoa and Cocoa Touch
 - [RBBAnimation](http://robb.is/working-on/rbbanimation)  
   Block-based animations made easy.
