@@ -5,8 +5,7 @@ color:  40B0D0
 ---
 
 Hi, my name is **Robb Böhnke**. I'm a freelance software engineer from Berlin.
-_I am currently available for iOS and Mac contracting_.  
-(Remote work and travel possible).
+_I am currently booked until May_.
 
 If you would like to get in touch with me, send an e-mail to
 [robb@robb.is](mailto:robb@robb.is). You can also check out my [GitHub
