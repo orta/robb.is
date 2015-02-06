@@ -21,7 +21,7 @@ many consider its APIs superior to AppKit's. Bringing those interfaces over to
 OS X would make it easier to switch between the two platforms and even allow for
 cross platform code where the interaction patterns permit it.
 
-This got a lot of people pretty exited.
+This got a lot of people pretty excited.
 
 Now, we don't know if UXKit is more than just a convenient shim built by the
 Photos team and if it will ever become a public framework, but even if it will, 
