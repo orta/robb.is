@@ -1,7 +1,7 @@
 ---
 title: Beyond UXKit
 category: thinking-about
-color: FF2299
+color: CCC2299
 ---
 
 Yesterday, Apple seeded the beta version of 10.10.3 to developers. It contained
