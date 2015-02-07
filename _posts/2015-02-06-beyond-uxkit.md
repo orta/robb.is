@@ -76,23 +76,23 @@ views on. Imagine being able to layout all your table-view cells in parallel.
 (Facebook's [AsyncDisplayKit] demonstrates some of the performance gains that
 can be made by offloading UI calculations to the background.)
 
-An inert representation of your entire view hierarchy is much easier to persist
-than an a tree of `UIView`s. When was the last time you implemented `-[UXView
-initWithCoder:]`? Imagine iOS simply restoring the last view hierarchy on app 
-start.
+An inert representation of your entire view hierarchy is also much easier to
+persist than an a tree of `UIView`s. When was the last time you implemented
+`-[UXView initWithCoder:]`? Imagine iOS simply restoring the last view hierarchy
+on app  start.
 
 Similarly, such a serialization format could be written directly. I'm not the
 world's biggest fan of JavaScript, but I'd prefer merging a [JSX] file over a
 nib file any day of the week.
 
 If it is completely encapsulated, [hot-swapping] your layout code suddenly
-feasible. Every modern browser ships developer tools that beat Interface
+becomes feasible. Every modern browser ships developer tools that beat Interface
 Inspector and Reveal single-handedly. Imagine being able to attach Interface
 Builder to your running app, [restructuring it on the fly while all data is
 being preserved][hot-loader].
 
 And that's only the beginning. Even [impressive touch interactions][slalom] can
-be described in in a few lines of declarative constraints.
+be described in only a few lines of declarative constraints.
 
 ### Only Apple can do this
 
