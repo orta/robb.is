@@ -62,7 +62,7 @@ if content['width'] and content['width'] and not content['width'].match('%')
     embed['data-aspect-ratio'] = content['height'].to_f / content['width'].to_f
 end
 
-path = "_posts/#{Time.now.strftime('%Y-%m-%y')}-#{slugize(resource.title)}.md"
+path = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{slugize(resource.title)}.md"
 
 File.write path, <<-eos
 ---
