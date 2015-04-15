@@ -46,6 +46,10 @@ may or may not be related to the project in question.
 
 Let me tell you, nobody likes to maintain iOS 7 support in their spare time.
 
+Bumping or 👍ing that issue for the twentieth time is probably not going to do
+anybody much good. The thread becomes harder to follow for everybody and the
+maintainers get more email at best and a sense of guilt at worst.
+
 Open Source projects rarely come with a Service Level Agreement. There are many
 reasons to pursue Open Source just as there are many other interesting things in
 life. Look at the list of [contributors to your favorite OSS
