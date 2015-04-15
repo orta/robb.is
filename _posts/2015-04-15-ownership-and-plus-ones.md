@@ -63,12 +63,13 @@ engineering resources or financially supporting said contributors. I don't think
 many people would balk at the opportunity to get paid for working on something
 they started out of their own curiosity.
 
-But maybe you don't have the knowledge necessary to support every project.
-That's cool. If you don't think you have the skills to fix a problem yourself,
-try regardless. _A Pull Request will always get you further than an Issue_. Even
-if it breaks the build, it shows that you value the maintainers' time highly
-enough to match it with some of your own. It's also a great opportunity to
-familiarize yourself with a code base and learn a thing or two.
+But maybe money is tight and you don't have the knowledge necessary to support
+every project. That's cool. If you don't think you have the skills to fix a
+problem yourself, try regardless. _A Pull Request will always get you further
+than an Issue_. Even if it breaks the build, it shows that you value the
+maintainers' time highly enough to match it with some of your own. It's also a
+great opportunity to familiarize yourself with a code base and learn a thing or
+two.
 
 For all we know, ResearchKit could disappear tomorrow, I don't think it will but
 stranger things have happened. If you build the next big thing on top of it, or
