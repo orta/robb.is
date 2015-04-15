@@ -22,7 +22,7 @@ called it a day, the new Apple now has a [GitHub account][account].
 A GitHub account. Apple.
 
 I don't think anybody would have imagined this two years ago (cue the _never
-happened under Steve_) but there's even more: the ResearchKit team ha [expressed
+happened under Steve_) but there's even more: the ResearchKit team have [expressed
 interest][comment] in adding a `podspec` for official CocoaPods support.
 
 I'm glad they understand that in order for ResearchKit to succeed, they need to
